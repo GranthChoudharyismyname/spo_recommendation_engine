@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268 64" role="img" aria-label="ResuMetr" fill="none">
+  <title>ResuMetr</title>
+  <defs>
+    <linearGradient id="rml-sweep" x1="10" y1="54" x2="54" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4457C9"/>
+      <stop offset="1" stop-color="#7159BD"/>
+    </linearGradient>
+  </defs>
+  <path d="M 15.6 50.9 A 23 23 0 1 1 48.4 50.9"
+        stroke="url(#rml-sweep)" stroke-width="6" stroke-linecap="round"/>
+  <g stroke="currentColor" stroke-width="4" stroke-linecap="round" color="#EEF1F7">
+    <line x1="24" y1="26" x2="42" y2="26"/>
+    <line x1="24" y1="36" x2="37" y2="36"/>
+    <line x1="24" y1="46" x2="31" y2="46"/>
+  </g>
+  <circle cx="48.4" cy="50.9" r="4.8" fill="#7159BD"/>
+  <!-- The wordmark carries the product's own split: the resume, and the measurement of it. -->
+  <text x="76" y="42" font-family="Manrope, Inter, system-ui, sans-serif"
+        font-size="28" font-weight="800" letter-spacing="-1" fill="currentColor" color="#EEF1F7">
+    Resu<tspan fill="#8E9BEA">Metr</tspan>
+  </text>
+</svg>

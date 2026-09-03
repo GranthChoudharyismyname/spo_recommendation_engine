@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ResuMetr" fill="none">
+  <title>ResuMetr</title>
+  <!--
+    A gauge, not a letterform.
+
+    ResuMetr measures a resume: the sweep is the reading, and the three strokes inside are
+    resume lines shortening as they descend — the silhouette of a resume block, and of a
+    bar chart falling away. The filled tick sits at the arc terminus rather than pinned at
+    maximum, because a real reading rarely is.
+
+    The lines are `currentColor` so the mark inverts by inheritance: on a dark ground the
+    embedding element sets a light colour and nothing else has to change. `resumetr-mark-
+    inverse.svg` is the standalone equivalent for contexts that cannot set colour, such as
+    an <img> tag.
+
+    64 grid, 6-unit arc, 4-unit lines — legible down to 16px.
+  -->
+  <defs>
+    <linearGradient id="rm-sweep" x1="10" y1="54" x2="54" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4457C9"/>
+      <stop offset="1" stop-color="#7159BD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 260-degree sweep, open at the base where the scale begins -->
+  <path d="M 15.6 50.9 A 23 23 0 1 1 48.4 50.9"
+        stroke="url(#rm-sweep)" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- resume lines; wider gaps so they stay separate when scaled down -->
+  <g stroke="currentColor" stroke-width="4" stroke-linecap="round" color="#101C34">
+    <line x1="24" y1="26" x2="42" y2="26"/>
+    <line x1="24" y1="36" x2="37" y2="36"/>
+    <line x1="24" y1="46" x2="31" y2="46"/>
+  </g>
+
+  <!-- the reading -->
+  <circle cx="48.4" cy="50.9" r="4.8" fill="#7159BD"/>
+</svg>

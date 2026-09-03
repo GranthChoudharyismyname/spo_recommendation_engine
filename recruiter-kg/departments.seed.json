@@ -1,0 +1,490 @@
+{
+  "schema_version": "3.0",
+  "sources": {
+    "doaa_cos_sep25": "https://www.iitk.ac.in/doaa/courses-of-study-sep-25 (21 degree-granting departments)",
+    "doaa_template_jan25": "https://www.iitk.ac.in/doaa/template-jan-25 (UG course templates, Senate 568)",
+    "institute_records": "distinct Department/Programme values in institute student records"
+  },
+  "note": "Acronyms are DOAA-authoritative. This file does NOT contain the SPO program_department_id numeric legend - IITK does not publish it. Run derive_dept_map.py against the FULL stats.json to resolve those ids.",
+  "departments": [
+    {
+      "code": "AE",
+      "name": "Aerospace Engineering",
+      "kind": "DEPARTMENT",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Aerospace Engg.",
+        "Aerospace Engineering"
+      ]
+    },
+    {
+      "code": "BSBE",
+      "name": "Biological Sciences & Bioengineering",
+      "kind": "DEPARTMENT",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Biol.Sci. And Bio.Engg."
+      ]
+    },
+    {
+      "code": "CHE",
+      "name": "Chemical Engineering",
+      "kind": "DEPARTMENT",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Chemical Engg."
+      ]
+    },
+    {
+      "code": "CHM",
+      "name": "Chemistry",
+      "kind": "DEPARTMENT",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Chemistry"
+      ]
+    },
+    {
+      "code": "CE",
+      "name": "Civil Engineering",
+      "kind": "DEPARTMENT",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Civil Engg."
+      ]
+    },
+    {
+      "code": "CGS",
+      "name": "Cognitive Science",
+      "kind": "DEPARTMENT",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Cognitive Sciences",
+        "Cognitive Science"
+      ]
+    },
+    {
+      "code": "CSE",
+      "name": "Computer Science and Engineering",
+      "kind": "DEPARTMENT",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Computer Science & Engg."
+      ]
+    },
+    {
+      "code": "DES",
+      "name": "Design",
+      "kind": "DEPARTMENT",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Department Of Design",
+        "Design"
+      ]
+    },
+    {
+      "code": "ES",
+      "name": "Earth Sciences",
+      "kind": "DEPARTMENT",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Earth Sciences"
+      ]
+    },
+    {
+      "code": "ECO",
+      "name": "Economic Sciences",
+      "kind": "DEPARTMENT",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Economics",
+        "Economic Sciences"
+      ]
+    },
+    {
+      "code": "EE",
+      "name": "Electrical Engineering",
+      "kind": "DEPARTMENT",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Electrical Engg."
+      ]
+    },
+    {
+      "code": "HSS",
+      "name": "Humanities and Social Sciences",
+      "kind": "DEPARTMENT",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Humanities & Soc. Sciences"
+      ]
+    },
+    {
+      "code": "DOMS",
+      "name": "Management Sciences",
+      "kind": "DEPARTMENT",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Ind. & Management Engg.",
+        "Department of Management Sciences",
+        "DoMS"
+      ]
+    },
+    {
+      "code": "MSE",
+      "name": "Materials Science & Engineering",
+      "kind": "DEPARTMENT",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Materials Science & Engg."
+      ]
+    },
+    {
+      "code": "MSP",
+      "name": "Materials Science Programme",
+      "kind": "INTERDISCIPLINARY",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Materials Science Programme"
+      ]
+    },
+    {
+      "code": "ME",
+      "name": "Mechanical Engineering",
+      "kind": "DEPARTMENT",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Mechanical Engineering"
+      ]
+    },
+    {
+      "code": "MTH",
+      "name": "Mathematics and Statistics",
+      "kind": "DEPARTMENT",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Mathematics",
+        "Mathematics And Scientific Com",
+        "Mathematics and Scientific Computing",
+        "Statistics"
+      ]
+    },
+    {
+      "code": "PSE",
+      "name": "Photonics Science and Engineering",
+      "kind": "INTERDISCIPLINARY",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Photonics Science & Engg."
+      ]
+    },
+    {
+      "code": "PHY",
+      "name": "Physics",
+      "kind": "DEPARTMENT",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Physics"
+      ]
+    },
+    {
+      "code": "SEE",
+      "name": "Sustainable Energy Engineering",
+      "kind": "INTERDISCIPLINARY",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Sustainable Energy Engineering"
+      ]
+    },
+    {
+      "code": "SPASE",
+      "name": "Space, Planetary & Astronomical Sciences & Engineering",
+      "kind": "INTERDISCIPLINARY",
+      "source": "doaa_cos_sep25",
+      "surface_forms": [
+        "Space Science & Astronomy",
+        "Space, Planetary and Astronomical Sciences and Engineering"
+      ]
+    },
+    {
+      "code": "IS",
+      "name": "Intelligent Systems",
+      "kind": "INTERDISCIPLINARY",
+      "source": "doaa_template_jan25",
+      "surface_forms": [
+        "Intelligent Systems"
+      ]
+    },
+    {
+      "code": "SDS",
+      "name": "Statistics and Data Sciences",
+      "kind": "DEPARTMENT",
+      "source": "doaa_template_jan25",
+      "surface_forms": [
+        "Statistics And Data Science"
+      ]
+    },
+    {
+      "code": "NET",
+      "name": "Nuclear Engineering & Technology",
+      "kind": "INTERDISCIPLINARY",
+      "source": "institute_records",
+      "surface_forms": [
+        "Nuc. Engg.& Tech Prog."
+      ]
+    },
+    {
+      "code": "EEM",
+      "name": "Environmental Engineering & Management",
+      "kind": "INTERDISCIPLINARY",
+      "source": "institute_records",
+      "surface_forms": [
+        "Environmental Engg. & Mgmt"
+      ]
+    },
+    {
+      "code": "LT",
+      "name": "Laser Technology",
+      "kind": "INTERDISCIPLINARY",
+      "source": "institute_records",
+      "surface_forms": [
+        "Laser Technology"
+      ]
+    },
+    {
+      "code": "MME",
+      "name": "Materials & Metallurgical Engineering",
+      "kind": "INTERDISCIPLINARY",
+      "source": "institute_records",
+      "surface_forms": [
+        "Mat.& Met.Engg."
+      ]
+    },
+    {
+      "code": "DOAA",
+      "name": "Dean of Academic Affairs",
+      "kind": "ADMIN",
+      "source": "institute_records",
+      "surface_forms": [
+        "Dean Of Academic Affairs"
+      ]
+    },
+    {
+      "code": "DORA",
+      "name": "Dean of Resources & Alumni",
+      "kind": "ADMIN",
+      "source": "institute_records",
+      "surface_forms": [
+        "Dean Of Resource & Alumni"
+      ]
+    },
+    {
+      "code": "DORD",
+      "name": "Dean of Research & Development",
+      "kind": "ADMIN",
+      "source": "institute_records",
+      "surface_forms": [
+        "Dean Of Research & Development"
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "code": "BT",
+      "name": "B.Tech",
+      "level": "UG",
+      "surface_forms": [
+        "BTech",
+        "B.Tech"
+      ]
+    },
+    {
+      "code": "BS",
+      "name": "B.S.",
+      "level": "UG",
+      "surface_forms": [
+        "BS"
+      ]
+    },
+    {
+      "code": "BT_MT",
+      "name": "B.Tech-M.Tech Dual",
+      "level": "UG_PG",
+      "surface_forms": [
+        "MT(Dual)",
+        "BT-MT"
+      ]
+    },
+    {
+      "code": "BS_MS",
+      "name": "BS-MS Dual",
+      "level": "UG_PG",
+      "surface_forms": [
+        "BS-MS"
+      ]
+    },
+    {
+      "code": "BT_MS",
+      "name": "B.Tech-M.S. Dual",
+      "level": "UG_PG",
+      "surface_forms": [
+        "BT-MS"
+      ]
+    },
+    {
+      "code": "BT_MDES",
+      "name": "B.Tech-M.Des Dual",
+      "level": "UG_PG",
+      "surface_forms": [
+        "BT-M.Des"
+      ]
+    },
+    {
+      "code": "BT_MBA",
+      "name": "B.Tech-MBA Dual (BTM)",
+      "level": "UG_PG",
+      "surface_forms": [
+        "BT-MBA",
+        "BTM"
+      ]
+    },
+    {
+      "code": "BS_MBA",
+      "name": "BS-MBA Dual (BSM)",
+      "level": "UG_PG",
+      "surface_forms": [
+        "BS-MBA",
+        "BSM"
+      ]
+    },
+    {
+      "code": "BS_MT",
+      "name": "BS-M.Tech Dual",
+      "level": "UG_PG",
+      "surface_forms": [
+        "BS-MT"
+      ]
+    },
+    {
+      "code": "MT",
+      "name": "M.Tech",
+      "level": "PG",
+      "surface_forms": [
+        "MTech"
+      ]
+    },
+    {
+      "code": "MSC",
+      "name": "M.Sc. (2 yr)",
+      "level": "PG",
+      "surface_forms": [
+        "MSc(2 yr)",
+        "MSc"
+      ]
+    },
+    {
+      "code": "MSC_INT",
+      "name": "M.Sc. (Integrated)",
+      "level": "PG",
+      "surface_forms": [
+        "MSc(Int)"
+      ]
+    },
+    {
+      "code": "MSC_PHD",
+      "name": "M.Sc.-Ph.D. Dual",
+      "level": "PG_DOCTORAL",
+      "surface_forms": [
+        "MSc-PhD(Dual)"
+      ]
+    },
+    {
+      "code": "MS",
+      "name": "M.S. by Research",
+      "level": "PG",
+      "surface_forms": [
+        "MS-Research"
+      ]
+    },
+    {
+      "code": "MDES",
+      "name": "M.Des",
+      "level": "PG",
+      "surface_forms": [
+        "MDes"
+      ]
+    },
+    {
+      "code": "MBA",
+      "name": "MBA",
+      "level": "PG",
+      "surface_forms": [
+        "MBA"
+      ]
+    },
+    {
+      "code": "EMASTERS",
+      "name": "eMasters",
+      "level": "PG",
+      "surface_forms": [
+        "eMasters"
+      ]
+    },
+    {
+      "code": "PGPEX",
+      "name": "PGPEX-VLM",
+      "level": "PG",
+      "surface_forms": [
+        "PGPEX-VLM"
+      ]
+    },
+    {
+      "code": "PHD",
+      "name": "Ph.D.",
+      "level": "DOCTORAL",
+      "surface_forms": [
+        "PhD"
+      ]
+    },
+    {
+      "code": "MT_PHD",
+      "name": "M.Tech-Ph.D.",
+      "level": "DOCTORAL",
+      "surface_forms": [
+        "MTech-PhD"
+      ]
+    },
+    {
+      "code": "EXCH",
+      "name": "Exchange Programme",
+      "level": "OTHER",
+      "surface_forms": [
+        "Exchng Prog."
+      ]
+    },
+    {
+      "code": "SURGE",
+      "name": "SURGE",
+      "level": "OTHER",
+      "surface_forms": [
+        "SURGE"
+      ]
+    },
+    {
+      "code": "PREP",
+      "name": "Preparatory",
+      "level": "OTHER",
+      "surface_forms": [
+        "Prep."
+      ]
+    },
+    {
+      "code": "DIIT",
+      "name": "DIIT",
+      "level": "OTHER",
+      "surface_forms": [
+        "DIIT"
+      ]
+    }
+  ]
+}

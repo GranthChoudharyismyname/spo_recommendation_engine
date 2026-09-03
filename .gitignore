@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Build output
+dist/
+*.tsbuildinfo
+.pytest_cache/
+
+# Secrets and local config
+.env
+.env.local
+
+# OS
+.DS_Store
+
+# ---- Knowledge-graph build intermediates -------------------------------------
+# Produced by `python3 iitk_kg.py build`. Runtime reads kg_export.json only.
+recruiter-kg/iitk_kg.sqlite
+recruiter-kg/raw/
+
+# ---- Local caches ------------------------------------------------------------
+backend/config/company-profiles.json

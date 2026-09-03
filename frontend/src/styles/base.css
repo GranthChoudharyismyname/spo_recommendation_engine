@@ -1,0 +1,176 @@
+@import "tailwindcss";
+@import "./tokens.css";
+
+@theme {
+  --font-display: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font: var(--type-body);
+  color: var(--colour-ink);
+  background: var(--colour-ground);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* The ambient wash. Fixed, so glass panels always have something behind them to
+   refract, and so scrolling the workspace does not drag the atmosphere with it. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(58rem 42rem at 12% -8%, var(--colour-wash-indigo), transparent 62%),
+    radial-gradient(46rem 38rem at 92% 4%, var(--colour-wash-violet), transparent 58%),
+    radial-gradient(64rem 46rem at 62% 108%, var(--colour-wash-slate), transparent 60%),
+    linear-gradient(178deg, var(--colour-ground) 0%, var(--colour-ground-deep) 100%);
+}
+
+/* ---------------------------------------------------------------- primitives */
+
+.glass {
+  background: var(--colour-glass);
+  border: 1px solid var(--colour-glass-border);
+  box-shadow: var(--shadow-panel);
+  border-radius: var(--radius-lg);
+  /* Blur is expensive and, applied everywhere, flattens the hierarchy. It is used on
+     the three workspace shells and the header only. */
+  backdrop-filter: blur(var(--blur-panel)) saturate(1.5);
+  -webkit-backdrop-filter: blur(var(--blur-panel)) saturate(1.5);
+}
+
+.card {
+  background: var(--colour-glass-raised);
+  border: 1px solid var(--colour-hairline);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-flat);
+}
+
+.sunken {
+  background: var(--colour-glass-sunken);
+  border: 1px solid var(--colour-hairline);
+  border-radius: var(--radius-md);
+}
+
+.eyebrow {
+  font: var(--type-eyebrow);
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--colour-ink-muted);
+}
+
+.data {
+  font-family: var(--font-data);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+/* ---------------------------------------------------------------- focus */
+
+:where(button, a, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid var(--colour-indigo);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* ---------------------------------------------------------------- scrollbars */
+
+.scroll-area {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(23, 38, 74, 0.2) transparent;
+}
+.scroll-area::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.scroll-area::-webkit-scrollbar-thumb {
+  background: rgba(23, 38, 74, 0.18);
+  border-radius: var(--radius-pill);
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+.scroll-area::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* ---------------------------------------------------------------- motion */
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes shimmer {
+  from {
+    background-position: -180% 0;
+  }
+  to {
+    background-position: 180% 0;
+  }
+}
+
+@keyframes evidence-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 1.5px currentColor;
+  }
+  50% {
+    box-shadow: 0 0 0 3.5px currentColor;
+  }
+}
+
+.rise {
+  animation: rise var(--motion-base) var(--ease-out) both;
+}
+
+.skeleton {
+  background: linear-gradient(
+    100deg,
+    rgba(23, 38, 74, 0.06) 20%,
+    rgba(23, 38, 74, 0.12) 40%,
+    rgba(23, 38, 74, 0.06) 60%
+  );
+  background-size: 220% 100%;
+  animation: shimmer 1.5s linear infinite;
+  border-radius: var(--radius-sm);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* A folded panel keeps its header and hides everything under it. Driven by structure
+   rather than a prop on every child, so a panel opts in with one `foldId`. */
+.is-folded > *:not(:first-child) {
+  display: none;
+}

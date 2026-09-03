@@ -1,0 +1,265 @@
+/*
+ * Design tokens.
+ *
+ * Every value here is published as a Figma variable of the same name in the
+ * `Foundations` page, so a token changed in one place can be reconciled with the other.
+ * Naming is `--<group>-<role>`: colour/, space/, radius/, shadow/, type/.
+ */
+
+:root {
+  color-scheme: light;
+
+  /* ---- Ground ------------------------------------------------------------
+     Cool pearl, not white. The ambient wash lives on <body> so glass panels
+     have something to refract. */
+  --colour-ground: #eef1f7;
+  --colour-ground-deep: #e4e9f2;
+  --colour-wash-indigo: rgba(94, 110, 214, 0.16);
+  --colour-wash-violet: rgba(140, 118, 214, 0.13);
+  --colour-wash-slate: rgba(120, 141, 176, 0.14);
+
+  /* ---- Glass surfaces ---------------------------------------------------- */
+  --colour-glass: rgba(255, 255, 255, 0.82);
+  --colour-glass-raised: rgba(255, 255, 255, 0.9);
+  --colour-glass-sunken: rgba(247, 249, 253, 0.72);
+  --colour-glass-border: rgba(255, 255, 255, 0.85);
+  --colour-hairline: rgba(23, 38, 74, 0.1);
+  --colour-hairline-strong: rgba(23, 38, 74, 0.16);
+
+  /* ---- Ink --------------------------------------------------------------
+     Dark navy throughout. `muted` is the lightest text permitted on glass and
+     holds 4.6:1 against the panel; nothing lighter carries meaning. */
+  --colour-ink: #101c34;
+  --colour-ink-soft: #2c3b58;
+  --colour-ink-muted: #55658a;
+  /* Darkened from #7d8bab, which measured 3.32:1 on glass — below AA for the 10px
+     meta text it carries. #606d87 clears 4.5:1 on glass, sunken and the bare ground. */
+  --colour-ink-faint: #606d87;
+
+  /* ---- Accents ----------------------------------------------------------- */
+  --colour-indigo: #4457c9;
+  --colour-indigo-deep: #35429c;
+  --colour-indigo-soft: rgba(68, 87, 201, 0.12);
+  --colour-violet: #7159bd;
+  --colour-violet-soft: rgba(113, 89, 189, 0.12);
+  --colour-slate: #5a6b8c;
+  --colour-slate-soft: rgba(90, 107, 140, 0.12);
+
+  /* ---- Semantic ---------------------------------------------------------
+     Reserved for status. Never decorative. */
+  --colour-strong: #0f7a55;
+  --colour-strong-soft: rgba(15, 122, 85, 0.13);
+  --colour-caution: #a35a06;
+  --colour-caution-soft: rgba(163, 90, 6, 0.13);
+  --colour-critical: #b32b45;
+  --colour-critical-soft: rgba(179, 43, 69, 0.12);
+
+  /* Severity aliases — one hop, so a severity rename never touches a component. */
+  --colour-severity-high: var(--colour-critical);
+  --colour-severity-high-soft: var(--colour-critical-soft);
+  --colour-severity-important: var(--colour-caution);
+  --colour-severity-important-soft: var(--colour-caution-soft);
+  --colour-severity-polish: var(--colour-slate);
+  --colour-severity-polish-soft: var(--colour-slate-soft);
+
+  /* ---- Spacing — 8-point, with a 4 half-step for dense data rows --------- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 40px;
+  --space-8: 56px;
+
+  /* ---- Radius ------------------------------------------------------------ */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-xl: 20px;
+  --radius-pill: 999px;
+
+  /* ---- Elevation — layered and shallow; glass should sit, not float ------ */
+  --shadow-flat: 0 1px 2px rgba(19, 33, 68, 0.05);
+  --shadow-panel:
+    0 1px 1px rgba(19, 33, 68, 0.04),
+    0 8px 24px -12px rgba(19, 33, 68, 0.16);
+  --shadow-raised:
+    0 1px 2px rgba(19, 33, 68, 0.06),
+    0 16px 36px -18px rgba(19, 33, 68, 0.24);
+  --shadow-focus: 0 0 0 3px rgba(68, 87, 201, 0.28);
+
+  --blur-panel: 20px;
+  --blur-chip: 10px;
+
+  /* ---- Type -------------------------------------------------------------
+     Manrope carries headings and the score readout; Inter carries prose;
+     JetBrains Mono carries anything the engine computed — scores, weights,
+     percentages and rule identifiers — so measured values look measured. */
+  --font-display: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-data: "JetBrains Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  --type-eyebrow: 600 10.5px/1.3 var(--font-data);
+  --type-label: 500 11.5px/1.4 var(--font-body);
+  --type-body-sm: 400 12.5px/1.55 var(--font-body);
+  --type-body: 400 13.5px/1.6 var(--font-body);
+  --type-title-sm: 600 13.5px/1.35 var(--font-display);
+  --type-title: 700 15px/1.3 var(--font-display);
+  --type-headline: 700 20px/1.2 var(--font-display);
+  --type-display: 800 46px/1 var(--font-display);
+
+  --tracking-eyebrow: 0.09em;
+
+  /* ---- Layout ------------------------------------------------------------ */
+  --rail-width: 296px;
+  --evidence-width: 40%;
+  --header-height: 56px;
+
+  /* ---- Motion ------------------------------------------------------------ */
+  --motion-fast: 120ms;
+  --motion-base: 220ms;
+  --motion-slow: 620ms;
+  --ease-out: cubic-bezier(0.22, 0.68, 0.24, 1);
+}
+
+
+/* ---------------------------------------------------------------- dark theme
+ * Only colour and elevation are redefined; spacing, type, radius and motion are
+ * theme-independent and stay with the defaults above.
+ *
+ * Two selectors, one palette. The media query covers viewers who never touched the
+ * toggle, and is guarded so an explicit light choice still wins on a dark OS. The
+ * attribute rule covers an explicit dark choice on a light OS. Both are generated
+ * from one source, so they cannot drift apart.
+ */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+  color-scheme: dark;
+
+  /* Ground: deep navy rather than black, so the same washes still read as atmosphere. */
+  --colour-ground: #0b111e;
+  --colour-ground-deep: #070b15;
+  --colour-wash-indigo: rgba(94, 110, 214, 0.22);
+  --colour-wash-violet: rgba(140, 118, 214, 0.17);
+  --colour-wash-slate: rgba(120, 141, 176, 0.13);
+
+  /* Glass inverts, and carries more of the work than it does in light mode.
+     A shadow on a dark ground is invisible, so panels cannot be lifted by elevation
+     here — the separation has to come from luminance and edges instead. These sit at
+     1.40 (ground to glass), 1.21 (glass to raised) and 1.37 (glass to sunken), where
+     the first draft sat at 1.18 / 1.15 / 1.14 and read as one flat sheet. */
+  --colour-glass: rgba(38, 49, 77, 0.92);
+  --colour-glass-raised: rgba(48, 61, 94, 0.95);
+  --colour-glass-sunken: rgba(15, 21, 37, 0.85);
+  --colour-glass-border: rgba(255, 255, 255, 0.13);
+  /* Borders do the job the shadow cannot: 1.69 against glass, up from 1.36. */
+  --colour-hairline: rgba(255, 255, 255, 0.17);
+  --colour-hairline-strong: rgba(255, 255, 255, 0.30);
+
+  /* Ink inverts. Every value here clears 4.5:1 against the worst of the three
+     surfaces above, `faint` included — it carries 10px meta text. */
+  --colour-ink: #eef2fb;
+  --colour-ink-soft: #ccd5e8;
+  --colour-ink-muted: #a9b4cd;
+  --colour-ink-faint: #9ba7bf;
+
+  /* Accents lift off the dark ground; the light values are far too dense here.
+     The soft variants are roughly twice their light-mode alpha, because a wash that
+     reads clearly on white all but disappears on navy — this is what makes a selected
+     role or a severity chip actually look selected (1.83 against sunken, up from 1.36). */
+  --colour-indigo: #96a6ff;
+  --colour-indigo-deep: #b3bdff;
+  --colour-indigo-soft: rgba(150, 166, 255, 0.30);
+  --colour-violet: #b49cf4;
+  --colour-violet-soft: rgba(180, 156, 244, 0.28);
+  --colour-slate: #9fadca;
+  --colour-slate-soft: rgba(159, 173, 202, 0.26);
+
+  --colour-strong: #4fd3a0;
+  --colour-strong-soft: rgba(79, 211, 160, 0.26);
+  --colour-caution: #f0b357;
+  --colour-caution-soft: rgba(240, 179, 87, 0.26);
+  --colour-critical: #ff8397;
+  --colour-critical-soft: rgba(255, 131, 151, 0.26);
+
+  /* Shadow on a dark ground reads as depth only if it is darker than the ground. */
+  --shadow-flat: 0 1px 2px rgba(0, 0, 0, 0.40);
+  --shadow-panel:
+    0 1px 1px rgba(0, 0, 0, 0.32),
+    0 8px 24px -12px rgba(0, 0, 0, 0.70);
+  --shadow-raised:
+    0 1px 2px rgba(0, 0, 0, 0.40),
+    0 16px 36px -18px rgba(0, 0, 0, 0.78);
+  --shadow-focus: 0 0 0 3px rgba(150, 166, 255, 0.50);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  /* Ground: deep navy rather than black, so the same washes still read as atmosphere. */
+  --colour-ground: #0b111e;
+  --colour-ground-deep: #070b15;
+  --colour-wash-indigo: rgba(94, 110, 214, 0.22);
+  --colour-wash-violet: rgba(140, 118, 214, 0.17);
+  --colour-wash-slate: rgba(120, 141, 176, 0.13);
+
+  /* Glass inverts, and carries more of the work than it does in light mode.
+     A shadow on a dark ground is invisible, so panels cannot be lifted by elevation
+     here — the separation has to come from luminance and edges instead. These sit at
+     1.40 (ground to glass), 1.21 (glass to raised) and 1.37 (glass to sunken), where
+     the first draft sat at 1.18 / 1.15 / 1.14 and read as one flat sheet. */
+  --colour-glass: rgba(38, 49, 77, 0.92);
+  --colour-glass-raised: rgba(48, 61, 94, 0.95);
+  --colour-glass-sunken: rgba(15, 21, 37, 0.85);
+  --colour-glass-border: rgba(255, 255, 255, 0.13);
+  /* Borders do the job the shadow cannot: 1.69 against glass, up from 1.36. */
+  --colour-hairline: rgba(255, 255, 255, 0.17);
+  --colour-hairline-strong: rgba(255, 255, 255, 0.30);
+
+  /* Ink inverts. Every value here clears 4.5:1 against the worst of the three
+     surfaces above, `faint` included — it carries 10px meta text. */
+  --colour-ink: #eef2fb;
+  --colour-ink-soft: #ccd5e8;
+  --colour-ink-muted: #a9b4cd;
+  --colour-ink-faint: #9ba7bf;
+
+  /* Accents lift off the dark ground; the light values are far too dense here.
+     The soft variants are roughly twice their light-mode alpha, because a wash that
+     reads clearly on white all but disappears on navy — this is what makes a selected
+     role or a severity chip actually look selected (1.83 against sunken, up from 1.36). */
+  --colour-indigo: #96a6ff;
+  --colour-indigo-deep: #b3bdff;
+  --colour-indigo-soft: rgba(150, 166, 255, 0.30);
+  --colour-violet: #b49cf4;
+  --colour-violet-soft: rgba(180, 156, 244, 0.28);
+  --colour-slate: #9fadca;
+  --colour-slate-soft: rgba(159, 173, 202, 0.26);
+
+  --colour-strong: #4fd3a0;
+  --colour-strong-soft: rgba(79, 211, 160, 0.26);
+  --colour-caution: #f0b357;
+  --colour-caution-soft: rgba(240, 179, 87, 0.26);
+  --colour-critical: #ff8397;
+  --colour-critical-soft: rgba(255, 131, 151, 0.26);
+
+  /* Shadow on a dark ground reads as depth only if it is darker than the ground. */
+  --shadow-flat: 0 1px 2px rgba(0, 0, 0, 0.40);
+  --shadow-panel:
+    0 1px 1px rgba(0, 0, 0, 0.32),
+    0 8px 24px -12px rgba(0, 0, 0, 0.70);
+  --shadow-raised:
+    0 1px 2px rgba(0, 0, 0, 0.40),
+    0 16px 36px -18px rgba(0, 0, 0, 0.78);
+  --shadow-focus: 0 0 0 3px rgba(150, 166, 255, 0.50);
+}
+
+/* Declared after the defaults so the reduced-motion preference actually wins. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-fast: 0ms;
+    --motion-base: 0ms;
+    --motion-slow: 0ms;
+  }
+}

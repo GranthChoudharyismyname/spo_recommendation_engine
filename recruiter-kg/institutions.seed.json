@@ -1,0 +1,617 @@
+{
+  "schema_version": "1.0",
+  "description": "Academic and research pedigree entities from the five role frameworks. These are NOT campus recruiters - they tier research/internship signals during scoring and must not appear in job recommendations.",
+  "institutions": [
+    {
+      "id": "INST:MIT",
+      "display_name": "Massachusetts Institute of Technology",
+      "kind": "UNIVERSITY",
+      "tier": 1,
+      "roles": [
+        "QUANT",
+        "SDE",
+        "ANALYST",
+        "CORE",
+        "CONSULT"
+      ],
+      "aliases": [
+        "MIT"
+      ],
+      "region": "US"
+    },
+    {
+      "id": "INST:STANFORD",
+      "display_name": "Stanford University",
+      "kind": "UNIVERSITY",
+      "tier": 1,
+      "roles": [
+        "QUANT",
+        "SDE",
+        "ANALYST",
+        "CORE",
+        "CONSULT"
+      ],
+      "aliases": [
+        "Stanford"
+      ],
+      "region": "US"
+    },
+    {
+      "id": "INST:CMU",
+      "display_name": "Carnegie Mellon University",
+      "kind": "UNIVERSITY",
+      "tier": 1,
+      "roles": [
+        "QUANT",
+        "SDE",
+        "ANALYST",
+        "CONSULT"
+      ],
+      "aliases": [
+        "CMU",
+        "Carnegie Mellon"
+      ],
+      "region": "US"
+    },
+    {
+      "id": "INST:OXFORD",
+      "display_name": "University of Oxford",
+      "kind": "UNIVERSITY",
+      "tier": 1,
+      "roles": [
+        "QUANT",
+        "SDE",
+        "ANALYST",
+        "CORE",
+        "CONSULT"
+      ],
+      "aliases": [
+        "Oxford"
+      ],
+      "region": "UK"
+    },
+    {
+      "id": "INST:CAMBRIDGE",
+      "display_name": "University of Cambridge",
+      "kind": "UNIVERSITY",
+      "tier": 1,
+      "roles": [
+        "QUANT",
+        "CORE"
+      ],
+      "aliases": [
+        "Cambridge"
+      ],
+      "region": "UK"
+    },
+    {
+      "id": "INST:BERKELEY",
+      "display_name": "UC Berkeley",
+      "kind": "UNIVERSITY",
+      "tier": 1,
+      "roles": [
+        "QUANT",
+        "SDE",
+        "ANALYST"
+      ],
+      "aliases": [
+        "Berkeley",
+        "University of California Berkeley"
+      ],
+      "region": "US"
+    },
+    {
+      "id": "INST:ETH",
+      "display_name": "ETH Zurich",
+      "kind": "UNIVERSITY",
+      "tier": 1,
+      "roles": [
+        "QUANT",
+        "SDE",
+        "ANALYST"
+      ],
+      "aliases": [
+        "ETH"
+      ],
+      "region": "CH"
+    },
+    {
+      "id": "INST:EPFL",
+      "display_name": "EPFL",
+      "kind": "UNIVERSITY",
+      "tier": 1,
+      "roles": [
+        "QUANT",
+        "SDE"
+      ],
+      "aliases": [],
+      "region": "CH"
+    },
+    {
+      "id": "INST:CALTECH",
+      "display_name": "Caltech",
+      "kind": "UNIVERSITY",
+      "tier": 1,
+      "roles": [
+        "QUANT",
+        "CONSULT"
+      ],
+      "aliases": [
+        "California Institute of Technology"
+      ],
+      "region": "US"
+    },
+    {
+      "id": "INST:PRINCETON",
+      "display_name": "Princeton University",
+      "kind": "UNIVERSITY",
+      "tier": 1,
+      "roles": [
+        "QUANT"
+      ],
+      "aliases": [
+        "Princeton"
+      ],
+      "region": "US"
+    },
+    {
+      "id": "INST:HARVARD",
+      "display_name": "Harvard University",
+      "kind": "UNIVERSITY",
+      "tier": 1,
+      "roles": [
+        "QUANT"
+      ],
+      "aliases": [
+        "Harvard"
+      ],
+      "region": "US"
+    },
+    {
+      "id": "INST:NTU",
+      "display_name": "Nanyang Technological University",
+      "kind": "UNIVERSITY",
+      "tier": 1,
+      "roles": [
+        "ANALYST",
+        "CORE",
+        "QUANT"
+      ],
+      "aliases": [
+        "NTU",
+        "NTU Singapore"
+      ],
+      "region": "SG"
+    },
+    {
+      "id": "INST:NUS",
+      "display_name": "National University of Singapore",
+      "kind": "UNIVERSITY",
+      "tier": 1,
+      "roles": [
+        "ANALYST",
+        "CORE",
+        "QUANT"
+      ],
+      "aliases": [
+        "NUS"
+      ],
+      "region": "SG"
+    },
+    {
+      "id": "INST:IMPERIAL",
+      "display_name": "Imperial College London",
+      "kind": "UNIVERSITY",
+      "tier": 1,
+      "roles": [
+        "CORE"
+      ],
+      "aliases": [
+        "Imperial College",
+        "Imperial"
+      ],
+      "region": "UK"
+    },
+    {
+      "id": "INST:PURDUE",
+      "display_name": "Purdue University",
+      "kind": "UNIVERSITY",
+      "tier": 1,
+      "roles": [
+        "CORE"
+      ],
+      "aliases": [
+        "Purdue"
+      ],
+      "region": "US"
+    },
+    {
+      "id": "INST:RWTH",
+      "display_name": "RWTH Aachen",
+      "kind": "UNIVERSITY",
+      "tier": 1,
+      "roles": [
+        "CORE"
+      ],
+      "aliases": [
+        "RWTH"
+      ],
+      "region": "DE"
+    },
+    {
+      "id": "INST:TUM",
+      "display_name": "TU Munich",
+      "kind": "UNIVERSITY",
+      "tier": 1,
+      "roles": [
+        "CORE"
+      ],
+      "aliases": [
+        "Technical University of Munich",
+        "TUM"
+      ],
+      "region": "DE"
+    },
+    {
+      "id": "INST:MSR",
+      "display_name": "Microsoft Research",
+      "kind": "RESEARCH_LAB",
+      "tier": 1,
+      "roles": [
+        "QUANT",
+        "SDE",
+        "ANALYST"
+      ],
+      "aliases": [
+        "MSR",
+        "MSR India",
+        "Microsoft Research India"
+      ],
+      "region": "US"
+    },
+    {
+      "id": "INST:GOOGLE_RESEARCH",
+      "display_name": "Google Research / DeepMind",
+      "kind": "RESEARCH_LAB",
+      "tier": 1,
+      "roles": [
+        "QUANT",
+        "SDE",
+        "ANALYST"
+      ],
+      "aliases": [
+        "Google Research",
+        "Google DeepMind",
+        "DeepMind"
+      ],
+      "region": "US"
+    },
+    {
+      "id": "INST:ADOBE_RESEARCH",
+      "display_name": "Adobe Research",
+      "kind": "RESEARCH_LAB",
+      "tier": 1,
+      "roles": [
+        "QUANT",
+        "SDE",
+        "ANALYST"
+      ],
+      "aliases": [],
+      "region": "US"
+    },
+    {
+      "id": "INST:IBM_RESEARCH",
+      "display_name": "IBM Research",
+      "kind": "RESEARCH_LAB",
+      "tier": 1,
+      "roles": [
+        "ANALYST"
+      ],
+      "aliases": [
+        "IBM Research India"
+      ],
+      "region": "US"
+    },
+    {
+      "id": "INST:BELL_LABS",
+      "display_name": "Bell Labs",
+      "kind": "RESEARCH_LAB",
+      "tier": 1,
+      "roles": [
+        "QUANT"
+      ],
+      "aliases": [
+        "Nokia Bell Labs"
+      ],
+      "region": "US"
+    },
+    {
+      "id": "INST:IISC",
+      "display_name": "Indian Institute of Science",
+      "kind": "RESEARCH_INSTITUTE",
+      "tier": 2,
+      "roles": [
+        "QUANT",
+        "SDE",
+        "ANALYST",
+        "CORE"
+      ],
+      "aliases": [
+        "IISc",
+        "IISc Bangalore"
+      ],
+      "region": "IN"
+    },
+    {
+      "id": "INST:TIFR",
+      "display_name": "Tata Institute of Fundamental Research",
+      "kind": "RESEARCH_INSTITUTE",
+      "tier": 2,
+      "roles": [
+        "QUANT",
+        "ANALYST"
+      ],
+      "aliases": [
+        "TIFR"
+      ],
+      "region": "IN"
+    },
+    {
+      "id": "INST:ISI",
+      "display_name": "Indian Statistical Institute",
+      "kind": "RESEARCH_INSTITUTE",
+      "tier": 2,
+      "roles": [
+        "QUANT",
+        "ANALYST"
+      ],
+      "aliases": [
+        "ISI",
+        "ISI Kolkata",
+        "ISI Delhi"
+      ],
+      "region": "IN"
+    },
+    {
+      "id": "INST:CMI",
+      "display_name": "Chennai Mathematical Institute",
+      "kind": "RESEARCH_INSTITUTE",
+      "tier": 2,
+      "roles": [
+        "QUANT"
+      ],
+      "aliases": [
+        "CMI"
+      ],
+      "region": "IN"
+    },
+    {
+      "id": "INST:IITB",
+      "display_name": "IIT Bombay",
+      "kind": "UNIVERSITY",
+      "tier": 2,
+      "roles": [
+        "QUANT",
+        "SDE",
+        "ANALYST",
+        "CORE"
+      ],
+      "aliases": [
+        "IIT Bombay"
+      ],
+      "region": "IN"
+    },
+    {
+      "id": "INST:IITD",
+      "display_name": "IIT Delhi",
+      "kind": "UNIVERSITY",
+      "tier": 2,
+      "roles": [
+        "QUANT",
+        "SDE",
+        "ANALYST",
+        "CORE"
+      ],
+      "aliases": [
+        "IIT Delhi"
+      ],
+      "region": "IN"
+    },
+    {
+      "id": "INST:IITM",
+      "display_name": "IIT Madras",
+      "kind": "UNIVERSITY",
+      "tier": 2,
+      "roles": [
+        "QUANT",
+        "SDE",
+        "ANALYST",
+        "CORE"
+      ],
+      "aliases": [
+        "IIT Madras"
+      ],
+      "region": "IN"
+    },
+    {
+      "id": "INST:BARC",
+      "display_name": "Bhabha Atomic Research Centre",
+      "kind": "RESEARCH_INSTITUTE",
+      "tier": 2,
+      "roles": [
+        "CORE"
+      ],
+      "aliases": [
+        "BARC"
+      ],
+      "region": "IN"
+    },
+    {
+      "id": "INST:ISRO",
+      "display_name": "ISRO",
+      "kind": "RESEARCH_INSTITUTE",
+      "tier": 2,
+      "roles": [
+        "CORE"
+      ],
+      "aliases": [
+        "Indian Space Research Organisation"
+      ],
+      "region": "IN"
+    },
+    {
+      "id": "INST:DRDO",
+      "display_name": "DRDO",
+      "kind": "RESEARCH_INSTITUTE",
+      "tier": 2,
+      "roles": [
+        "CORE"
+      ],
+      "aliases": [],
+      "region": "IN"
+    },
+    {
+      "id": "INST:CSIR",
+      "display_name": "CSIR Laboratories",
+      "kind": "RESEARCH_INSTITUTE",
+      "tier": 2,
+      "roles": [
+        "CORE"
+      ],
+      "aliases": [
+        "CSIR"
+      ],
+      "region": "IN"
+    },
+    {
+      "id": "INST:IITK",
+      "display_name": "IIT Kanpur",
+      "kind": "UNIVERSITY",
+      "tier": 2,
+      "roles": [
+        "QUANT",
+        "SDE",
+        "ANALYST",
+        "CORE",
+        "CONSULT"
+      ],
+      "aliases": [
+        "IITK",
+        "Indian Institute of Technology Kanpur"
+      ],
+      "region": "IN"
+    },
+    {
+      "id": "PROG:MITACS",
+      "display_name": "MITACS Globalink",
+      "kind": "FELLOWSHIP",
+      "tier": 1,
+      "roles": [
+        "QUANT",
+        "SDE",
+        "ANALYST",
+        "CORE",
+        "CONSULT"
+      ],
+      "aliases": [
+        "MITACS"
+      ],
+      "region": "CA"
+    },
+    {
+      "id": "PROG:DAAD_WISE",
+      "display_name": "DAAD WISE",
+      "kind": "FELLOWSHIP",
+      "tier": 1,
+      "roles": [
+        "QUANT",
+        "SDE",
+        "ANALYST",
+        "CORE",
+        "CONSULT"
+      ],
+      "aliases": [
+        "DAAD"
+      ],
+      "region": "DE"
+    },
+    {
+      "id": "PROG:INRIA",
+      "display_name": "INRIA",
+      "kind": "FELLOWSHIP",
+      "tier": 1,
+      "roles": [
+        "QUANT"
+      ],
+      "aliases": [],
+      "region": "FR"
+    },
+    {
+      "id": "PROG:CERN",
+      "display_name": "CERN / CERN openlab",
+      "kind": "FELLOWSHIP",
+      "tier": 1,
+      "roles": [
+        "QUANT",
+        "SDE"
+      ],
+      "aliases": [
+        "CERN openlab"
+      ],
+      "region": "CH"
+    },
+    {
+      "id": "PROG:SN_BOSE",
+      "display_name": "SN Bose Fellowship",
+      "kind": "FELLOWSHIP",
+      "tier": 1,
+      "roles": [
+        "CORE"
+      ],
+      "aliases": [
+        "S N Bose"
+      ],
+      "region": "IN"
+    },
+    {
+      "id": "PROG:CHARPAK",
+      "display_name": "Charpak Fellowship",
+      "kind": "FELLOWSHIP",
+      "tier": 1,
+      "roles": [
+        "CORE"
+      ],
+      "aliases": [
+        "Charpak"
+      ],
+      "region": "FR"
+    },
+    {
+      "id": "PROG:SURGE",
+      "display_name": "SURGE (IITK)",
+      "kind": "FELLOWSHIP",
+      "tier": 2,
+      "roles": [
+        "QUANT",
+        "SDE",
+        "ANALYST",
+        "CORE"
+      ],
+      "aliases": [
+        "SURGE"
+      ],
+      "region": "IN"
+    },
+    {
+      "id": "PROG:REU",
+      "display_name": "REU",
+      "kind": "FELLOWSHIP",
+      "tier": 2,
+      "roles": [
+        "CONSULT"
+      ],
+      "aliases": [],
+      "region": "US"
+    }
+  ]
+}

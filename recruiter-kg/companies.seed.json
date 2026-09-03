@@ -1,0 +1,1608 @@
+{
+  "schema_version": "2.0",
+  "description": "Curated IITK recruiter registry from the five role frameworks.",
+  "edge_semantics": {
+    "recruits_for": "This firm hires for this role at IITK. Drives the campus recommendation panel.",
+    "pedigree_for": "An internship/experience HERE is a positive signal when APPLYING for this role. Scores work-experience signals. NEVER surfaced as a campus recommendation."
+  },
+  "recruiting_mode": {
+    "PPO_DOMINANT": "Hires almost entirely via intern-to-PPO. Expect near-zero presence in placement offer data - an empty campus panel is correct, not missing data.",
+    "CAMPUS_OFFER": "Hires through the placement cycle.",
+    "BOTH": "Meaningful volume through both channels."
+  },
+  "tier_scale": {
+    "1": "Outstanding / Tier-1",
+    "2": "Very Good",
+    "3": "Good",
+    "4": "Neutral"
+  },
+  "known_gaps": [
+    "CORE has no tier-2 stratification: core.txt lists recruiters in one flat header with no tier bands.",
+    "No tier 3/4 entries: the frameworks name only Outstanding and Very Good firms. Lower tiers populate from ingest as TIER_UNKNOWN."
+  ],
+  "companies": [
+    {
+      "id": "ORG:JANE_STREET",
+      "display_name": "Jane Street",
+      "category": "PROP_TRADING",
+      "hq_region": "US",
+      "recruiting_mode": "PPO_DOMINANT",
+      "aliases": [
+        "Jane Street Capital"
+      ],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:CITADEL",
+      "display_name": "Citadel",
+      "category": "PROP_TRADING",
+      "hq_region": "US",
+      "recruiting_mode": "PPO_DOMINANT",
+      "aliases": [
+        "Citadel Securities"
+      ],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:JUMP_TRADING",
+      "display_name": "Jump Trading",
+      "category": "PROP_TRADING",
+      "hq_region": "US",
+      "recruiting_mode": "PPO_DOMINANT",
+      "aliases": [
+        "Jump"
+      ],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:OPTIVER",
+      "display_name": "Optiver",
+      "category": "PROP_TRADING",
+      "hq_region": "NL",
+      "recruiting_mode": "PPO_DOMINANT",
+      "aliases": [
+        "Optiver India"
+      ],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:QUADEYE",
+      "display_name": "Quadeye",
+      "category": "PROP_TRADING",
+      "hq_region": "IN",
+      "recruiting_mode": "PPO_DOMINANT",
+      "aliases": [
+        "Quadeye Securities"
+      ],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:GRAVITON",
+      "display_name": "Graviton Research Capital",
+      "category": "PROP_TRADING",
+      "hq_region": "IN",
+      "recruiting_mode": "PPO_DOMINANT",
+      "aliases": [
+        "Graviton"
+      ],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:TOWER_RESEARCH",
+      "display_name": "Tower Research Capital",
+      "category": "PROP_TRADING",
+      "hq_region": "US",
+      "recruiting_mode": "PPO_DOMINANT",
+      "aliases": [
+        "Tower Research",
+        "TRC"
+      ],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:HRT",
+      "display_name": "Hudson River Trading",
+      "category": "PROP_TRADING",
+      "hq_region": "US",
+      "recruiting_mode": "PPO_DOMINANT",
+      "aliases": [
+        "HRT"
+      ],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:ALPHAGREP",
+      "display_name": "AlphaGrep Securities",
+      "category": "PROP_TRADING",
+      "hq_region": "IN",
+      "recruiting_mode": "PPO_DOMINANT",
+      "aliases": [
+        "Alphagrep"
+      ],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:NK_SECURITIES",
+      "display_name": "NK Securities Research",
+      "category": "PROP_TRADING",
+      "hq_region": "IN",
+      "recruiting_mode": "PPO_DOMINANT",
+      "aliases": [
+        "NK Securities"
+      ],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:EBULLIENT",
+      "display_name": "Ebullient Securities",
+      "category": "PROP_TRADING",
+      "hq_region": "IN",
+      "recruiting_mode": "PPO_DOMINANT",
+      "aliases": [
+        "Ebullient"
+      ],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:ATLAS_RESEARCH",
+      "display_name": "Atlas Research",
+      "category": "PROP_TRADING",
+      "hq_region": "IN",
+      "recruiting_mode": "PPO_DOMINANT",
+      "aliases": [],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:QUANTBOX",
+      "display_name": "Quantbox Research",
+      "category": "PROP_TRADING",
+      "hq_region": "IN",
+      "recruiting_mode": "PPO_DOMINANT",
+      "aliases": [
+        "Quantbox"
+      ],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:MAVERICK_DERIV",
+      "display_name": "Maverick Derivatives",
+      "category": "PROP_TRADING",
+      "hq_region": "NL",
+      "recruiting_mode": "PPO_DOMINANT",
+      "aliases": [
+        "Maverick"
+      ],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:WORLDQUANT",
+      "display_name": "WorldQuant",
+      "category": "PROP_TRADING",
+      "hq_region": "US",
+      "recruiting_mode": "PPO_DOMINANT",
+      "aliases": [
+        "World Quant"
+      ],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:DE_SHAW",
+      "display_name": "D. E. Shaw",
+      "category": "PROP_TRADING",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "D.E. Shaw",
+        "DE Shaw"
+      ],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        },
+        "SDE": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": "Observed in SPO data hiring Technology Developer."
+    },
+    {
+      "id": "ORG:SQUAREPOINT",
+      "display_name": "Squarepoint Capital",
+      "category": "PROP_TRADING",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Squarepoint"
+      ],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "observed:spo"
+        },
+        "SDE": {
+          "tier": 1,
+          "source": "observed:spo"
+        }
+      },
+      "pedigree_for": {},
+      "note": "Observed hiring Desk Quant Analyst and Graduate Software Developer; not in quant.txt - confirm tier."
+    },
+    {
+      "id": "ORG:GOLDMAN_SACHS",
+      "display_name": "Goldman Sachs",
+      "category": "IB_MARKETS",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Goldman Sachs Strats",
+        "GS"
+      ],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        },
+        "SDE": {
+          "tier": 1,
+          "source": "curated:sde_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:MORGAN_STANLEY",
+      "display_name": "Morgan Stanley",
+      "category": "IB_MARKETS",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Morgan Stanley Technology"
+      ],
+      "recruits_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        },
+        "SDE": {
+          "tier": 1,
+          "source": "curated:sde_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:GOOGLE",
+      "display_name": "Google",
+      "category": "TECH_PRODUCT",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Google India",
+        "Google APM",
+        "Google Systems"
+      ],
+      "recruits_for": {
+        "SDE": {
+          "tier": 1,
+          "source": "curated:sde_framework"
+        },
+        "ANALYST": {
+          "tier": 1,
+          "source": "curated:analyst_framework"
+        },
+        "CONSULT": {
+          "tier": 1,
+          "source": "curated:consult_framework"
+        }
+      },
+      "pedigree_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "note": "quant.txt lists Google Systems as Outstanding WORK EXPERIENCE for quant applicants, not as a quant employer."
+    },
+    {
+      "id": "ORG:MICROSOFT",
+      "display_name": "Microsoft",
+      "category": "TECH_PRODUCT",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Microsoft India",
+        "Microsoft Azure",
+        "Microsoft PM"
+      ],
+      "recruits_for": {
+        "SDE": {
+          "tier": 1,
+          "source": "curated:sde_framework"
+        },
+        "ANALYST": {
+          "tier": 1,
+          "source": "curated:analyst_framework"
+        },
+        "CONSULT": {
+          "tier": 1,
+          "source": "curated:consult_framework"
+        }
+      },
+      "pedigree_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "note": null
+    },
+    {
+      "id": "ORG:AMAZON",
+      "display_name": "Amazon",
+      "category": "TECH_PRODUCT",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Amazon India",
+        "Amazon Applied Science",
+        "AWS"
+      ],
+      "recruits_for": {
+        "SDE": {
+          "tier": 1,
+          "source": "curated:sde_framework"
+        },
+        "ANALYST": {
+          "tier": 1,
+          "source": "curated:analyst_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:DATABRICKS",
+      "display_name": "Databricks",
+      "category": "TECH_PRODUCT",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Databricks India"
+      ],
+      "recruits_for": {
+        "SDE": {
+          "tier": 1,
+          "source": "curated:sde_framework"
+        }
+      },
+      "pedigree_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "note": null
+    },
+    {
+      "id": "ORG:RUBRIK",
+      "display_name": "Rubrik",
+      "category": "TECH_PRODUCT",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [],
+      "recruits_for": {
+        "SDE": {
+          "tier": 1,
+          "source": "curated:sde_framework"
+        }
+      },
+      "pedigree_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "note": null
+    },
+    {
+      "id": "ORG:META",
+      "display_name": "Meta",
+      "category": "TECH_PRODUCT",
+      "hq_region": "US",
+      "recruiting_mode": "PPO_DOMINANT",
+      "aliases": [
+        "Facebook"
+      ],
+      "recruits_for": {
+        "SDE": {
+          "tier": 1,
+          "source": "curated:sde_framework"
+        }
+      },
+      "pedigree_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "note": null
+    },
+    {
+      "id": "ORG:UBER",
+      "display_name": "Uber",
+      "category": "TECH_PRODUCT",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Uber India",
+        "Uber Core Infra"
+      ],
+      "recruits_for": {
+        "SDE": {
+          "tier": 1,
+          "source": "curated:sde_framework"
+        },
+        "ANALYST": {
+          "tier": 1,
+          "source": "curated:analyst_framework"
+        },
+        "CONSULT": {
+          "tier": 2,
+          "source": "curated:consult_framework"
+        }
+      },
+      "pedigree_for": {
+        "QUANT": {
+          "tier": 1,
+          "source": "curated:quant_framework"
+        }
+      },
+      "note": null
+    },
+    {
+      "id": "ORG:FLIPKART",
+      "display_name": "Flipkart",
+      "category": "TECH_PRODUCT",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Flipkart Internet"
+      ],
+      "recruits_for": {
+        "SDE": {
+          "tier": 1,
+          "source": "curated:sde_framework"
+        },
+        "ANALYST": {
+          "tier": 1,
+          "source": "curated:analyst_framework"
+        },
+        "CONSULT": {
+          "tier": 2,
+          "source": "curated:consult_framework"
+        }
+      },
+      "pedigree_for": {
+        "QUANT": {
+          "tier": 2,
+          "source": "curated:quant_framework"
+        }
+      },
+      "note": null
+    },
+    {
+      "id": "ORG:SPRINKLR",
+      "display_name": "Sprinklr",
+      "category": "TECH_PRODUCT",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [],
+      "recruits_for": {
+        "SDE": {
+          "tier": 1,
+          "source": "curated:sde_framework"
+        },
+        "ANALYST": {
+          "tier": 1,
+          "source": "curated:analyst_framework"
+        },
+        "CONSULT": {
+          "tier": 2,
+          "source": "curated:consult_framework"
+        }
+      },
+      "pedigree_for": {
+        "QUANT": {
+          "tier": 2,
+          "source": "curated:quant_framework"
+        }
+      },
+      "note": null
+    },
+    {
+      "id": "ORG:ATLASSIAN",
+      "display_name": "Atlassian",
+      "category": "TECH_PRODUCT",
+      "hq_region": "AU",
+      "recruiting_mode": "BOTH",
+      "aliases": [],
+      "recruits_for": {
+        "SDE": {
+          "tier": 1,
+          "source": "curated:sde_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:ADOBE",
+      "display_name": "Adobe",
+      "category": "TECH_PRODUCT",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Adobe India"
+      ],
+      "recruits_for": {
+        "SDE": {
+          "tier": 1,
+          "source": "curated:sde_framework"
+        },
+        "ANALYST": {
+          "tier": 1,
+          "source": "curated:analyst_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:SALESFORCE",
+      "display_name": "Salesforce",
+      "category": "TECH_PRODUCT",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [],
+      "recruits_for": {
+        "SDE": {
+          "tier": 1,
+          "source": "curated:sde_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:ORACLE",
+      "display_name": "Oracle",
+      "category": "TECH_PRODUCT",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Oracle India Pvt Ltd"
+      ],
+      "recruits_for": {
+        "SDE": {
+          "tier": 1,
+          "source": "curated:sde_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:SWIGGY",
+      "display_name": "Swiggy",
+      "category": "TECH_STARTUP",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [],
+      "recruits_for": {
+        "SDE": {
+          "tier": 2,
+          "source": "curated:sde_framework"
+        },
+        "ANALYST": {
+          "tier": 1,
+          "source": "curated:analyst_framework"
+        },
+        "CONSULT": {
+          "tier": 2,
+          "source": "curated:consult_framework"
+        }
+      },
+      "pedigree_for": {
+        "QUANT": {
+          "tier": 2,
+          "source": "curated:quant_framework"
+        }
+      },
+      "note": "Named in quant.txt only as Very Good work experience (HPC/algorithms backend), NOT as a quant recruiter."
+    },
+    {
+      "id": "ORG:RAZORPAY",
+      "display_name": "Razorpay",
+      "category": "TECH_STARTUP",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [],
+      "recruits_for": {
+        "SDE": {
+          "tier": 2,
+          "source": "curated:sde_framework"
+        },
+        "ANALYST": {
+          "tier": 1,
+          "source": "curated:analyst_framework"
+        },
+        "CONSULT": {
+          "tier": 2,
+          "source": "curated:consult_framework"
+        }
+      },
+      "pedigree_for": {
+        "QUANT": {
+          "tier": 2,
+          "source": "curated:quant_framework"
+        }
+      },
+      "note": null
+    },
+    {
+      "id": "ORG:ZEPTO",
+      "display_name": "Zepto",
+      "category": "TECH_STARTUP",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [],
+      "recruits_for": {
+        "SDE": {
+          "tier": 2,
+          "source": "curated:sde_framework"
+        },
+        "ANALYST": {
+          "tier": 1,
+          "source": "curated:analyst_framework"
+        },
+        "CONSULT": {
+          "tier": 2,
+          "source": "curated:consult_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:MEESHO",
+      "display_name": "Meesho",
+      "category": "TECH_STARTUP",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [],
+      "recruits_for": {
+        "SDE": {
+          "tier": 2,
+          "source": "curated:sde_framework"
+        },
+        "ANALYST": {
+          "tier": 2,
+          "source": "curated:analyst_framework"
+        },
+        "CONSULT": {
+          "tier": 2,
+          "source": "curated:consult_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:CRED",
+      "display_name": "CRED",
+      "category": "TECH_STARTUP",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Cred"
+      ],
+      "recruits_for": {
+        "SDE": {
+          "tier": 2,
+          "source": "curated:sde_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:BROWSERSTACK",
+      "display_name": "BrowserStack",
+      "category": "TECH_STARTUP",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [],
+      "recruits_for": {
+        "SDE": {
+          "tier": 2,
+          "source": "curated:sde_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:POSTMAN",
+      "display_name": "Postman",
+      "category": "TECH_STARTUP",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [],
+      "recruits_for": {
+        "SDE": {
+          "tier": 2,
+          "source": "curated:sde_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:URBAN_COMPANY",
+      "display_name": "Urban Company",
+      "category": "TECH_STARTUP",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "UrbanClap"
+      ],
+      "recruits_for": {
+        "SDE": {
+          "tier": 2,
+          "source": "curated:sde_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:ZOMATO",
+      "display_name": "Eternal (Zomato)",
+      "category": "TECH_STARTUP",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Zomato",
+        "Eternal Limited",
+        "Eternal Limited(Formerly known as Zomato Limited)"
+      ],
+      "recruits_for": {
+        "ANALYST": {
+          "tier": 1,
+          "source": "curated:analyst_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:INFO_EDGE",
+      "display_name": "Info Edge",
+      "category": "TECH_STARTUP",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Info Edge India",
+        "Naukri"
+      ],
+      "recruits_for": {
+        "ANALYST": {
+          "tier": 1,
+          "source": "curated:analyst_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:JPMC",
+      "display_name": "J.P. Morgan Chase",
+      "category": "IB_MARKETS",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "J. P Morgan & Chase",
+        "JP Morgan",
+        "JPMorgan Chase"
+      ],
+      "recruits_for": {
+        "ANALYST": {
+          "tier": 1,
+          "source": "curated:analyst_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:AMEX",
+      "display_name": "American Express",
+      "category": "BANKING",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Amex"
+      ],
+      "recruits_for": {
+        "ANALYST": {
+          "tier": 1,
+          "source": "curated:analyst_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:MASTERCARD",
+      "display_name": "Mastercard",
+      "category": "BANKING",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "MasterCard"
+      ],
+      "recruits_for": {
+        "ANALYST": {
+          "tier": 1,
+          "source": "curated:analyst_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:VISA",
+      "display_name": "Visa",
+      "category": "BANKING",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Visa Inc."
+      ],
+      "recruits_for": {
+        "ANALYST": {
+          "tier": 1,
+          "source": "curated:analyst_framework"
+        },
+        "SDE": {
+          "tier": 2,
+          "source": "observed:spo"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:CAPITAL_ONE",
+      "display_name": "Capital One",
+      "category": "BANKING",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "CapitalOne"
+      ],
+      "recruits_for": {
+        "ANALYST": {
+          "tier": 1,
+          "source": "curated:analyst_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:EXL",
+      "display_name": "EXL Service",
+      "category": "ANALYTICS_SERVICES",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "EXL",
+        "EXL Services"
+      ],
+      "recruits_for": {
+        "ANALYST": {
+          "tier": 2,
+          "source": "curated:analyst_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:FRACTAL",
+      "display_name": "Fractal Analytics",
+      "category": "ANALYTICS_SERVICES",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Fractal"
+      ],
+      "recruits_for": {
+        "ANALYST": {
+          "tier": 2,
+          "source": "curated:analyst_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:QUALCOMM",
+      "display_name": "Qualcomm",
+      "category": "SEMICONDUCTOR",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Qualcomm India"
+      ],
+      "recruits_for": {
+        "SDE": {
+          "tier": 2,
+          "source": "curated:sde_framework"
+        },
+        "CORE": {
+          "tier": 1,
+          "source": "curated:core_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:TEXAS_INSTRUMENTS",
+      "display_name": "Texas Instruments",
+      "category": "SEMICONDUCTOR",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "TI"
+      ],
+      "recruits_for": {
+        "SDE": {
+          "tier": 2,
+          "source": "curated:sde_framework"
+        },
+        "CORE": {
+          "tier": 1,
+          "source": "curated:core_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:NVIDIA",
+      "display_name": "NVIDIA",
+      "category": "SEMICONDUCTOR",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Nvidia"
+      ],
+      "recruits_for": {
+        "SDE": {
+          "tier": 2,
+          "source": "curated:sde_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:CISCO",
+      "display_name": "Cisco",
+      "category": "SEMICONDUCTOR",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Cisco Systems"
+      ],
+      "recruits_for": {
+        "SDE": {
+          "tier": 2,
+          "source": "curated:sde_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:ARISTA",
+      "display_name": "Arista Networks",
+      "category": "SEMICONDUCTOR",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Arista"
+      ],
+      "recruits_for": {
+        "SDE": {
+          "tier": 2,
+          "source": "curated:sde_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:MCKINSEY",
+      "display_name": "McKinsey & Company",
+      "category": "CONSULTING",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "McKinsey",
+        "McKinsey Analytics",
+        "QuantumBlack"
+      ],
+      "recruits_for": {
+        "CONSULT": {
+          "tier": 1,
+          "source": "curated:consult_framework"
+        },
+        "ANALYST": {
+          "tier": 2,
+          "source": "curated:analyst_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:BCG",
+      "display_name": "Boston Consulting Group",
+      "category": "CONSULTING",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "BCG",
+        "BCG GAMMA",
+        "BCG X"
+      ],
+      "recruits_for": {
+        "CONSULT": {
+          "tier": 1,
+          "source": "curated:consult_framework"
+        },
+        "ANALYST": {
+          "tier": 2,
+          "source": "curated:analyst_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:BAIN",
+      "display_name": "Bain & Company",
+      "category": "CONSULTING",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Bain"
+      ],
+      "recruits_for": {
+        "CONSULT": {
+          "tier": 1,
+          "source": "curated:consult_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:KEARNEY",
+      "display_name": "Kearney",
+      "category": "CONSULTING",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "A.T. Kearney",
+        "AT Kearney"
+      ],
+      "recruits_for": {
+        "CONSULT": {
+          "tier": 1,
+          "source": "curated:consult_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:STRATEGYAND",
+      "display_name": "Strategy&",
+      "category": "CONSULTING",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "PwC Strategy&"
+      ],
+      "recruits_for": {
+        "CONSULT": {
+          "tier": 1,
+          "source": "curated:consult_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:ACCENTURE",
+      "display_name": "Accenture",
+      "category": "CONSULTING",
+      "hq_region": "IE",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Accenture Strategy",
+        "Accenture Solutions Pvt Ltd",
+        "Accenture Solutions Pvt. Ltd",
+        "Accenture Solutions Pvt Ltd - Data AI",
+        "Accenture Operations"
+      ],
+      "recruits_for": {
+        "CONSULT": {
+          "tier": 1,
+          "source": "curated:consult_framework"
+        },
+        "ANALYST": {
+          "tier": 2,
+          "source": "curated:analyst_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:DALBERG",
+      "display_name": "Dalberg",
+      "category": "CONSULTING",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Dalberg Advisors"
+      ],
+      "recruits_for": {
+        "CONSULT": {
+          "tier": 1,
+          "source": "curated:consult_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:ALVAREZ_MARSAL",
+      "display_name": "Alvarez & Marsal",
+      "category": "CONSULTING",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "A&M"
+      ],
+      "recruits_for": {
+        "CONSULT": {
+          "tier": 1,
+          "source": "curated:consult_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:OLIVER_WYMAN",
+      "display_name": "Oliver Wyman",
+      "category": "CONSULTING",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [],
+      "recruits_for": {
+        "CONSULT": {
+          "tier": 1,
+          "source": "curated:consult_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:SLB",
+      "display_name": "SLB",
+      "category": "ENERGY_OIL",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Schlumberger"
+      ],
+      "recruits_for": {
+        "CORE": {
+          "tier": 1,
+          "source": "curated:core_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:HUL",
+      "display_name": "Hindustan Unilever",
+      "category": "FMCG",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "HUL",
+        "Unilever",
+        "ULIP"
+      ],
+      "recruits_for": {
+        "CORE": {
+          "tier": 1,
+          "source": "curated:core_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:NESTLE",
+      "display_name": "Nestlé",
+      "category": "FMCG",
+      "hq_region": "CH",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Nestle",
+        "Nestle India"
+      ],
+      "recruits_for": {
+        "CORE": {
+          "tier": 1,
+          "source": "curated:core_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:ITC",
+      "display_name": "ITC",
+      "category": "FMCG",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "ITC Limited"
+      ],
+      "recruits_for": {
+        "CORE": {
+          "tier": 1,
+          "source": "curated:core_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:SHELL",
+      "display_name": "Shell",
+      "category": "ENERGY_OIL",
+      "hq_region": "NL",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Shell India"
+      ],
+      "recruits_for": {
+        "CORE": {
+          "tier": 1,
+          "source": "curated:core_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:EXXONMOBIL",
+      "display_name": "ExxonMobil",
+      "category": "ENERGY_OIL",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Exxon Mobil"
+      ],
+      "recruits_for": {
+        "CORE": {
+          "tier": 1,
+          "source": "curated:core_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:GE",
+      "display_name": "General Electric",
+      "category": "MANUFACTURING",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "GE",
+        "GE Aerospace"
+      ],
+      "recruits_for": {
+        "CORE": {
+          "tier": 1,
+          "source": "curated:core_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:BAKER_HUGHES",
+      "display_name": "Baker Hughes",
+      "category": "ENERGY_OIL",
+      "hq_region": "US",
+      "recruiting_mode": "BOTH",
+      "aliases": [],
+      "recruits_for": {
+        "CORE": {
+          "tier": 1,
+          "source": "curated:core_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:TATA_STEEL",
+      "display_name": "Tata Steel",
+      "category": "MANUFACTURING",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Tata Steel Jamshedpur"
+      ],
+      "recruits_for": {
+        "CORE": {
+          "tier": 1,
+          "source": "curated:core_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:BAJAJ_AUTO",
+      "display_name": "Bajaj Auto",
+      "category": "AUTOMOTIVE",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Bajaj Auto Limited",
+        "Bajaj Auto Limited & Chetak Technology Limited",
+        "Chetak Technology"
+      ],
+      "recruits_for": {
+        "CORE": {
+          "tier": 1,
+          "source": "curated:core_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:MARUTI",
+      "display_name": "Maruti Suzuki",
+      "category": "AUTOMOTIVE",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Maruti Suzuki India"
+      ],
+      "recruits_for": {
+        "CORE": {
+          "tier": 1,
+          "source": "curated:core_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:RELIANCE",
+      "display_name": "Reliance Industries",
+      "category": "ENERGY_OIL",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Reliance",
+        "Reliance Industries Limited",
+        "Reliance New Energy",
+        "Reliance Jamnagar"
+      ],
+      "recruits_for": {
+        "CORE": {
+          "tier": 1,
+          "source": "curated:core_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:LT",
+      "display_name": "Larsen & Toubro",
+      "category": "MANUFACTURING",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "L&T",
+        "Larsen & Toubro Limited"
+      ],
+      "recruits_for": {
+        "CORE": {
+          "tier": 1,
+          "source": "curated:core_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:CAIRN",
+      "display_name": "Cairn Oil & Gas",
+      "category": "ENERGY_OIL",
+      "hq_region": "IN",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Cairn"
+      ],
+      "recruits_for": {
+        "CORE": {
+          "tier": 1,
+          "source": "curated:core_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    },
+    {
+      "id": "ORG:BOSCH",
+      "display_name": "Bosch",
+      "category": "AUTOMOTIVE",
+      "hq_region": "DE",
+      "recruiting_mode": "BOTH",
+      "aliases": [
+        "Robert Bosch"
+      ],
+      "recruits_for": {
+        "CORE": {
+          "tier": 1,
+          "source": "curated:core_framework"
+        }
+      },
+      "pedigree_for": {},
+      "note": null
+    }
+  ]
+}

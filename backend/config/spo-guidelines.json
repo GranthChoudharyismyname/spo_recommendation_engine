@@ -1,0 +1,202 @@
+{
+  "_comment": [
+    "SPO resume guidelines, as data rather than code, because they are revised each cycle.",
+    "Source: knowledge-base/spo-resume-guidelines.pdf. Page references are kept on each",
+    "rule so a finding can be checked against the published document.",
+    "",
+    "To update for a new cycle: copy this file, change `cycle`, edit the values, and point",
+    "SPO_GUIDELINES_PATH at it. Nothing in the code needs to change.",
+    "",
+    "Setting `enabled: false` on a rule disables that check without deleting its wording,",
+    "so a rule dropped one year can be restored the next."
+  ],
+  "cycle": "2026",
+  "source": "Students' Placement Office, IIT Kanpur — Resume Making Guidelines",
+  "revised": "2026-09-02",
+  "layout": {
+    "_comment": "Consumed by resume_structure.RelaxedResumeParser. These are SCORED on a gradient, not pass/fail.",
+    "min_margin_in": 0.5,
+    "min_margin_pt": 36.0,
+    "min_content_font_size_pt": 9.0,
+    "min_reference_font_size_pt": 6.0,
+    "min_words": 500,
+    "max_words": 750,
+    "name_min_ratio": 2.0,
+    "max_font_families": 1,
+    "max_pages_technical": 2,
+    "max_pages_non_technical": 1,
+    "min_line_spacing": 1.0,
+    "max_line_spacing": 1.45,
+    "_line_spacing_note": "Effective line spacing: median baseline pitch divided by median font size, both measured from the document. SPO sets no spacing rule, so the band is typographic, not quoted: single spacing is ~1.2x, one-and-a-half 1.5x, double 2.0x. Above the max the page is padded; below the min lines run together.",
+    "visual_weight": 0.2,
+    "_visual_weight_note": "Share of the structural score taken from the visual layout reading (predict.AestheticScorer). 0.0 disables the blend and leaves the score purely geometric. Only applied when a backend actually ran."
+  },
+  "preferred_fonts": [
+    "Times New Roman",
+    "Garamond",
+    "Tahoma",
+    "Verdana",
+    "Book Antiqua",
+    "Courier New",
+    "Calibri",
+    "Cambria",
+    "Palatino Linotype",
+    "Arial"
+  ],
+  "compliance_rules": {
+    "_comment": "Pass/fail submission policy. Deliberately NOT folded into the score.",
+    "SPO_NO_MOBILE_NUMBER": {
+      "enabled": true,
+      "severity": "BLOCKING",
+      "guideline": "Guidelines p.1 — 'No JEE/GATE rank or mobile numbers are allowed in the submitted Master and Single page resumes.'",
+      "message": "A mobile number appears on the resume. SPO does not permit phone numbers on master or single-page resumes submitted through the portal."
+    },
+    "SPO_NO_JEE_GATE_RANK": {
+      "enabled": true,
+      "severity": "BLOCKING",
+      "guideline": "Guidelines p.1 — 'No JEE/GATE rank or mobile numbers are allowed in the submitted Master and Single page resumes.'",
+      "message": "A JEE/GATE rank appears on the resume. SPO does not permit it on submitted resumes.",
+      "_note": "The scorer separately credits a JEE Advanced AIR toward academics. When both fire the finding says so, rather than silently preferring one."
+    },
+    "SPO_PAGE_COUNT": {
+      "enabled": true,
+      "severity": "BLOCKING",
+      "guideline": "Guidelines p.4 — 'The Technical CV should either be 1 Page or 2 Pages. The Non-Technical CV should be 1 Page Only.'"
+    },
+    "SPO_FONT_COLOUR": {
+      "enabled": false,
+      "severity": "WARNING",
+      "guideline": "Guidelines p.4 — 'Font Color: Strictly Black'.",
+      "message": "Non-black text was detected. SPO requires the entire CV to be black.",
+      "max_channel_value": 90,
+      "_note": "Disabled: colour is used in practice for links, section rules and accents, and flagging it produced a finding on resumes nobody considers non-compliant. 0-255 per channel; re-enable if a cycle enforces the guideline literally."
+    },
+    "SPO_FONT_FAMILY_COUNT": {
+      "enabled": true,
+      "severity": "WARNING",
+      "guideline": "Guidelines p.4 — 'Use only one Font in the complete CV.'",
+      "message": "More font families are in use than the guidelines permit."
+    },
+    "SPO_PREFERRED_FONT": {
+      "enabled": false,
+      "severity": "INFO",
+      "guideline": "Guidelines p.4 — 'Preferred Fonts: Times New Roman, Garamond, Tahoma, Verdana, Book Antiqua, Courier New, Calibri, Cambria, Palatino Linotype, Arial'.",
+      "message": "The document uses a font outside the preferred list.",
+      "_note": "Disabled by default: the SPO does not restrict template choice, and LaTeX Computer Modern is widely accepted in practice. Enable if a cycle enforces the list."
+    },
+    "SPO_CPI_MANDATORY": {
+      "enabled": true,
+      "severity": "BLOCKING",
+      "guideline": "Guidelines p.2 — 'It is compulsory to mention your Pingala CPI in the Academic Qualification section.'",
+      "message": "No Pingala CPI was found in the academic qualifications section. Stating it there is compulsory."
+    },
+    "SPO_EDUCATION_TABLE_ROWS": {
+      "enabled": true,
+      "severity": "WARNING",
+      "guideline": "Guidelines p.1 — 'This section should have your CPI, 12th, and 10th scores.'",
+      "required_rows": [
+        "Class XII",
+        "Class X"
+      ]
+    },
+    "SPO_EDUCATION_SCORES": {
+      "enabled": true,
+      "severity": "WARNING",
+      "guideline": "Guidelines p.1 — 'This section should have your CPI, 12th, and 10th scores.'",
+      "_note": "The row existing is not the same as the score being stated; this checks the mark itself is present."
+    },
+    "SPO_EDUCATION_CHRONOLOGY": {
+      "enabled": true,
+      "severity": "WARNING",
+      "guideline": "Guidelines p.6 — 'The content in the table should be in reverse chronological order.'",
+      "message": "The education table is not in reverse chronological order."
+    },
+    "SPO_ACHIEVEMENT_YEAR": {
+      "enabled": true,
+      "severity": "WARNING",
+      "guideline": "Guidelines p.6 — \"Any 'Achievements' or 'Activities': Definitely mention the year of Activity or Achievement.\""
+    },
+    "SPO_SELF_PROJECT_LABEL": {
+      "enabled": true,
+      "severity": "WARNING",
+      "guideline": "Guidelines p.3 — 'Projects done at an individual level will have to be clearly stated as \"Self Projects\" in the resume if mentioned.'"
+    },
+    "SPO_ONGOING_LABEL": {
+      "enabled": true,
+      "severity": "INFO",
+      "guideline": "Guidelines p.3 — 'In case of an ongoing project/internship, you can mention that on your resume - explicitly mentioning that it is \"ongoing\".'",
+      "message": "An in-progress engagement is listed. SPO asks that ongoing work be explicitly marked 'ongoing'."
+    }
+  },
+  "approved_headings": [
+    "education",
+    "educational details",
+    "academic qualification",
+    "academic qualifications",
+    "academic details",
+    "academic performance",
+    "academic achievements",
+    "curricular achievements",
+    "scholastic achievements",
+    "scholastic qualifications",
+    "academic excellence",
+    "co-curricular activities",
+    "co-curricular achievements",
+    "awards",
+    "honors",
+    "honours",
+    "achievements",
+    "rewards",
+    "research paper",
+    "paper publication",
+    "term papers",
+    "publications",
+    "patents",
+    "b tech project",
+    "btech project",
+    "m tech thesis",
+    "projects",
+    "key projects",
+    "relevant projects",
+    "live project experience",
+    "key academic projects",
+    "technical projects",
+    "summer internship",
+    "internships",
+    "professional experience",
+    "industry internships",
+    "work experience",
+    "industry experience",
+    "entrepreneurship experience",
+    "social entrepreneurship",
+    "initiatives taken",
+    "on-campus initiatives",
+    "social initiatives",
+    "sports initiatives",
+    "organizational initiatives",
+    "cultural initiatives",
+    "creative initiatives",
+    "strategic initiatives",
+    "positions of responsibility",
+    "position of responsibility",
+    "leadership",
+    "team building activities",
+    "extra-curricular activities",
+    "extra-curricular achievements",
+    "extra curricular activities",
+    "extra curricular achievements",
+    "relevant courses",
+    "important courses",
+    "finance courses",
+    "management courses",
+    "operational courses",
+    "professional courses",
+    "programming courses",
+    "technical skills",
+    "relevant tools",
+    "relevant skills",
+    "interests and hobbies",
+    "interests",
+    "hobbies"
+  ]
+}

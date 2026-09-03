@@ -1,0 +1,4506 @@
+{
+  "role": "CONSULT_PM",
+  "role_title": "Management Consulting & Product Management",
+  "total_candidate_resumes": 10,
+  "candidate_sources": [
+    "Aaditya_Consult_edit (39)",
+    "Consult (1)",
+    "Meet_Consult_Resume (1)",
+    "Resume_Kritin_Khowala (1)",
+    "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)",
+    "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)",
+    "SPO-IITK_0013_230175_anurag_thakur_bt_me_ec28a97f68784540bd8b954a9a5d03d9",
+    "SPO-IITK_0013_230264_ayush_omer_bt_che_d7df0faca1b545dcb0fc4a40354c0576 (2) (1)",
+    "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)",
+    "Suhani_Resume (41)"
+  ],
+  "total_signals": 72,
+  "signal_type_breakdown": {
+    "good": 11,
+    "outstanding": 24,
+    "very_good": 32,
+    "neutral": 1,
+    "negative_diluting": 4
+  },
+  "total_positive_spikes": 24,
+  "signals_by_section": {
+    "Academic Qualifications": [
+      {
+        "raw_signal_label": "CPI 8.4/10",
+        "signal_type": "good",
+        "dimensions": [
+          "A"
+        ],
+        "evidence": "B.Tech from Indian Institute of Technology Kanpur with a grade of 8.4/10",
+        "section": "Academic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": null,
+          "context": null,
+          "own": null,
+          "proof": null,
+          "edge": null
+        },
+        "impact": null,
+        "entities": [
+          "Indian Institute of Technology Kanpur"
+        ],
+        "candidate_source": "Aaditya_Consult_edit (39)"
+      },
+      {
+        "raw_signal_label": "CPI 7.3/10 at IIT Kanpur",
+        "signal_type": "negative_diluting",
+        "dimensions": [
+          "A"
+        ],
+        "evidence": "grade: 7.3/10 in B.S. Mathematics and Scientific Computing",
+        "section": "Academic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": null,
+          "context": "B.S. Mathematics and Scientific Computing at IIT Kanpur",
+          "own": null,
+          "proof": "7.3/10 CPI",
+          "edge": "Below the baseline floor of 8.0 CPI for top-tier shortlists"
+        },
+        "impact": null,
+        "entities": [
+          "Indian Institute of Technology, Kanpur"
+        ],
+        "candidate_source": "Consult (1)"
+      },
+      {
+        "raw_signal_label": "CPI 7.1/10.0",
+        "signal_type": "negative_diluting",
+        "dimensions": [
+          "A"
+        ],
+        "evidence": "grade: 7.1/10.0",
+        "section": "Academic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": null,
+          "context": "B.S. Economic Sciences at IIT Kanpur",
+          "own": null,
+          "proof": null,
+          "edge": "CPI is below the baseline floor of 8.0 for top-tier shortlists"
+        },
+        "impact": null,
+        "entities": [
+          "Indian Institute of Technology Kanpur"
+        ],
+        "candidate_source": "Meet_Consult_Resume (1)"
+      },
+      {
+        "raw_signal_label": "High Academic Performance (CPI 9.4/10.0)",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "A",
+          "E"
+        ],
+        "evidence": "B.S. at Indian Institute of Technology Kanpur, CPI: 9.4/10.0",
+        "section": "Academic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "IIT Kanpur B.S. program",
+          "context": "Academic performance over the period 2024 - 2028",
+          "own": "Maintained a Cumulative Performance Index of 9.4/10.0",
+          "proof": "Academic transcript",
+          "edge": "Top tier academic performance at a premier national institute"
+        },
+        "impact": {
+          "metric": "CPI",
+          "direction": "up",
+          "value": 9.4,
+          "unit": "out of 10.0"
+        },
+        "entities": [
+          "Indian Institute of Technology Kanpur"
+        ],
+        "candidate_source": "Resume_Kritin_Khowala (1)"
+      },
+      {
+        "raw_signal_label": "CPI 8.8/10 in Mathematics and Scientific Computing",
+        "signal_type": "very_good",
+        "dimensions": [
+          "A"
+        ],
+        "evidence": "BS, Indian Institute of Technology Kanpur, 2023-Present, grade: 8.8/10",
+        "section": "Academic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "10-point scale",
+          "context": "Mathematics and Scientific Computing BS program",
+          "own": "Maintained 8.8 CPI",
+          "proof": "Indian Institute of Technology Kanpur",
+          "edge": "2023-Present"
+        },
+        "impact": null,
+        "entities": [
+          "Indian Institute of Technology Kanpur"
+        ],
+        "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+      },
+      {
+        "raw_signal_label": "CPI 8.9/10 at IIT Kanpur",
+        "signal_type": "very_good",
+        "dimensions": [
+          "A"
+        ],
+        "evidence": "B.Tech grade: 8.9/10 at Indian Institute of Technology Kanpur",
+        "section": "Academic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": null,
+          "context": null,
+          "own": null,
+          "proof": null,
+          "edge": null
+        },
+        "impact": null,
+        "entities": [
+          "Indian Institute of Technology Kanpur"
+        ],
+        "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+      },
+      {
+        "raw_signal_label": "CPI 8.9/10.0 at IIT Kanpur",
+        "signal_type": "very_good",
+        "dimensions": [
+          "A"
+        ],
+        "evidence": "B.Tech, Indian Institute of Technology Kanpur, year: 2023 - 2027, grade: 8.9/10.0",
+        "section": "Academic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": null,
+          "context": null,
+          "own": null,
+          "proof": null,
+          "edge": null
+        },
+        "impact": null,
+        "entities": [
+          "Indian Institute of Technology Kanpur"
+        ],
+        "candidate_source": "SPO-IITK_0013_230175_anurag_thakur_bt_me_ec28a97f68784540bd8b954a9a5d03d9"
+      },
+      {
+        "raw_signal_label": "CPI 9.1/10.0 at IIT Kanpur",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "A",
+          "E"
+        ],
+        "evidence": "B.Tech Chemical Engineering, Indian Institute of Technology Kanpur, grade: 9.1/10.0",
+        "section": "Academic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": null,
+          "context": "B.Tech Chemical Engineering at IIT Kanpur",
+          "own": null,
+          "proof": "9.1/10.0 CPI",
+          "edge": "Outstanding academic performance"
+        },
+        "impact": {
+          "metric": "CPI",
+          "direction": "up",
+          "value": 9.1,
+          "unit": "points"
+        },
+        "entities": [
+          "Indian Institute of Technology Kanpur"
+        ],
+        "candidate_source": "SPO-IITK_0013_230264_ayush_omer_bt_che_d7df0faca1b545dcb0fc4a40354c0576 (2) (1)"
+      },
+      {
+        "raw_signal_label": "CPI 8.7/10 at IIT Kanpur",
+        "signal_type": "very_good",
+        "dimensions": [
+          "A"
+        ],
+        "evidence": "B.Tech, Indian Institute of Technology Kanpur, grade: 8.7/10",
+        "section": "Academic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "10-point scale",
+          "context": "Undergraduate program at IIT Kanpur",
+          "own": null,
+          "proof": "Official transcript grade",
+          "edge": "CPI >= 8.5"
+        },
+        "impact": null,
+        "entities": [
+          "Indian Institute of Technology Kanpur"
+        ],
+        "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+      },
+      {
+        "raw_signal_label": "IIT Kanpur CPI",
+        "signal_type": "very_good",
+        "dimensions": [
+          "A"
+        ],
+        "evidence": "B.Tech. (Mechanical) at Indian Institute of Technology, Kanpur with grade 8.5/10.0",
+        "section": "Academic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "B.Tech. (Mechanical)",
+          "context": "Indian Institute of Technology, Kanpur",
+          "own": null,
+          "proof": "grade: 8.5/10.0",
+          "edge": null
+        },
+        "impact": null,
+        "entities": [
+          "Indian Institute of Technology, Kanpur"
+        ],
+        "candidate_source": "Suhani_Resume (41)"
+      }
+    ],
+    "Work Experience": [
+      {
+        "raw_signal_label": "Aditya Birla Group - Production Analysis for Yield & Cost Optimization",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "B",
+          "E"
+        ],
+        "evidence": "Analyzed 3,000+ production cycles to identify the root causes of raw material waste and quality failures; Developed 2 Gradient Boosting models using 30+ features to determine the most effective input parameters; Identified a saving of | 8L+ annually through reduced Aluminium requirement validated by the plant team; 15% reduction in projected contamination failures",
+        "section": "Work Experience",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "3,000+ production cycles",
+          "context": "reducting raw material spend and improving first-pass yield",
+          "own": "Developed 2 Gradient Boosting models using 30+ features to determine the most effective input parameters",
+          "proof": "validated by the plant team",
+          "edge": "Identified a saving of | 8L+ annually through reduced Aluminium requirement and 15% reduction in projected contamination failures"
+        },
+        "impact": {
+          "metric": "annual savings",
+          "direction": "positive",
+          "value": 800000.0,
+          "unit": "INR"
+        },
+        "entities": [
+          "Aditya Birla Group"
+        ],
+        "candidate_source": "Aaditya_Consult_edit (39)"
+      },
+      {
+        "raw_signal_label": "SURGE 2026 Research Intern at IIT Kanpur",
+        "signal_type": "very_good",
+        "dimensions": [
+          "B",
+          "E"
+        ],
+        "evidence": "SURGE 2026 | Prof. Sayak Ray Chowdhury | Dept. of CSE IIT Kanpur",
+        "section": "Work Experience",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "MATH500 and GMS8K datasets",
+          "context": "Explored Best-of-N (BoN) strategies for test-time alignment in LLMs as an alternative to traditional RLHF pipelines",
+          "own": "Engineered an ONA metric and invented Min. Bayes Risk Reward Weighted Self Consistency",
+          "proof": "Surpassed individual models by 5% on MATH500 and SOTA early stopping methods by 8%",
+          "edge": "Crushed SOTA early stopping methods like AdaBON, Beacon by 8%, making a new mathematically sound Pareto frontier"
+        },
+        "impact": {
+          "metric": "performance improvement over SOTA",
+          "direction": "up",
+          "value": 8.0,
+          "unit": "%"
+        },
+        "entities": [
+          "IIT Kanpur",
+          "SURGE 2026",
+          "Prof. Sayak Ray Chowdhury"
+        ],
+        "candidate_source": "Consult (1)"
+      },
+      {
+        "raw_signal_label": "Advisory & Sales Intern at HDFC Asset Management Company",
+        "signal_type": "very_good",
+        "dimensions": [
+          "B",
+          "E"
+        ],
+        "evidence": "Evaluated and benchmarked 12+ HDFC and competitor fund schemes through quantitative historical analysis; Analyzed critical risk-adjusted metrics (Sharpe, Vega) to identify optimal products for varied risk profiles; Boosted client engagement by 15% through optimized product recommendations across varied risk profiles",
+        "section": "Work Experience",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "12+ HDFC and competitor fund schemes",
+          "context": "quantitative historical analysis and risk-adjusted metrics (Sharpe, Vega)",
+          "own": "Evaluated and benchmarked fund schemes, analyzed risk-adjusted metrics, modeled long-term impacts of SIPs",
+          "proof": "Boosted client engagement by 15%",
+          "edge": "15% boost in client engagement through optimized product recommendations"
+        },
+        "impact": {
+          "metric": "client engagement",
+          "direction": "increase",
+          "value": 15.0,
+          "unit": "%"
+        },
+        "entities": [
+          "HDFC Asset Management Company"
+        ],
+        "candidate_source": "Meet_Consult_Resume (1)"
+      },
+      {
+        "raw_signal_label": "Product & Operations Intern at OkCredit",
+        "signal_type": "very_good",
+        "dimensions": [
+          "B",
+          "E"
+        ],
+        "evidence": "Diagnosed operational inefficiencies across 5+ merchant workflows through structured user research & analysis; Designed a full-stack AI solution, a platform supporting real-time order tracking and workflow management; Reduced manual processing effort by 75%, driving operational efficiency and enabling business scalability",
+        "section": "Work Experience",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "5+ merchant workflows",
+          "context": "structured user research & analysis",
+          "own": "Diagnosed operational inefficiencies, Designed a full-stack AI solution",
+          "proof": "Reduced manual processing effort by 75%",
+          "edge": "75% reduction in manual processing effort"
+        },
+        "impact": {
+          "metric": "manual processing effort",
+          "direction": "decrease",
+          "value": 75.0,
+          "unit": "%"
+        },
+        "entities": [
+          "OkCredit"
+        ],
+        "candidate_source": "Meet_Consult_Resume (1)"
+      },
+      {
+        "raw_signal_label": "Quantitative Research Intern at AQUA",
+        "signal_type": "very_good",
+        "dimensions": [
+          "B",
+          "E"
+        ],
+        "evidence": "Built end-to-end research pipelines using HMM, Django, VaR, and options analytics across Indian markets. Accelerated quantitative research across 10 sectors, 25+ stocks and 5+ macro factors with 3 automated systems",
+        "section": "Work Experience",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "10 sectors, 25+ stocks, 5+ macro factors",
+          "context": "Developing quantitative solutions for portfolio allocation, derivatives analytics and market risk forecasting",
+          "own": "Built end-to-end research pipelines using HMM, Django, VaR, and options analytics, modeled sectors under bull/bear regimes",
+          "proof": "3 automated systems",
+          "edge": "Accelerated quantitative research across multiple assets and macro factors"
+        },
+        "impact": {
+          "metric": "Automated systems built",
+          "direction": "up",
+          "value": 3.0,
+          "unit": "systems"
+        },
+        "entities": [
+          "AQUA"
+        ],
+        "candidate_source": "Resume_Kritin_Khowala (1)"
+      },
+      {
+        "raw_signal_label": "AI-driven Mental Health Chatbot Project Assistant at People+AI",
+        "signal_type": "very_good",
+        "dimensions": [
+          "B",
+          "E"
+        ],
+        "evidence": "Develop an AI-driven mental health chatbot to democratize student access via scalable open-source platform; Surveyed 576 students to identify adoption barriers and suggested solutions, boosting engagement by 34%; Built a multi-agent system using LangGraph and deployed a test web UI, reaching 5000+ website users; Co-authored Sukoon\u2019s white paper",
+        "section": "Work Experience",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "5000+ website users, 576 students surveyed",
+          "context": "AI-driven mental health chatbot (Project Sukoon)",
+          "own": "Built a multi-agent system using LangGraph, surveyed students, and co-authored white paper",
+          "proof": "Co-authored Sukoon's white paper with 6 licensed counsellors",
+          "edge": "boosting engagement by 34%"
+        },
+        "impact": {
+          "metric": "engagement",
+          "direction": "increase",
+          "value": 34.0,
+          "unit": "%"
+        },
+        "entities": [
+          "People+AI",
+          "LangGraph"
+        ],
+        "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+      },
+      {
+        "raw_signal_label": "Frontend Development Intern at TreadWill (IITK BSBE)",
+        "signal_type": "good",
+        "dimensions": [
+          "B"
+        ],
+        "evidence": "Frontend Development Intern at TreadWill | Prof. Nitin Gupta | BSBE, IIT Kanpur",
+        "section": "Work Experience",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "TreadWill platform",
+          "context": "To develop a Therapist-Client interaction module utilizing principles of Cognitive Behavioural Therapy",
+          "own": "Routed 4 Angular components, designed UI in Figma, deployed Appointment Scheduler",
+          "proof": "Deployed the Appointment Scheduler feature",
+          "edge": "Enhanced platform accessibility"
+        },
+        "impact": null,
+        "entities": [
+          "TreadWill",
+          "Prof. Nitin Gupta",
+          "IIT Kanpur"
+        ],
+        "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+      },
+      {
+        "raw_signal_label": "Quantitative Research Intern at Carlsen Capital",
+        "signal_type": "very_good",
+        "dimensions": [
+          "B",
+          "E"
+        ],
+        "evidence": "Carlsen Capital, Quantitative Research Intern, Jun\u201924 \u2013 Sep\u201924",
+        "section": "Work Experience",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "40K+ contracts with live testing on market data",
+          "context": "Predicted short-term NIFTY trends and built volatility charts using GARCH, LSTM, Merton Jump, VG, and Heston models",
+          "own": "Designed predictive and volatility-based trading models, tested forecast accuracy with Garman-Klass and Rogers-Satchell",
+          "proof": "live testing on market data",
+          "edge": "Achieved 18% higher accuracy over benchmarks"
+        },
+        "impact": {
+          "metric": "accuracy over benchmarks",
+          "direction": "increase",
+          "value": 18.0,
+          "unit": "%"
+        },
+        "entities": [
+          "Carlsen Capital",
+          "NIFTY",
+          "GARCH",
+          "LSTM",
+          "Merton Jump",
+          "Heston",
+          "Garman-Klass",
+          "Rogers-Satchell"
+        ],
+        "candidate_source": "SPO-IITK_0013_230175_anurag_thakur_bt_me_ec28a97f68784540bd8b954a9a5d03d9"
+      },
+      {
+        "raw_signal_label": "SURGE'25 Summer Research Intern at IIT Kanpur",
+        "signal_type": "very_good",
+        "dimensions": [
+          "B",
+          "E"
+        ],
+        "evidence": "SURGE\u201925, IIT Kanpur, Summer Research Intern. Segment 2D trajectories to discover reusable behavior and enhancing hierarchical reinforcement learning. Applied KMeans clustering to agent trajectories to identify subgoal structures and reuse high-level policies. Used FCM membership scores to detect ambiguous transitions and fine-tune subtask boundaries. Employed SPECTRL framework to construct finite automata for specifications, enabling policy composition. Reduced task completion time by 45% and significantly improved policy reusability across 90% of test scenarios",
+        "section": "Work Experience",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "across 90% of test scenarios",
+          "context": "Segment 2D trajectories to discover reusable behavior and enhancing hierarchical reinforcement learning",
+          "own": "Applied KMeans clustering, used FCM membership scores, and employed SPECTRL framework",
+          "proof": "Mentor: Prof. Subhajit Roy, Department of Computer Science and Engineering, IIT Kanpur",
+          "edge": "Reduced task completion time by 45%"
+        },
+        "impact": {
+          "metric": "task completion time",
+          "direction": "decrease",
+          "value": 45.0,
+          "unit": "%"
+        },
+        "entities": [
+          "SURGE\u201925",
+          "IIT Kanpur",
+          "KMeans",
+          "FCM",
+          "SPECTRL"
+        ],
+        "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+      },
+      {
+        "raw_signal_label": "FedEx Supply Chain SMART Center Summer Research Intern",
+        "signal_type": "very_good",
+        "dimensions": [
+          "B",
+          "E"
+        ],
+        "evidence": "Summer Research Intern at FedEx Supply Chain SMART Center, IIT Madras | Dr. Babji Srinivasan",
+        "section": "Work Experience",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "corporate workforce wellness",
+          "context": "physiological signals like EEG, ECG",
+          "own": "Developed 15 eye tracking metrics using time series data analysis",
+          "proof": "Co-authoring a paper on the system\u2019s architecture for research publication",
+          "edge": "Achieved a 40% improvement in workflow efficiency and a \u223c25% reduction in chronic-overload-driven sick leave"
+        },
+        "impact": {
+          "metric": "workflow efficiency",
+          "direction": "increase",
+          "value": 40.0,
+          "unit": "%"
+        },
+        "entities": [
+          "FedEx Supply Chain SMART Center",
+          "IIT Madras",
+          "Dr. Babji Srinivasan"
+        ],
+        "candidate_source": "Suhani_Resume (41)"
+      },
+      {
+        "raw_signal_label": "PleadPerfect Strategy & Operations Intern",
+        "signal_type": "very_good",
+        "dimensions": [
+          "B",
+          "D",
+          "E"
+        ],
+        "evidence": "Strategy & Operations Intern at PleadPerfect | Legal Tech Startup",
+        "section": "Work Experience",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "legal case filing workflows",
+          "context": "manual document assembly in legal case filing workflows",
+          "own": "Automated 10+ features across 50+ court templates on a cloud pipeline, incorporating genAI workflows",
+          "proof": "production-ready platform",
+          "edge": "Achieved \u223c75% reduction in document assembly time against the manual baseline"
+        },
+        "impact": {
+          "metric": "document assembly time",
+          "direction": "decrease",
+          "value": 75.0,
+          "unit": "%"
+        },
+        "entities": [
+          "PleadPerfect"
+        ],
+        "candidate_source": "Suhani_Resume (41)"
+      }
+    ],
+    "Projects": [
+      {
+        "raw_signal_label": "UP Govt. Startup Policy Recommendations with Prof. Amitabha Bandyopadhyay",
+        "signal_type": "very_good",
+        "dimensions": [
+          "D",
+          "E"
+        ],
+        "evidence": "Benchmarked startup policies in UP against 7+ states across 5+ reform areas; Identified 5+ policy gaps by analyzing 12k+ startups, 300+ VC funds and interviewing 5+ industry experts; Projected mobilising | 650Cr+ into startups; Presented identified gaps and policy recommendations to Mr. Vijay Kiran Anand, IAS ( CEO, Invest UP )",
+        "section": "Projects",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "12k+ startups, 300+ VC funds",
+          "context": "identify data-driven gaps & propose policy recommendations for the startup ecosystem in UP",
+          "own": "Benchmarked startup policies in UP against 7+ states across 5+ reform areas and interviewed 5+ industry experts",
+          "proof": "Presented identified gaps and policy recommendations to Mr. Vijay Kiran Anand, IAS ( CEO, Invest UP )",
+          "edge": "Projected mobilising | 650Cr+ into startups and forecasted creating 14,000+ additional jobs over 5 years"
+        },
+        "impact": {
+          "metric": "projected mobilization",
+          "direction": "increase",
+          "value": 6500000000.0,
+          "unit": "INR"
+        },
+        "entities": [
+          "Prof. Amitabha Bandyopadhyay",
+          "Invest UP",
+          "Vijay Kiran Anand"
+        ],
+        "candidate_source": "Aaditya_Consult_edit (39)"
+      },
+      {
+        "raw_signal_label": "Geospatial Solutions for Climate Action with GDPDC, Govt of India",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Designed 33 geospatial use cases across 7 sectors to address climate change and air quality degradation; Co-authored 2 research reports on geospatial data for climate action, shared by GDPDC with 25K+ reach; First report was presented at the Google Global Air Quality Summit 2024, gaining global attention",
+        "section": "Projects",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "33 use cases across 7 sectors, 25K+ reach",
+          "context": "Geospatial Solutions for Climate Action for GDPDC, Government of India",
+          "own": "Designed use cases and co-authored 2 research reports",
+          "proof": "Presented at the Google Global Air Quality Summit 2024",
+          "edge": "shared by GDPDC with 25K+ reach"
+        },
+        "impact": null,
+        "entities": [
+          "Geospatial Data Promotion and Development Committee (GDPDC)",
+          "Government of India",
+          "Google Global Air Quality Summit"
+        ],
+        "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+      },
+      {
+        "raw_signal_label": "Kaggle ML Project on Problematic Internet Use",
+        "signal_type": "good",
+        "dimensions": [
+          "B",
+          "D",
+          "E"
+        ],
+        "evidence": "To predict internet use severity in children from clinical, behavioral and fitness data in a Kaggle competition... Achieved a strong QWK score of 0.450 on the official Kaggle leaderboard",
+        "section": "Projects",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "5000+ participants in the Healthy Brain Network study",
+          "context": "predict internet use severity in children from clinical, behavioral and fitness data in a Kaggle competition",
+          "own": "Preprocessed static and time-series datasets, developed ensemble of advanced ML models, applied 5-fold cross-validation",
+          "proof": "Achieved a strong QWK (Quadratic Weighted Kappa) score of 0.450 on the official Kaggle leaderboard",
+          "edge": "Insights used for timely interventions"
+        },
+        "impact": {
+          "metric": "QWK (Quadratic Weighted Kappa) score",
+          "direction": "up",
+          "value": 0.45,
+          "unit": "score"
+        },
+        "entities": [
+          "Brain and Cognitive Science Club",
+          "IIT Kanpur",
+          "Kaggle",
+          "Healthy Brain Network"
+        ],
+        "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+      },
+      {
+        "raw_signal_label": "EEG Visual Object Classifier Project",
+        "signal_type": "good",
+        "dimensions": [
+          "D",
+          "E"
+        ],
+        "evidence": "To build a visual object classifier based on EEG signals using machine learning to decode brain activity... Achieved a high test accuracy of 92.5% using Discrete Wavelet Transform and Support Vector Machine",
+        "section": "Projects",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "200 EEG samples, 1,000 dataframes",
+          "context": "build a visual object classifier based on EEG signals using machine learning to decode brain activity",
+          "own": "Collected EEG samples through PsychoPy game, applied data augmentation and feature extraction, employed deep neural networks",
+          "proof": "Achieved a high test accuracy of 92.5% using Discrete Wavelet Transform and Support Vector Machine",
+          "edge": "92.5% test accuracy"
+        },
+        "impact": {
+          "metric": "test accuracy",
+          "direction": "up",
+          "value": 92.5,
+          "unit": "%"
+        },
+        "entities": [
+          "Brain and Cognitive Science Club",
+          "IIT Kanpur",
+          "PsychoPy"
+        ],
+        "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+      },
+      {
+        "raw_signal_label": "Limit Order Book Simulation Platform for IIM Ahmedabad",
+        "signal_type": "very_good",
+        "dimensions": [
+          "D",
+          "E"
+        ],
+        "evidence": "Limit Order Book, IIM Ahmedabad. Created a Django-based website... Engineered a Redis-powered backend achieving sub-2s latency and a throughput of 10K orders/min... Revamped learning for 600+ IIM students by developing a creative teaching platform currently in active use",
+        "section": "Projects",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "600+ IIM students, 10K orders/min throughput",
+          "context": "develop a scalable simulation platform replicating real-time financial order book",
+          "own": "Created Django-based website, engineered Redis-powered backend, implemented real-time updates using WebSockets",
+          "proof": "currently in active use, revamped learning for 600+ IIM students",
+          "edge": "sub-2s latency and 10K orders/min throughput"
+        },
+        "impact": {
+          "metric": "active users",
+          "direction": "up",
+          "value": 600.0,
+          "unit": "students"
+        },
+        "entities": [
+          "IIM Ahmedabad",
+          "Django",
+          "Redis",
+          "PostgreSQL"
+        ],
+        "candidate_source": "SPO-IITK_0013_230264_ayush_omer_bt_che_d7df0faca1b545dcb0fc4a40354c0576 (2) (1)"
+      },
+      {
+        "raw_signal_label": "Overlayy Browser-Based Analytics Tool Project",
+        "signal_type": "good",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Built a browser-based tool to monitor, analyze, and interpret real-time user interactions on websites. Developed a Chrome extension that tracks eight distinct user events, including hover, click, text selection. Injected JavaScript file to log detailed interaction metadata directly from webpage DOM in real time. Built a text generation module using LLMs to synthesize behavioral insights from user interaction logs",
+        "section": "Projects",
+        "confidence": 0.85,
+        "scope": {
+          "scale": "Tracks eight distinct user events",
+          "context": "Overlayy | Hack IITK",
+          "own": "Developed Chrome extension, injected JavaScript file, built LLM text generation module",
+          "proof": "Hackathon project submission",
+          "edge": "Synthesized behavioral insights from user interaction logs using LLMs"
+        },
+        "impact": null,
+        "entities": [
+          "Overlayy",
+          "Hack IITK",
+          "LLMs",
+          "Chrome"
+        ],
+        "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+      },
+      {
+        "raw_signal_label": "TradingAgents Multi-Agent LLM Trading Framework",
+        "signal_type": "good",
+        "dimensions": [
+          "D",
+          "E"
+        ],
+        "evidence": "TradingAgents: Multi-Agent LLM Trading Framework, Brain & Cognitive Science Club, IITK",
+        "section": "Projects",
+        "confidence": 0.85,
+        "scope": {
+          "scale": "multi-agent trading firm",
+          "context": "evaluate collaborative LLMs against traditional quantitative models",
+          "own": "Architected 5 specialized agents with an automated debate mechanism",
+          "proof": "Outperformed baseline strategies by 24.57% in cumulative returns",
+          "edge": "achieved a Sharpe ratio of 8.21"
+        },
+        "impact": {
+          "metric": "cumulative returns",
+          "direction": "increase",
+          "value": 24.57,
+          "unit": "%"
+        },
+        "entities": [
+          "Brain & Cognitive Science Club",
+          "IITK"
+        ],
+        "candidate_source": "Suhani_Resume (41)"
+      }
+    ],
+    "Research Experience": [
+      {
+        "raw_signal_label": "Beyond the Boundary: Cognitive MPTs and ML in Cricket Analytics",
+        "signal_type": "good",
+        "dimensions": [
+          "B",
+          "E"
+        ],
+        "evidence": "Architected a 7-node model from 90,000+ deliveries to isolate match context from intrinsic batter traits; Predicted rare match events using a 4-model ML framework overcoming severe dataset imbalance; Outperformed traditional model baselines by 20% achieving a 53.7% ball-by-ball peak prediction accuracy; Received a Letter of Recommendation",
+        "section": "Research Experience",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "90,000+ deliveries",
+          "context": "predict ball-by-ball T20 outcomes through an Explainable AI framework that models player psychology",
+          "own": "Architected a 7-node model and predicted rare match events using a 4-model ML framework",
+          "proof": "Received a Letter of Recommendation for exceptional work from Prof. Himanshu Yadav",
+          "edge": "Outperformed traditional model baselines by 20% achieving a 53.7% ball-by-ball peak prediction accuracy"
+        },
+        "impact": {
+          "metric": "prediction accuracy improvement",
+          "direction": "increase",
+          "value": 20.0,
+          "unit": "percent"
+        },
+        "entities": [
+          "Prof. Himanshu Yadav"
+        ],
+        "candidate_source": "Aaditya_Consult_edit (39)"
+      },
+      {
+        "raw_signal_label": "Research Papers Submitted/Under Revision (Elsevier Neurocomputing & Springer ML)",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "B",
+          "E"
+        ],
+        "evidence": "Biological Memory Consolidation in SNNs (Under Revision for Elsevier Neurocomputing) & Dynamic Distractor Pruning in Deep RL (Preprint submitted to Springers ML)",
+        "section": "Research Experience",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "SNNs and Deep RL (EMA-Tree SAC)",
+          "context": "Continual learning and eliminating destructive noise on-the-fly in Deep RL",
+          "own": "Introduced a Potentiation-Factor to identify neural engrams and developed EMA-Tree SAC leveraging Random Forests",
+          "proof": "Submitted to Springer ML and under revision for Elsevier Neurocomputing",
+          "edge": "Surpassed traditional baseline methods like EWC by more than 30% and yielded up to a 51% return improvement over standard SAC"
+        },
+        "impact": {
+          "metric": "return improvement over standard SAC",
+          "direction": "up",
+          "value": 51.0,
+          "unit": "%"
+        },
+        "entities": [
+          "Elsevier Neurocomputing",
+          "Springer ML"
+        ],
+        "candidate_source": "Consult (1)"
+      },
+      {
+        "raw_signal_label": "Research Internship at IIM Ahmedabad",
+        "signal_type": "very_good",
+        "dimensions": [
+          "B",
+          "E"
+        ],
+        "evidence": "Research Internship with Prof. Anirban Banerjee, IIM Ahmedabad. Built an order-matching workflow and real-time trade execution system using Django and relational databases. Impacts 600+ students annually.",
+        "section": "Research Experience",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "600+ students annually",
+          "context": "Simulating market microstructure with distinct Market Makers and Traders in a web-based trading platform",
+          "own": "Implemented role-based page, built order-matching workflow and real-time trade execution system using Django and relational databases",
+          "proof": "Integrated into classes at IIM Ahmedabad",
+          "edge": "Directly impacts academic curriculum delivery at a top-tier business school"
+        },
+        "impact": {
+          "metric": "Students impacted annually",
+          "direction": "up",
+          "value": 600.0,
+          "unit": "students"
+        },
+        "entities": [
+          "IIM Ahmedabad",
+          "Prof. Anirban Banerjee"
+        ],
+        "candidate_source": "Resume_Kritin_Khowala (1)"
+      },
+      {
+        "raw_signal_label": "GPU Acceleration in Option Pricing Research",
+        "signal_type": "good",
+        "dimensions": [
+          "B"
+        ],
+        "evidence": "Application of GPU in Option Pricing under Prof. B. V. Ratish Kumar, Mth Dept, IIT Kanpur; Investigating GPU acceleration for pricing models in financial markets, with a focus on option trading",
+        "section": "Research Experience",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "financial markets option trading",
+          "context": "GPU acceleration for pricing models",
+          "own": "Analyzed stochastic calculus and Monte Carlo methods, integrated real-world financial data",
+          "proof": "Prof. B. V. Ratish Kumar, Mth Dept, IIT Kanpur",
+          "edge": "Leveraged GPU-accelerated computing"
+        },
+        "impact": null,
+        "entities": [
+          "IIT Kanpur",
+          "Prof. B. V. Ratish Kumar"
+        ],
+        "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+      },
+      {
+        "raw_signal_label": "Research Project with Prof. Sony Thomas, IIM Kozhikode",
+        "signal_type": "very_good",
+        "dimensions": [
+          "B",
+          "E"
+        ],
+        "evidence": "Portfolio Management Tool, Prof. Sony Thomas, IIM Kozhikode, Jan\u201925 \u2013 Present",
+        "section": "Research Experience",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "multi-asset portfolios, NIFTY 50 and S&P 500",
+          "context": "Applied Hierarchical Risk Parity, clustering, regime-switching, Fama-French, Black-Litterman, and Bayesian inference",
+          "own": "Built a dynamic portfolio optimizer integrating academic models with real-world market data, used machine learning and genetic algorithms for stress-testing",
+          "proof": "consistent outperformance across different timeframes",
+          "edge": "Achieved consistent 15%+ outperformance over NIFTY 50 and S&P 500"
+        },
+        "impact": {
+          "metric": "outperformance over NIFTY 50 and S&P 500",
+          "direction": "increase",
+          "value": 15.0,
+          "unit": "%"
+        },
+        "entities": [
+          "IIM Kozhikode",
+          "Prof. Sony Thomas",
+          "NIFTY 50",
+          "S&P 500",
+          "Fama-French",
+          "Black-Litterman",
+          "Bayesian inference"
+        ],
+        "candidate_source": "SPO-IITK_0013_230175_anurag_thakur_bt_me_ec28a97f68784540bd8b954a9a5d03d9"
+      },
+      {
+        "raw_signal_label": "Predictive Modeling of Shear Thickening Fluids at DRDO",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "B",
+          "E"
+        ],
+        "evidence": "Predictive Modeling of Shear Thickening Fluids, DRDO, Prof. Y.M. Joshi. Created a scientific dataset of 10k+ data rows... Trained 3 multi-regression models... Achieved a 0.91 R\" score across 44+ STF setups, supporting DRDO\u2019s armour research",
+        "section": "Research Experience",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "10k+ data rows, 600+ research articles",
+          "context": "discover alternative materials for body armours for DRDO",
+          "own": "Created dataset, modelled viscosity using custom piecewise power-law model, trained 3 multi-regression models",
+          "proof": "Achieved a 0.91 R\" score across 44+ STF setups",
+          "edge": "supporting DRDO's armour research"
+        },
+        "impact": {
+          "metric": "R2 score",
+          "direction": "up",
+          "value": 0.91,
+          "unit": "coefficient"
+        },
+        "entities": [
+          "DRDO",
+          "Prof. Y.M. Joshi"
+        ],
+        "candidate_source": "SPO-IITK_0013_230264_ayush_omer_bt_che_d7df0faca1b545dcb0fc4a40354c0576 (2) (1)"
+      }
+    ],
+    "Position of Responsibility": [
+      {
+        "raw_signal_label": "Core Team Member, Academics Team, CMHW",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "C",
+          "E"
+        ],
+        "evidence": "Coordinated a 22-member team overseeing 430+ SGs & AMs during a 10-day orientation of 1200+ freshers; Handled a budget of | 44L+; Secured sponsorships worth over | 10L",
+        "section": "Position of Responsibility",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "1200+ freshers, 10K+ student community, budget of | 44L+",
+          "context": "academic, emotional & financial support to a 10K+ student community",
+          "own": "Coordinated a 22-member team, revamped the CMHW website, initiated student-counsellor Sessions, secured sponsorships",
+          "proof": "Collaborated with the Gender Cell & CDAP, and Faculty Adoption Program under 100+ professors",
+          "edge": "Secured sponsorships worth over | 10L and coordinated 10-day orientation"
+        },
+        "impact": {
+          "metric": "sponsorships secured",
+          "direction": "increase",
+          "value": 1000000.0,
+          "unit": "INR"
+        },
+        "entities": [
+          "Center for Mental Health and Wellbeing",
+          "CMHW",
+          "ICS"
+        ],
+        "candidate_source": "Aaditya_Consult_edit (39)"
+      },
+      {
+        "raw_signal_label": "Coordinator, BCS Club, IITK",
+        "signal_type": "very_good",
+        "dimensions": [
+          "C",
+          "E"
+        ],
+        "evidence": "Coordinator, BCS Club, IITK",
+        "section": "Position of Responsibility",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "Team of 30 secretaries across 2 verticals, budget of INR 1,50,000",
+          "context": "Managing club resources, neuroscientific equipment, and student projects",
+          "own": "Spearheaded team, managed budget, built Reinforcement Learning Roadmap, and led EXPLORA initiative",
+          "proof": "Empowered 2000+ individuals and achieved 2x increase in club outreach",
+          "edge": "Empowered 2000+ individuals to master RL and achieved 2x increase in club outreach affecting 120+ freshers"
+        },
+        "impact": {
+          "metric": "club outreach",
+          "direction": "up",
+          "value": 2.0,
+          "unit": "x"
+        },
+        "entities": [
+          "BCS Club, IITK",
+          "IIT Kanpur"
+        ],
+        "candidate_source": "Consult (1)"
+      },
+      {
+        "raw_signal_label": "Core Team Member - Academics at CMHW",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "C",
+          "E"
+        ],
+        "evidence": "Handled a budget of 44L+ to provide academic, emotional & financial support to 10K+ students\u2019 community; Orchestrated 1400+ interviews to onboard 400+ SGs & AMs for a 7-day orientation of 1250+ freshers; Secured sponsorship worth 10L+ for the smooth execution of the Orientation and enhancement of CMHW",
+        "section": "Position of Responsibility",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "budget of 44L+, 10K+ students' community, 1250+ freshers",
+          "context": "academic, emotional & financial support, 7-day orientation",
+          "own": "Handled budget, Orchestrated 1400+ interviews, Led digital outreach, Revamped website, Facilitated YourDOST adoption",
+          "proof": "Secured sponsorship worth 10L+",
+          "edge": "Onboarded 400+ SGs & AMs, secured 10L+ sponsorship"
+        },
+        "impact": {
+          "metric": "sponsorship secured",
+          "direction": "increase",
+          "value": 10.0,
+          "unit": "Lakhs"
+        },
+        "entities": [
+          "Center for Mental Health and Wellbeing",
+          "IIT Kanpur"
+        ],
+        "candidate_source": "Meet_Consult_Resume (1)"
+      },
+      {
+        "raw_signal_label": "Coordinator, Finance and Analytics Club",
+        "signal_type": "very_good",
+        "dimensions": [
+          "C",
+          "E"
+        ],
+        "evidence": "Co-ordinator, Finance and Analytics Club, Science and Technology Council, IIT Kanpur. Leading a 3-tier team of 33 secretaries and 130+ volunteers... Coordinated a INR 27L prize pool and 8500+ participants for Convolve 4.0 sponsored by Quadeye Securities",
+        "section": "Position of Responsibility",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "INR 27L prize pool, 8500+ participants, 3-tier team of 33 secretaries and 130+ volunteers",
+          "context": "Increasing financial literacy across campus and organizing flagship events",
+          "own": "Leading the club, collaborating with corporate sponsors (IMC, WorldQuant, Motilal Oswal, Quadeye), managing budget",
+          "proof": "Science and Technology Council, IIT Kanpur",
+          "edge": "Coordinated Convolve 4.0 with 8500+ participants and INR 27L prize pool"
+        },
+        "impact": {
+          "metric": "Participants",
+          "direction": "up",
+          "value": 8500.0,
+          "unit": "participants"
+        },
+        "entities": [
+          "Finance and Analytics Club",
+          "Science and Technology Council",
+          "IIT Kanpur",
+          "Quadeye Securities",
+          "WorldQuant",
+          "IMC",
+          "Motilal Oswal"
+        ],
+        "candidate_source": "Resume_Kritin_Khowala (1)"
+      },
+      {
+        "raw_signal_label": "Leader of IITK Consulting Group",
+        "signal_type": "very_good",
+        "dimensions": [
+          "C",
+          "E"
+        ],
+        "evidence": "Leading a 40-member team to support organizations through pro-bono consulting and data science services; Engaged 2,000+ students through 4 summer projects, 2 competitions, a consulting casebook, and 7 seminars; Boosted social media reach by 280%",
+        "section": "Position of Responsibility",
+        "confidence": 0.85,
+        "scope": {
+          "scale": "40-member team, 2,000+ students engaged",
+          "context": "pro-bono consulting and data science services",
+          "own": "Leading the group, managing 3+ projects, conducting Think-Cell workshop",
+          "proof": "IITK Consulting Group, SnT Council, IIT Kanpur",
+          "edge": "Boosted social media reach by 280%"
+        },
+        "impact": {
+          "metric": "social media reach",
+          "direction": "increase",
+          "value": 280.0,
+          "unit": "%"
+        },
+        "entities": [
+          "IITK Consulting Group",
+          "SnT Council",
+          "IIT Kanpur"
+        ],
+        "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+      },
+      {
+        "raw_signal_label": "Coordinator, English Literary Society",
+        "signal_type": "very_good",
+        "dimensions": [
+          "C",
+          "E"
+        ],
+        "evidence": "Coordinator, English Literary Society | Media and Cultural Council | IIT Kanpur",
+        "section": "Position of Responsibility",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "budget of 1.25L INR, team of 29 secretaries, 70+ applicants",
+          "context": "foster a campus-wide literature community",
+          "own": "Interviewed applicants, managed budget, organized summer workshops and Poetry Week, revamped website",
+          "proof": "increasing website engagement by 2x, 40K+ views on Instagram",
+          "edge": "boosting social media engagement and active student participation by 50%"
+        },
+        "impact": {
+          "metric": "website engagement",
+          "direction": "up",
+          "value": 2.0,
+          "unit": "x"
+        },
+        "entities": [
+          "English Literary Society",
+          "Media and Cultural Council",
+          "IIT Kanpur"
+        ],
+        "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+      },
+      {
+        "raw_signal_label": "Co-ordinator, Finance and Analytics Club, IIT Kanpur",
+        "signal_type": "good",
+        "dimensions": [
+          "C",
+          "E"
+        ],
+        "evidence": "Co-ordinator, Finance and Analytics Club, Science and Technology Council, IIT Kanpur, Apr\u201925 \u2013 Present",
+        "section": "Position of Responsibility",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "3-tier team of 32 secretaries and 135 volunteers, flagship Non-Core Weekend with 4K footfall, INR 72K budget",
+          "context": "Collaborated with Zelta Labs, WorldQuant, and StockGro for sponsorships, events, and industry projects",
+          "own": "Led the team, managed flagship event, conducted Bootcamps with 550 participants, curated 5 live projects, hosted nationwide competition",
+          "proof": "900 registrations, 30K impressions, INR 50K prize pool",
+          "edge": "personally mentored over 100 students across all batches"
+        },
+        "impact": {
+          "metric": "event footfall",
+          "direction": "increase",
+          "value": 4000.0,
+          "unit": "participants"
+        },
+        "entities": [
+          "Finance and Analytics Club",
+          "Science and Technology Council",
+          "IIT Kanpur",
+          "Zelta Labs",
+          "WorldQuant",
+          "StockGro"
+        ],
+        "candidate_source": "SPO-IITK_0013_230175_anurag_thakur_bt_me_ec28a97f68784540bd8b954a9a5d03d9"
+      },
+      {
+        "raw_signal_label": "Core Team Member, Academics Team at Institute Counselling Service",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "C",
+          "E"
+        ],
+        "evidence": "Core Team Member, Academics Team, Institute Counselling Service. Coordinated a 22-member team to manage 430+ SGs and AMs during a 10-day orientation for 1200+ freshers. Handled a budget of 35L+ ",
+        "section": "Position of Responsibility",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "1200+ freshers, 10K+ student community, 35L+ budget",
+          "context": "provide academic, emotional & financial support",
+          "own": "Coordinated a 22-member team, managed 430+ SGs and AMs, liaised with 9 psychiatrists, facilitated Faculty Adoption Program, revamped ICS website",
+          "proof": "Delivered Freshers' Orientation, revamped website in active use",
+          "edge": "Managed 35L+ budget and 22-member team"
+        },
+        "impact": {
+          "metric": "budget managed",
+          "direction": "up",
+          "value": 3500000.0,
+          "unit": "INR"
+        },
+        "entities": [
+          "Institute Counselling Service",
+          "IIT Kanpur"
+        ],
+        "candidate_source": "SPO-IITK_0013_230264_ayush_omer_bt_che_d7df0faca1b545dcb0fc4a40354c0576 (2) (1)"
+      },
+      {
+        "raw_signal_label": "Assistant Coordinator at Students' Placement Office, IIT Kanpur",
+        "signal_type": "very_good",
+        "dimensions": [
+          "C",
+          "E"
+        ],
+        "evidence": "Assistant Coordinator, Students\u2019 Placement Office, IIT Kanpur. Coordinating the internship drive processes for 1000+ students and placement drive for 1500+ students. Leading a team of 70+ members selected for coordinating the upcoming Internship and Placement drive. Developing strong corporate liaisons with over 75 companies for the internship and placement drive. Maintaining a database of 4500+ companies for the placement and internship portal of all the students. Attuned Recruitment drive, securing 1200+ placement and 550+ internship offers as Company Coordinator. Onboarded 5+ new startups successfully to register for the Internship and Placement season 2025-2026",
+        "section": "Position of Responsibility",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "1000+ internship students, 1500+ placement students, 4500+ companies database",
+          "context": "SPO internship and placement drive coordination",
+          "own": "Leading a team of 70+ members, developing corporate liaisons with over 75 companies, maintaining database of 4500+ companies",
+          "proof": "Secured 1200+ placement and 550+ internship offers as Company Coordinator",
+          "edge": "Onboarded 5+ new startups successfully"
+        },
+        "impact": {
+          "metric": "new startups onboarded",
+          "direction": "increase",
+          "value": 5.0,
+          "unit": "startups"
+        },
+        "entities": [
+          "Students\u2019 Placement Office",
+          "IIT Kanpur"
+        ],
+        "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+      },
+      {
+        "raw_signal_label": "Coordinator, Brain & Cognitive Science Club",
+        "signal_type": "very_good",
+        "dimensions": [
+          "C",
+          "E"
+        ],
+        "evidence": "Coordinator, Brain & Cognitive Science Club, Science and Technology Council, IIT Kanpur",
+        "section": "Position of Responsibility",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "two-tier team of 32 secretaries across the Machine Learning and Neuroscience verticals",
+          "context": "INR 1.4 Lakh to fund club events and advanced neuroscientific equipment",
+          "own": "Secured and managing a budget... Curated 4 summer projects and managed the recruitment of 100+ mentees",
+          "proof": "secured Innoplexus partnership",
+          "edge": "Boosted outreach by 250%"
+        },
+        "impact": {
+          "metric": "outreach",
+          "direction": "increase",
+          "value": 250.0,
+          "unit": "%"
+        },
+        "entities": [
+          "Science and Technology Council",
+          "IIT Kanpur",
+          "Innoplexus"
+        ],
+        "candidate_source": "Suhani_Resume (41)"
+      }
+    ],
+    "Major Competitions": [
+      {
+        "raw_signal_label": "1st position in Strategy Sprint, Techkriti, IITK",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Secured 1st position among 200+ teams in Strategy Sprint a case competition by Techkriti, IITK",
+        "section": "Major Competitions",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "200+ teams",
+          "context": "Strategy Sprint case competition",
+          "own": "Secured 1st position",
+          "proof": "Techkriti, IITK",
+          "edge": "1st position among 200+ teams"
+        },
+        "impact": null,
+        "entities": [
+          "Techkriti",
+          "IITK"
+        ],
+        "candidate_source": "Aaditya_Consult_edit (39)"
+      },
+      {
+        "raw_signal_label": "5th position at Inter-IIT Tech Meet 14.0",
+        "signal_type": "neutral",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Competed at the Inter-IIT Tech Meet 14.0 in the Pathway PS finishing 5th, working on UX design",
+        "section": "Major Competitions",
+        "confidence": 0.9,
+        "scope": {
+          "scale": null,
+          "context": "Pathway PS, working on UX design",
+          "own": "Competed and finished 5th",
+          "proof": "Inter-IIT Tech Meet 14.0",
+          "edge": "5th position"
+        },
+        "impact": null,
+        "entities": [
+          "Inter-IIT Tech Meet"
+        ],
+        "candidate_source": "Aaditya_Consult_edit (39)"
+      },
+      {
+        "raw_signal_label": "Inter IIT Tech Meet 14.0 Bronze Medal",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "E"
+        ],
+        "evidence": "Bronze Medal at Inter IIT Tech Meet 14.0, Ebullient Securities. Finished 3rd Place competing with 23 IITs with more than 20% Annualised Returns across both assets",
+        "section": "Major Competitions",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "Competing with 23 IITs",
+          "context": "Developing profitable intra-day quantitative trading strategies for synthetic assets across varying regimes",
+          "own": "Developed a unified machine learning architecture for directional forecasting, implemented regime-aware execution using VPIN, and adaptive sizing",
+          "proof": "Bronze Medal (3rd Place)",
+          "edge": "Achieved >20% Annualised Returns and reduced overall portfolio drawdown by 11%"
+        },
+        "impact": {
+          "metric": "Annualised Returns",
+          "direction": "up",
+          "value": 20.0,
+          "unit": "percent"
+        },
+        "entities": [
+          "Inter IIT Tech Meet",
+          "Ebullient Securities"
+        ],
+        "candidate_source": "Resume_Kritin_Khowala (1)"
+      },
+      {
+        "raw_signal_label": "Bronze Medal at Inter IIT Cultural Meet 6.0",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Part of the Dramatics Team that won Bronze in Street Play at Inter IIT Cultural Meet 6.0",
+        "section": "Major Competitions",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "Inter IIT level",
+          "context": "Street Play competition",
+          "own": "Part of the Dramatics Team",
+          "proof": "Inter IIT Cultural Meet 6.0",
+          "edge": "Won Bronze"
+        },
+        "impact": null,
+        "entities": [
+          "Inter IIT"
+        ],
+        "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+      },
+      {
+        "raw_signal_label": "5th Place in Insolation Energy Challenge at Inter IIT Tech Meet 13.0",
+        "signal_type": "very_good",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Secured 5th place (among 23 IITs) in the Insolation Energy Challenge at Inter IIT Tech Meet 13.0",
+        "section": "Major Competitions",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "23 IITs",
+          "context": "Insolation Energy Challenge",
+          "own": "Secured 5th place",
+          "proof": "Inter IIT Tech Meet 13.0",
+          "edge": "5th place among 23 IITs"
+        },
+        "impact": null,
+        "entities": [
+          "Inter IIT",
+          "Insolation Energy"
+        ],
+        "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+      },
+      {
+        "raw_signal_label": "Semi-finalist in BCG Bruce Henderson Insight Ideathon 2025",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Semi-finalist in BCG Bruce Henderson Insight Ideathon 2025 \u2013 Among Top 3 teams from IITK",
+        "section": "Major Competitions",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "National level ideathon",
+          "context": "BCG Bruce Henderson Insight Ideathon 2025",
+          "own": "Semi-finalist",
+          "proof": "Among Top 3 teams from IITK",
+          "edge": "Top 3 teams from IITK"
+        },
+        "impact": null,
+        "entities": [
+          "BCG",
+          "IITK"
+        ],
+        "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+      },
+      {
+        "raw_signal_label": "National Runner Up at National Investment Banking Competition",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "E"
+        ],
+        "evidence": "National Investment Banking Competition, National Runner Up, Invited to Vancouver, Canada for final round as one of Top 50 teams out of 400 globally",
+        "section": "Major Competitions",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "Top 50 teams out of 400 globally, M&A recommendations to Bumble",
+          "context": "Conducted detailed DCF, CCA, and PTA analysis across 15 competitors along with 10 historical deals, evaluated strategic synergies and built 3 scenario-based models",
+          "own": "Provided M&A recommendations to Bumble, identified 1 ideal acquirer and projected a 15% valuation premium",
+          "proof": "National Runner Up, Invited to Vancouver, Canada for final round",
+          "edge": "projected a 15% valuation premium through a strategic sell-side plan"
+        },
+        "impact": {
+          "metric": "projected valuation premium",
+          "direction": "increase",
+          "value": 15.0,
+          "unit": "%"
+        },
+        "entities": [
+          "National Investment Banking Competition",
+          "Bumble",
+          "Vancouver",
+          "Canada"
+        ],
+        "candidate_source": "SPO-IITK_0013_230175_anurag_thakur_bt_me_ec28a97f68784540bd8b954a9a5d03d9"
+      },
+      {
+        "raw_signal_label": "Silver Medal at Inter IIT Tech Meet 13.0",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "E"
+        ],
+        "evidence": "Inter IIT Tech Meet 13.0 - Zelta Automation (High Prep) Problem Statement, Silver Medal. Achieved 2081% return on BTC and 6923% on ETH, with Sharpe ratios of 2.55 (BTC) and 3.63 (ETH). Won a silver medal among 22 IITs",
+        "section": "Major Competitions",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "among 22 IITs",
+          "context": "Zelta Automation (High Prep) Problem Statement to develop alphas for BTC & ETH",
+          "own": "Developed VMA denoising technique, devised rolling clustering algorithm, integrated trading framework with 3 strategies and 9+ risk management techniques",
+          "proof": "Won a silver medal",
+          "edge": "Achieved 2081% return on BTC and 6923% on ETH, Sharpe ratios of 2.55 and 3.63, drawdown below 12.08%"
+        },
+        "impact": {
+          "metric": "Sharpe ratio (ETH)",
+          "direction": "up",
+          "value": 3.63,
+          "unit": "ratio"
+        },
+        "entities": [
+          "Inter IIT",
+          "Zelta Automation"
+        ],
+        "candidate_source": "SPO-IITK_0013_230264_ayush_omer_bt_che_d7df0faca1b545dcb0fc4a40354c0576 (2) (1)"
+      }
+    ],
+    "Scholastic Qualifications": [
+      {
+        "raw_signal_label": "Inter IIT Techmeet 14.0 Runner-up",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Contingent member of IIT Kanpur in InterIIT-Techmeet-14.0 , at IIT Patna, contributing to an overall second position .",
+        "section": "Scholastic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "Inter IIT Techmeet 14.0",
+          "context": "Causal analysis from data of 20,000 call-center transcripts on Business Events",
+          "own": "Designed a novel causal-graph-driven, agentic RAG framework",
+          "proof": "Contributed to overall second position for IIT Kanpur contingent",
+          "edge": "Significant custom metric gains over chosen baselines"
+        },
+        "impact": null,
+        "entities": [
+          "IIT Kanpur",
+          "Inter IIT Techmeet 14.0",
+          "Observe AI"
+        ],
+        "candidate_source": "Consult (1)"
+      },
+      {
+        "raw_signal_label": "National Top 1% in NSE Chemistry & Physics 2023",
+        "signal_type": "very_good",
+        "dimensions": [
+          "E"
+        ],
+        "evidence": "National Top 1% at National Standard Examination in Chemistry 2023 . One of 531 selected candidates for INChO. State Top 1% at National Standard Examination in Physics 2023 and amongst 305 selected candidates for INPhO.",
+        "section": "Scholastic Qualifications",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "National level examinations",
+          "context": "National Standard Examination in Chemistry and Physics 2023",
+          "own": null,
+          "proof": "Selected for INChO (one of 531 candidates) and INPhO (one of 305 candidates)",
+          "edge": "Top 1% national and state level performance"
+        },
+        "impact": null,
+        "entities": [
+          "INChO",
+          "INPhO",
+          "National Standard Examination"
+        ],
+        "candidate_source": "Consult (1)"
+      },
+      {
+        "raw_signal_label": "Gold Level in WorldQuant BRAIN Challenge",
+        "signal_type": "very_good",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Achieved Gold Level in WorldQuant BRAIN Challenge, developing 5+ high-performing quantitative alphas globally (2025)",
+        "section": "Scholastic Qualifications",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "globally",
+          "context": "developing 5+ high-performing quantitative alphas",
+          "own": "developing quantitative alphas",
+          "proof": "Achieved Gold Level",
+          "edge": "Gold Level recognition in a highly competitive global quantitative finance challenge"
+        },
+        "impact": null,
+        "entities": [
+          "WorldQuant BRAIN Challenge"
+        ],
+        "candidate_source": "Meet_Consult_Resume (1)"
+      },
+      {
+        "raw_signal_label": "Indian National Olympiad in Informatics (INOI) Selection",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "E"
+        ],
+        "evidence": "Selected among 10 Class XII students across India for the Indian National Olympiad in Informatics (INOI) ( 2024 )",
+        "section": "Scholastic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "National level (across India)",
+          "context": "Class XII competitive selection",
+          "own": "Selected as one of the top 10 students nationally",
+          "proof": "INOI 2024 selection list",
+          "edge": "Highly selective national-level recognition in computer science/informatics"
+        },
+        "impact": {
+          "metric": "Selected students",
+          "direction": "down",
+          "value": 10.0,
+          "unit": "students"
+        },
+        "entities": [
+          "Indian National Olympiad in Informatics",
+          "INOI"
+        ],
+        "candidate_source": "Resume_Kritin_Khowala (1)"
+      },
+      {
+        "raw_signal_label": "Academic Excellence Award at IITK",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "E"
+        ],
+        "evidence": "Received the Academic Excellence Award at IITK, awarded to the top 10% of the batch for consecutive years( 2025, 2026 )",
+        "section": "Scholastic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "Top 10% of the batch at IITK",
+          "context": "Consecutive academic years (2025, 2026)",
+          "own": "Awarded Academic Excellence Award",
+          "proof": "IITK Senate recognition",
+          "edge": "Maintained top 10% batch rank consecutively"
+        },
+        "impact": {
+          "metric": "Batch percentile",
+          "direction": "up",
+          "value": 10.0,
+          "unit": "percent"
+        },
+        "entities": [
+          "IITK"
+        ],
+        "candidate_source": "Resume_Kritin_Khowala (1)"
+      },
+      {
+        "raw_signal_label": "Academic Excellence Award at IIT Kanpur",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "E"
+        ],
+        "evidence": "Awarded Academic Excellence at IIT Kanpur for ranking in the top 10% among 1200+ freshers 2024",
+        "section": "Scholastic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "1200+ freshers",
+          "context": "ranking in the top 10%",
+          "own": "Awarded Academic Excellence",
+          "proof": "IIT Kanpur",
+          "edge": "2024"
+        },
+        "impact": {
+          "metric": "class rank percentile",
+          "direction": "decrease",
+          "value": 10.0,
+          "unit": "%"
+        },
+        "entities": [
+          "IIT Kanpur"
+        ],
+        "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+      },
+      {
+        "raw_signal_label": "Baljit & Nirmal Dhindsa Scholarship for Highest Department CPI",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "A"
+        ],
+        "evidence": "Recipient of the prestigious Baljit & Nirmal Dhindsa Scholarship awarded based on highest department CPI 2025",
+        "section": "Scholastic Qualifications",
+        "confidence": 0.9,
+        "scope": {
+          "scale": null,
+          "context": null,
+          "own": null,
+          "proof": null,
+          "edge": null
+        },
+        "impact": null,
+        "entities": [
+          "Baljit & Nirmal Dhindsa Scholarship",
+          "IIT Kanpur"
+        ],
+        "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+      },
+      {
+        "raw_signal_label": "Perfect 10.0 SPI in Third Semester",
+        "signal_type": "very_good",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Secured a perfect 10.0 Semester Performance Index (SPI) in the third semester, reflecting academic excellence 2024",
+        "section": "Scholastic Qualifications",
+        "confidence": 0.9,
+        "scope": {
+          "scale": null,
+          "context": null,
+          "own": null,
+          "proof": null,
+          "edge": null
+        },
+        "impact": null,
+        "entities": [
+          "IIT Kanpur"
+        ],
+        "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+      },
+      {
+        "raw_signal_label": "NTSE Stage 1 Karnataka State Rank 12",
+        "signal_type": "very_good",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Secured Karnataka state rank 12 in National Talent Search Examination (NTSE) Stage 1 among 1.5 lakh students 2021",
+        "section": "Scholastic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": null,
+          "context": null,
+          "own": null,
+          "proof": null,
+          "edge": null
+        },
+        "impact": null,
+        "entities": [
+          "National Talent Search Examination",
+          "NCERT"
+        ],
+        "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+      },
+      {
+        "raw_signal_label": "JEE Mains AIR 4381 (Top 0.4% Nationally)",
+        "signal_type": "very_good",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Secured an All India Rank of 4381 in JEE Mains 2023 among the 1.1 million+ candidates nationally overall ( 2023 )",
+        "section": "Scholastic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "1.1 million+ candidates nationally",
+          "context": "JEE Mains 2023",
+          "own": "Secured an All India Rank of 4381",
+          "proof": "Official JEE Mains Result",
+          "edge": "Top 0.4% national rank"
+        },
+        "impact": null,
+        "entities": [
+          "JEE Mains"
+        ],
+        "candidate_source": "SPO-IITK_0013_230175_anurag_thakur_bt_me_ec28a97f68784540bd8b954a9a5d03d9"
+      },
+      {
+        "raw_signal_label": "JEE Advanced AIR 6111 (Diluting Signal)",
+        "signal_type": "negative_diluting",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Secured an All India Rank of 6111 in JEE Advanced 2023 among the 1,80,000 shortlisted candidates nationwide( 2023 )",
+        "section": "Scholastic Qualifications",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "1,80,000 shortlisted candidates",
+          "context": "JEE Advanced 2023",
+          "own": "Secured an All India Rank of 6111",
+          "proof": "Official JEE Advanced Result",
+          "edge": "Weaker rank compared to JEE Mains 4381 and CPI 8.9"
+        },
+        "impact": null,
+        "entities": [
+          "JEE Advanced"
+        ],
+        "candidate_source": "SPO-IITK_0013_230175_anurag_thakur_bt_me_ec28a97f68784540bd8b954a9a5d03d9"
+      },
+      {
+        "raw_signal_label": "JEE Mains AIR 4261 (Top 0.5%)",
+        "signal_type": "very_good",
+        "dimensions": [
+          "E"
+        ],
+        "evidence": "Secured All India Rank 4261 in JEE Mains, ranking among the top 0.5% of over 1 million applicants nationwide 2023",
+        "section": "Scholastic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "1 million applicants",
+          "context": "JEE Mains 2023",
+          "own": null,
+          "proof": "AIR 4261",
+          "edge": "top 0.5%"
+        },
+        "impact": {
+          "metric": "percentile",
+          "direction": "up",
+          "value": 99.5,
+          "unit": "%"
+        },
+        "entities": [
+          "JEE Mains"
+        ],
+        "candidate_source": "SPO-IITK_0013_230264_ayush_omer_bt_che_d7df0faca1b545dcb0fc4a40354c0576 (2) (1)"
+      },
+      {
+        "raw_signal_label": "JEE Mains 2023 AIR 2768",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "E"
+        ],
+        "evidence": "Secured All India Rank 2768 in Joint Entrance Examination Mains 2023 among 1.1 million candidates",
+        "section": "Scholastic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "1.1 million candidates",
+          "context": "National level engineering entrance exam",
+          "own": null,
+          "proof": "All India Rank 2768",
+          "edge": "Top 0.25 percentile national ranker"
+        },
+        "impact": {
+          "metric": "percentile",
+          "direction": "increase",
+          "value": 99.75,
+          "unit": "%"
+        },
+        "entities": [
+          "Joint Entrance Examination Mains"
+        ],
+        "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+      },
+      {
+        "raw_signal_label": "JEE Advanced 2023 AIR 8264",
+        "signal_type": "negative_diluting",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Secured All India Rank 8264 in Joint Entrance Examination Advanced 2023 among 1.5 Lakh+ shortlisted students",
+        "section": "Scholastic Qualifications",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "150,000+ shortlisted candidates",
+          "context": "National level engineering entrance exam",
+          "own": null,
+          "proof": "All India Rank 8264",
+          "edge": "Dilutes the stronger JEE Mains rank of 2768"
+        },
+        "impact": null,
+        "entities": [
+          "Joint Entrance Examination Advanced"
+        ],
+        "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+      },
+      {
+        "raw_signal_label": "Rank 3 in Game Connect National Game Jam",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Secured Rank 3 in Game Connect , a National Game Jam conducted by Indian Game Developer Conference",
+        "section": "Scholastic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "National level",
+          "context": "Game Jam conducted by Indian Game Developer Conference",
+          "own": null,
+          "proof": "Rank 3",
+          "edge": "National podium finish"
+        },
+        "impact": null,
+        "entities": [
+          "Indian Game Developer Conference",
+          "Game Connect"
+        ],
+        "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+      },
+      {
+        "raw_signal_label": "AIR 15 in NSTSE 2023",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Secured All India Rank 15 in National Level Science Talent Search Examination 2023 conducted by Unified Coucil",
+        "section": "Scholastic Qualifications",
+        "confidence": 0.9,
+        "scope": {
+          "scale": "National level",
+          "context": "Science Talent Search Examination conducted by Unified Council",
+          "own": null,
+          "proof": "All India Rank 15",
+          "edge": "Top national rank"
+        },
+        "impact": null,
+        "entities": [
+          "National Level Science Talent Search Examination",
+          "Unified Council"
+        ],
+        "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+      },
+      {
+        "raw_signal_label": "Siddhi Award (ISC Science Rank 2)",
+        "signal_type": "outstanding",
+        "dimensions": [
+          "E"
+        ],
+        "evidence": "Received the Siddhi Award for ranking 2nd out of 47k+ students across 44+ cities in the ISC Science examinations ( 2024 )",
+        "section": "Scholastic Qualifications",
+        "confidence": 0.95,
+        "scope": {
+          "scale": "47k+ students across 44+ cities",
+          "context": "ISC Science examinations",
+          "own": null,
+          "proof": "Received the Siddhi Award",
+          "edge": "ranking 2nd"
+        },
+        "impact": {
+          "metric": "rank",
+          "direction": "decrease",
+          "value": 2.0,
+          "unit": "absolute"
+        },
+        "entities": [
+          "Seth M.R. Jaipuria School",
+          "ISC"
+        ],
+        "candidate_source": "Suhani_Resume (41)"
+      }
+    ],
+    "Extra Curricular Activities": [
+      {
+        "raw_signal_label": "2nd Place in Inter-IIT Scrabble League",
+        "signal_type": "very_good",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Secured 2nd place in Inter-IIT Scrabble League conducted by IIT Bombay, among teams from 8 IITs",
+        "section": "Extra Curricular Activities",
+        "confidence": 0.95,
+        "scope": {
+          "scale": null,
+          "context": null,
+          "own": null,
+          "proof": null,
+          "edge": null
+        },
+        "impact": null,
+        "entities": [
+          "Inter-IIT Scrabble League",
+          "IIT Bombay"
+        ],
+        "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+      },
+      {
+        "raw_signal_label": "Best Project Award for Sentiment Analysis Mentorship",
+        "signal_type": "good",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Mentored over 50 juniors in a sentiment analysis project involving ML and won Best Project Award",
+        "section": "Extra Curricular Activities",
+        "confidence": 0.9,
+        "scope": {
+          "scale": null,
+          "context": null,
+          "own": null,
+          "proof": null,
+          "edge": null
+        },
+        "impact": null,
+        "entities": [
+          "Brain and Cognitive Science Club",
+          "IIT Kanpur"
+        ],
+        "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+      },
+      {
+        "raw_signal_label": "Best Research Project Award by SnT Council",
+        "signal_type": "good",
+        "dimensions": [
+          "D"
+        ],
+        "evidence": "Won \u2018Best Research Project\u2019 by Science & Technology Council among 40+ teams for Brain Spy",
+        "section": "Extra Curricular Activities",
+        "confidence": 0.85,
+        "scope": {
+          "scale": "40+ teams",
+          "context": "Brain Spy project",
+          "own": null,
+          "proof": "Won \u2018Best Research Project\u2019 by Science & Technology Council",
+          "edge": "1st place among 40+ teams"
+        },
+        "impact": null,
+        "entities": [
+          "Science & Technology Council"
+        ],
+        "candidate_source": "Suhani_Resume (41)"
+      }
+    ]
+  },
+  "positive_spikes_registry": [
+    {
+      "raw_signal_label": "Aditya Birla Group - Production Analysis for Yield & Cost Optimization",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "B",
+        "E"
+      ],
+      "evidence": "Analyzed 3,000+ production cycles to identify the root causes of raw material waste and quality failures; Developed 2 Gradient Boosting models using 30+ features to determine the most effective input parameters; Identified a saving of | 8L+ annually through reduced Aluminium requirement validated by the plant team; 15% reduction in projected contamination failures",
+      "section": "Work Experience",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "3,000+ production cycles",
+        "context": "reducting raw material spend and improving first-pass yield",
+        "own": "Developed 2 Gradient Boosting models using 30+ features to determine the most effective input parameters",
+        "proof": "validated by the plant team",
+        "edge": "Identified a saving of | 8L+ annually through reduced Aluminium requirement and 15% reduction in projected contamination failures"
+      },
+      "impact": {
+        "metric": "annual savings",
+        "direction": "positive",
+        "value": 800000.0,
+        "unit": "INR"
+      },
+      "entities": [
+        "Aditya Birla Group"
+      ],
+      "candidate_source": "Aaditya_Consult_edit (39)"
+    },
+    {
+      "raw_signal_label": "Core Team Member, Academics Team, CMHW",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "C",
+        "E"
+      ],
+      "evidence": "Coordinated a 22-member team overseeing 430+ SGs & AMs during a 10-day orientation of 1200+ freshers; Handled a budget of | 44L+; Secured sponsorships worth over | 10L",
+      "section": "Position of Responsibility",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "1200+ freshers, 10K+ student community, budget of | 44L+",
+        "context": "academic, emotional & financial support to a 10K+ student community",
+        "own": "Coordinated a 22-member team, revamped the CMHW website, initiated student-counsellor Sessions, secured sponsorships",
+        "proof": "Collaborated with the Gender Cell & CDAP, and Faculty Adoption Program under 100+ professors",
+        "edge": "Secured sponsorships worth over | 10L and coordinated 10-day orientation"
+      },
+      "impact": {
+        "metric": "sponsorships secured",
+        "direction": "increase",
+        "value": 1000000.0,
+        "unit": "INR"
+      },
+      "entities": [
+        "Center for Mental Health and Wellbeing",
+        "CMHW",
+        "ICS"
+      ],
+      "candidate_source": "Aaditya_Consult_edit (39)"
+    },
+    {
+      "raw_signal_label": "1st position in Strategy Sprint, Techkriti, IITK",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Secured 1st position among 200+ teams in Strategy Sprint a case competition by Techkriti, IITK",
+      "section": "Major Competitions",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "200+ teams",
+        "context": "Strategy Sprint case competition",
+        "own": "Secured 1st position",
+        "proof": "Techkriti, IITK",
+        "edge": "1st position among 200+ teams"
+      },
+      "impact": null,
+      "entities": [
+        "Techkriti",
+        "IITK"
+      ],
+      "candidate_source": "Aaditya_Consult_edit (39)"
+    },
+    {
+      "raw_signal_label": "Research Papers Submitted/Under Revision (Elsevier Neurocomputing & Springer ML)",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "B",
+        "E"
+      ],
+      "evidence": "Biological Memory Consolidation in SNNs (Under Revision for Elsevier Neurocomputing) & Dynamic Distractor Pruning in Deep RL (Preprint submitted to Springers ML)",
+      "section": "Research Experience",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "SNNs and Deep RL (EMA-Tree SAC)",
+        "context": "Continual learning and eliminating destructive noise on-the-fly in Deep RL",
+        "own": "Introduced a Potentiation-Factor to identify neural engrams and developed EMA-Tree SAC leveraging Random Forests",
+        "proof": "Submitted to Springer ML and under revision for Elsevier Neurocomputing",
+        "edge": "Surpassed traditional baseline methods like EWC by more than 30% and yielded up to a 51% return improvement over standard SAC"
+      },
+      "impact": {
+        "metric": "return improvement over standard SAC",
+        "direction": "up",
+        "value": 51.0,
+        "unit": "%"
+      },
+      "entities": [
+        "Elsevier Neurocomputing",
+        "Springer ML"
+      ],
+      "candidate_source": "Consult (1)"
+    },
+    {
+      "raw_signal_label": "Inter IIT Techmeet 14.0 Runner-up",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Contingent member of IIT Kanpur in InterIIT-Techmeet-14.0 , at IIT Patna, contributing to an overall second position .",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "Inter IIT Techmeet 14.0",
+        "context": "Causal analysis from data of 20,000 call-center transcripts on Business Events",
+        "own": "Designed a novel causal-graph-driven, agentic RAG framework",
+        "proof": "Contributed to overall second position for IIT Kanpur contingent",
+        "edge": "Significant custom metric gains over chosen baselines"
+      },
+      "impact": null,
+      "entities": [
+        "IIT Kanpur",
+        "Inter IIT Techmeet 14.0",
+        "Observe AI"
+      ],
+      "candidate_source": "Consult (1)"
+    },
+    {
+      "raw_signal_label": "Core Team Member - Academics at CMHW",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "C",
+        "E"
+      ],
+      "evidence": "Handled a budget of 44L+ to provide academic, emotional & financial support to 10K+ students\u2019 community; Orchestrated 1400+ interviews to onboard 400+ SGs & AMs for a 7-day orientation of 1250+ freshers; Secured sponsorship worth 10L+ for the smooth execution of the Orientation and enhancement of CMHW",
+      "section": "Position of Responsibility",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "budget of 44L+, 10K+ students' community, 1250+ freshers",
+        "context": "academic, emotional & financial support, 7-day orientation",
+        "own": "Handled budget, Orchestrated 1400+ interviews, Led digital outreach, Revamped website, Facilitated YourDOST adoption",
+        "proof": "Secured sponsorship worth 10L+",
+        "edge": "Onboarded 400+ SGs & AMs, secured 10L+ sponsorship"
+      },
+      "impact": {
+        "metric": "sponsorship secured",
+        "direction": "increase",
+        "value": 10.0,
+        "unit": "Lakhs"
+      },
+      "entities": [
+        "Center for Mental Health and Wellbeing",
+        "IIT Kanpur"
+      ],
+      "candidate_source": "Meet_Consult_Resume (1)"
+    },
+    {
+      "raw_signal_label": "High Academic Performance (CPI 9.4/10.0)",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "A",
+        "E"
+      ],
+      "evidence": "B.S. at Indian Institute of Technology Kanpur, CPI: 9.4/10.0",
+      "section": "Academic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "IIT Kanpur B.S. program",
+        "context": "Academic performance over the period 2024 - 2028",
+        "own": "Maintained a Cumulative Performance Index of 9.4/10.0",
+        "proof": "Academic transcript",
+        "edge": "Top tier academic performance at a premier national institute"
+      },
+      "impact": {
+        "metric": "CPI",
+        "direction": "up",
+        "value": 9.4,
+        "unit": "out of 10.0"
+      },
+      "entities": [
+        "Indian Institute of Technology Kanpur"
+      ],
+      "candidate_source": "Resume_Kritin_Khowala (1)"
+    },
+    {
+      "raw_signal_label": "Indian National Olympiad in Informatics (INOI) Selection",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "E"
+      ],
+      "evidence": "Selected among 10 Class XII students across India for the Indian National Olympiad in Informatics (INOI) ( 2024 )",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "National level (across India)",
+        "context": "Class XII competitive selection",
+        "own": "Selected as one of the top 10 students nationally",
+        "proof": "INOI 2024 selection list",
+        "edge": "Highly selective national-level recognition in computer science/informatics"
+      },
+      "impact": {
+        "metric": "Selected students",
+        "direction": "down",
+        "value": 10.0,
+        "unit": "students"
+      },
+      "entities": [
+        "Indian National Olympiad in Informatics",
+        "INOI"
+      ],
+      "candidate_source": "Resume_Kritin_Khowala (1)"
+    },
+    {
+      "raw_signal_label": "Academic Excellence Award at IITK",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "E"
+      ],
+      "evidence": "Received the Academic Excellence Award at IITK, awarded to the top 10% of the batch for consecutive years( 2025, 2026 )",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "Top 10% of the batch at IITK",
+        "context": "Consecutive academic years (2025, 2026)",
+        "own": "Awarded Academic Excellence Award",
+        "proof": "IITK Senate recognition",
+        "edge": "Maintained top 10% batch rank consecutively"
+      },
+      "impact": {
+        "metric": "Batch percentile",
+        "direction": "up",
+        "value": 10.0,
+        "unit": "percent"
+      },
+      "entities": [
+        "IITK"
+      ],
+      "candidate_source": "Resume_Kritin_Khowala (1)"
+    },
+    {
+      "raw_signal_label": "Inter IIT Tech Meet 14.0 Bronze Medal",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "E"
+      ],
+      "evidence": "Bronze Medal at Inter IIT Tech Meet 14.0, Ebullient Securities. Finished 3rd Place competing with 23 IITs with more than 20% Annualised Returns across both assets",
+      "section": "Major Competitions",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "Competing with 23 IITs",
+        "context": "Developing profitable intra-day quantitative trading strategies for synthetic assets across varying regimes",
+        "own": "Developed a unified machine learning architecture for directional forecasting, implemented regime-aware execution using VPIN, and adaptive sizing",
+        "proof": "Bronze Medal (3rd Place)",
+        "edge": "Achieved >20% Annualised Returns and reduced overall portfolio drawdown by 11%"
+      },
+      "impact": {
+        "metric": "Annualised Returns",
+        "direction": "up",
+        "value": 20.0,
+        "unit": "percent"
+      },
+      "entities": [
+        "Inter IIT Tech Meet",
+        "Ebullient Securities"
+      ],
+      "candidate_source": "Resume_Kritin_Khowala (1)"
+    },
+    {
+      "raw_signal_label": "Academic Excellence Award at IIT Kanpur",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "E"
+      ],
+      "evidence": "Awarded Academic Excellence at IIT Kanpur for ranking in the top 10% among 1200+ freshers 2024",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "1200+ freshers",
+        "context": "ranking in the top 10%",
+        "own": "Awarded Academic Excellence",
+        "proof": "IIT Kanpur",
+        "edge": "2024"
+      },
+      "impact": {
+        "metric": "class rank percentile",
+        "direction": "decrease",
+        "value": 10.0,
+        "unit": "%"
+      },
+      "entities": [
+        "IIT Kanpur"
+      ],
+      "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+    },
+    {
+      "raw_signal_label": "Geospatial Solutions for Climate Action with GDPDC, Govt of India",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Designed 33 geospatial use cases across 7 sectors to address climate change and air quality degradation; Co-authored 2 research reports on geospatial data for climate action, shared by GDPDC with 25K+ reach; First report was presented at the Google Global Air Quality Summit 2024, gaining global attention",
+      "section": "Projects",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "33 use cases across 7 sectors, 25K+ reach",
+        "context": "Geospatial Solutions for Climate Action for GDPDC, Government of India",
+        "own": "Designed use cases and co-authored 2 research reports",
+        "proof": "Presented at the Google Global Air Quality Summit 2024",
+        "edge": "shared by GDPDC with 25K+ reach"
+      },
+      "impact": null,
+      "entities": [
+        "Geospatial Data Promotion and Development Committee (GDPDC)",
+        "Government of India",
+        "Google Global Air Quality Summit"
+      ],
+      "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+    },
+    {
+      "raw_signal_label": "Bronze Medal at Inter IIT Cultural Meet 6.0",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Part of the Dramatics Team that won Bronze in Street Play at Inter IIT Cultural Meet 6.0",
+      "section": "Major Competitions",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "Inter IIT level",
+        "context": "Street Play competition",
+        "own": "Part of the Dramatics Team",
+        "proof": "Inter IIT Cultural Meet 6.0",
+        "edge": "Won Bronze"
+      },
+      "impact": null,
+      "entities": [
+        "Inter IIT"
+      ],
+      "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+    },
+    {
+      "raw_signal_label": "Semi-finalist in BCG Bruce Henderson Insight Ideathon 2025",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Semi-finalist in BCG Bruce Henderson Insight Ideathon 2025 \u2013 Among Top 3 teams from IITK",
+      "section": "Major Competitions",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "National level ideathon",
+        "context": "BCG Bruce Henderson Insight Ideathon 2025",
+        "own": "Semi-finalist",
+        "proof": "Among Top 3 teams from IITK",
+        "edge": "Top 3 teams from IITK"
+      },
+      "impact": null,
+      "entities": [
+        "BCG",
+        "IITK"
+      ],
+      "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+    },
+    {
+      "raw_signal_label": "Baljit & Nirmal Dhindsa Scholarship for Highest Department CPI",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "A"
+      ],
+      "evidence": "Recipient of the prestigious Baljit & Nirmal Dhindsa Scholarship awarded based on highest department CPI 2025",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.9,
+      "scope": {
+        "scale": null,
+        "context": null,
+        "own": null,
+        "proof": null,
+        "edge": null
+      },
+      "impact": null,
+      "entities": [
+        "Baljit & Nirmal Dhindsa Scholarship",
+        "IIT Kanpur"
+      ],
+      "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+    },
+    {
+      "raw_signal_label": "National Runner Up at National Investment Banking Competition",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "E"
+      ],
+      "evidence": "National Investment Banking Competition, National Runner Up, Invited to Vancouver, Canada for final round as one of Top 50 teams out of 400 globally",
+      "section": "Major Competitions",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "Top 50 teams out of 400 globally, M&A recommendations to Bumble",
+        "context": "Conducted detailed DCF, CCA, and PTA analysis across 15 competitors along with 10 historical deals, evaluated strategic synergies and built 3 scenario-based models",
+        "own": "Provided M&A recommendations to Bumble, identified 1 ideal acquirer and projected a 15% valuation premium",
+        "proof": "National Runner Up, Invited to Vancouver, Canada for final round",
+        "edge": "projected a 15% valuation premium through a strategic sell-side plan"
+      },
+      "impact": {
+        "metric": "projected valuation premium",
+        "direction": "increase",
+        "value": 15.0,
+        "unit": "%"
+      },
+      "entities": [
+        "National Investment Banking Competition",
+        "Bumble",
+        "Vancouver",
+        "Canada"
+      ],
+      "candidate_source": "SPO-IITK_0013_230175_anurag_thakur_bt_me_ec28a97f68784540bd8b954a9a5d03d9"
+    },
+    {
+      "raw_signal_label": "CPI 9.1/10.0 at IIT Kanpur",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "A",
+        "E"
+      ],
+      "evidence": "B.Tech Chemical Engineering, Indian Institute of Technology Kanpur, grade: 9.1/10.0",
+      "section": "Academic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": null,
+        "context": "B.Tech Chemical Engineering at IIT Kanpur",
+        "own": null,
+        "proof": "9.1/10.0 CPI",
+        "edge": "Outstanding academic performance"
+      },
+      "impact": {
+        "metric": "CPI",
+        "direction": "up",
+        "value": 9.1,
+        "unit": "points"
+      },
+      "entities": [
+        "Indian Institute of Technology Kanpur"
+      ],
+      "candidate_source": "SPO-IITK_0013_230264_ayush_omer_bt_che_d7df0faca1b545dcb0fc4a40354c0576 (2) (1)"
+    },
+    {
+      "raw_signal_label": "Predictive Modeling of Shear Thickening Fluids at DRDO",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "B",
+        "E"
+      ],
+      "evidence": "Predictive Modeling of Shear Thickening Fluids, DRDO, Prof. Y.M. Joshi. Created a scientific dataset of 10k+ data rows... Trained 3 multi-regression models... Achieved a 0.91 R\" score across 44+ STF setups, supporting DRDO\u2019s armour research",
+      "section": "Research Experience",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "10k+ data rows, 600+ research articles",
+        "context": "discover alternative materials for body armours for DRDO",
+        "own": "Created dataset, modelled viscosity using custom piecewise power-law model, trained 3 multi-regression models",
+        "proof": "Achieved a 0.91 R\" score across 44+ STF setups",
+        "edge": "supporting DRDO's armour research"
+      },
+      "impact": {
+        "metric": "R2 score",
+        "direction": "up",
+        "value": 0.91,
+        "unit": "coefficient"
+      },
+      "entities": [
+        "DRDO",
+        "Prof. Y.M. Joshi"
+      ],
+      "candidate_source": "SPO-IITK_0013_230264_ayush_omer_bt_che_d7df0faca1b545dcb0fc4a40354c0576 (2) (1)"
+    },
+    {
+      "raw_signal_label": "Silver Medal at Inter IIT Tech Meet 13.0",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "E"
+      ],
+      "evidence": "Inter IIT Tech Meet 13.0 - Zelta Automation (High Prep) Problem Statement, Silver Medal. Achieved 2081% return on BTC and 6923% on ETH, with Sharpe ratios of 2.55 (BTC) and 3.63 (ETH). Won a silver medal among 22 IITs",
+      "section": "Major Competitions",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "among 22 IITs",
+        "context": "Zelta Automation (High Prep) Problem Statement to develop alphas for BTC & ETH",
+        "own": "Developed VMA denoising technique, devised rolling clustering algorithm, integrated trading framework with 3 strategies and 9+ risk management techniques",
+        "proof": "Won a silver medal",
+        "edge": "Achieved 2081% return on BTC and 6923% on ETH, Sharpe ratios of 2.55 and 3.63, drawdown below 12.08%"
+      },
+      "impact": {
+        "metric": "Sharpe ratio (ETH)",
+        "direction": "up",
+        "value": 3.63,
+        "unit": "ratio"
+      },
+      "entities": [
+        "Inter IIT",
+        "Zelta Automation"
+      ],
+      "candidate_source": "SPO-IITK_0013_230264_ayush_omer_bt_che_d7df0faca1b545dcb0fc4a40354c0576 (2) (1)"
+    },
+    {
+      "raw_signal_label": "Core Team Member, Academics Team at Institute Counselling Service",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "C",
+        "E"
+      ],
+      "evidence": "Core Team Member, Academics Team, Institute Counselling Service. Coordinated a 22-member team to manage 430+ SGs and AMs during a 10-day orientation for 1200+ freshers. Handled a budget of 35L+ ",
+      "section": "Position of Responsibility",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "1200+ freshers, 10K+ student community, 35L+ budget",
+        "context": "provide academic, emotional & financial support",
+        "own": "Coordinated a 22-member team, managed 430+ SGs and AMs, liaised with 9 psychiatrists, facilitated Faculty Adoption Program, revamped ICS website",
+        "proof": "Delivered Freshers' Orientation, revamped website in active use",
+        "edge": "Managed 35L+ budget and 22-member team"
+      },
+      "impact": {
+        "metric": "budget managed",
+        "direction": "up",
+        "value": 3500000.0,
+        "unit": "INR"
+      },
+      "entities": [
+        "Institute Counselling Service",
+        "IIT Kanpur"
+      ],
+      "candidate_source": "SPO-IITK_0013_230264_ayush_omer_bt_che_d7df0faca1b545dcb0fc4a40354c0576 (2) (1)"
+    },
+    {
+      "raw_signal_label": "JEE Mains 2023 AIR 2768",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "E"
+      ],
+      "evidence": "Secured All India Rank 2768 in Joint Entrance Examination Mains 2023 among 1.1 million candidates",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "1.1 million candidates",
+        "context": "National level engineering entrance exam",
+        "own": null,
+        "proof": "All India Rank 2768",
+        "edge": "Top 0.25 percentile national ranker"
+      },
+      "impact": {
+        "metric": "percentile",
+        "direction": "increase",
+        "value": 99.75,
+        "unit": "%"
+      },
+      "entities": [
+        "Joint Entrance Examination Mains"
+      ],
+      "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+    },
+    {
+      "raw_signal_label": "Rank 3 in Game Connect National Game Jam",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Secured Rank 3 in Game Connect , a National Game Jam conducted by Indian Game Developer Conference",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "National level",
+        "context": "Game Jam conducted by Indian Game Developer Conference",
+        "own": null,
+        "proof": "Rank 3",
+        "edge": "National podium finish"
+      },
+      "impact": null,
+      "entities": [
+        "Indian Game Developer Conference",
+        "Game Connect"
+      ],
+      "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+    },
+    {
+      "raw_signal_label": "AIR 15 in NSTSE 2023",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Secured All India Rank 15 in National Level Science Talent Search Examination 2023 conducted by Unified Coucil",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "National level",
+        "context": "Science Talent Search Examination conducted by Unified Council",
+        "own": null,
+        "proof": "All India Rank 15",
+        "edge": "Top national rank"
+      },
+      "impact": null,
+      "entities": [
+        "National Level Science Talent Search Examination",
+        "Unified Council"
+      ],
+      "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+    },
+    {
+      "raw_signal_label": "Siddhi Award (ISC Science Rank 2)",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "E"
+      ],
+      "evidence": "Received the Siddhi Award for ranking 2nd out of 47k+ students across 44+ cities in the ISC Science examinations ( 2024 )",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "47k+ students across 44+ cities",
+        "context": "ISC Science examinations",
+        "own": null,
+        "proof": "Received the Siddhi Award",
+        "edge": "ranking 2nd"
+      },
+      "impact": {
+        "metric": "rank",
+        "direction": "decrease",
+        "value": 2.0,
+        "unit": "absolute"
+      },
+      "entities": [
+        "Seth M.R. Jaipuria School",
+        "ISC"
+      ],
+      "candidate_source": "Suhani_Resume (41)"
+    }
+  ],
+  "all_signals": [
+    {
+      "raw_signal_label": "CPI 8.4/10",
+      "signal_type": "good",
+      "dimensions": [
+        "A"
+      ],
+      "evidence": "B.Tech from Indian Institute of Technology Kanpur with a grade of 8.4/10",
+      "section": "Academic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": null,
+        "context": null,
+        "own": null,
+        "proof": null,
+        "edge": null
+      },
+      "impact": null,
+      "entities": [
+        "Indian Institute of Technology Kanpur"
+      ],
+      "candidate_source": "Aaditya_Consult_edit (39)"
+    },
+    {
+      "raw_signal_label": "Aditya Birla Group - Production Analysis for Yield & Cost Optimization",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "B",
+        "E"
+      ],
+      "evidence": "Analyzed 3,000+ production cycles to identify the root causes of raw material waste and quality failures; Developed 2 Gradient Boosting models using 30+ features to determine the most effective input parameters; Identified a saving of | 8L+ annually through reduced Aluminium requirement validated by the plant team; 15% reduction in projected contamination failures",
+      "section": "Work Experience",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "3,000+ production cycles",
+        "context": "reducting raw material spend and improving first-pass yield",
+        "own": "Developed 2 Gradient Boosting models using 30+ features to determine the most effective input parameters",
+        "proof": "validated by the plant team",
+        "edge": "Identified a saving of | 8L+ annually through reduced Aluminium requirement and 15% reduction in projected contamination failures"
+      },
+      "impact": {
+        "metric": "annual savings",
+        "direction": "positive",
+        "value": 800000.0,
+        "unit": "INR"
+      },
+      "entities": [
+        "Aditya Birla Group"
+      ],
+      "candidate_source": "Aaditya_Consult_edit (39)"
+    },
+    {
+      "raw_signal_label": "UP Govt. Startup Policy Recommendations with Prof. Amitabha Bandyopadhyay",
+      "signal_type": "very_good",
+      "dimensions": [
+        "D",
+        "E"
+      ],
+      "evidence": "Benchmarked startup policies in UP against 7+ states across 5+ reform areas; Identified 5+ policy gaps by analyzing 12k+ startups, 300+ VC funds and interviewing 5+ industry experts; Projected mobilising | 650Cr+ into startups; Presented identified gaps and policy recommendations to Mr. Vijay Kiran Anand, IAS ( CEO, Invest UP )",
+      "section": "Projects",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "12k+ startups, 300+ VC funds",
+        "context": "identify data-driven gaps & propose policy recommendations for the startup ecosystem in UP",
+        "own": "Benchmarked startup policies in UP against 7+ states across 5+ reform areas and interviewed 5+ industry experts",
+        "proof": "Presented identified gaps and policy recommendations to Mr. Vijay Kiran Anand, IAS ( CEO, Invest UP )",
+        "edge": "Projected mobilising | 650Cr+ into startups and forecasted creating 14,000+ additional jobs over 5 years"
+      },
+      "impact": {
+        "metric": "projected mobilization",
+        "direction": "increase",
+        "value": 6500000000.0,
+        "unit": "INR"
+      },
+      "entities": [
+        "Prof. Amitabha Bandyopadhyay",
+        "Invest UP",
+        "Vijay Kiran Anand"
+      ],
+      "candidate_source": "Aaditya_Consult_edit (39)"
+    },
+    {
+      "raw_signal_label": "Beyond the Boundary: Cognitive MPTs and ML in Cricket Analytics",
+      "signal_type": "good",
+      "dimensions": [
+        "B",
+        "E"
+      ],
+      "evidence": "Architected a 7-node model from 90,000+ deliveries to isolate match context from intrinsic batter traits; Predicted rare match events using a 4-model ML framework overcoming severe dataset imbalance; Outperformed traditional model baselines by 20% achieving a 53.7% ball-by-ball peak prediction accuracy; Received a Letter of Recommendation",
+      "section": "Research Experience",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "90,000+ deliveries",
+        "context": "predict ball-by-ball T20 outcomes through an Explainable AI framework that models player psychology",
+        "own": "Architected a 7-node model and predicted rare match events using a 4-model ML framework",
+        "proof": "Received a Letter of Recommendation for exceptional work from Prof. Himanshu Yadav",
+        "edge": "Outperformed traditional model baselines by 20% achieving a 53.7% ball-by-ball peak prediction accuracy"
+      },
+      "impact": {
+        "metric": "prediction accuracy improvement",
+        "direction": "increase",
+        "value": 20.0,
+        "unit": "percent"
+      },
+      "entities": [
+        "Prof. Himanshu Yadav"
+      ],
+      "candidate_source": "Aaditya_Consult_edit (39)"
+    },
+    {
+      "raw_signal_label": "Core Team Member, Academics Team, CMHW",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "C",
+        "E"
+      ],
+      "evidence": "Coordinated a 22-member team overseeing 430+ SGs & AMs during a 10-day orientation of 1200+ freshers; Handled a budget of | 44L+; Secured sponsorships worth over | 10L",
+      "section": "Position of Responsibility",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "1200+ freshers, 10K+ student community, budget of | 44L+",
+        "context": "academic, emotional & financial support to a 10K+ student community",
+        "own": "Coordinated a 22-member team, revamped the CMHW website, initiated student-counsellor Sessions, secured sponsorships",
+        "proof": "Collaborated with the Gender Cell & CDAP, and Faculty Adoption Program under 100+ professors",
+        "edge": "Secured sponsorships worth over | 10L and coordinated 10-day orientation"
+      },
+      "impact": {
+        "metric": "sponsorships secured",
+        "direction": "increase",
+        "value": 1000000.0,
+        "unit": "INR"
+      },
+      "entities": [
+        "Center for Mental Health and Wellbeing",
+        "CMHW",
+        "ICS"
+      ],
+      "candidate_source": "Aaditya_Consult_edit (39)"
+    },
+    {
+      "raw_signal_label": "1st position in Strategy Sprint, Techkriti, IITK",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Secured 1st position among 200+ teams in Strategy Sprint a case competition by Techkriti, IITK",
+      "section": "Major Competitions",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "200+ teams",
+        "context": "Strategy Sprint case competition",
+        "own": "Secured 1st position",
+        "proof": "Techkriti, IITK",
+        "edge": "1st position among 200+ teams"
+      },
+      "impact": null,
+      "entities": [
+        "Techkriti",
+        "IITK"
+      ],
+      "candidate_source": "Aaditya_Consult_edit (39)"
+    },
+    {
+      "raw_signal_label": "5th position at Inter-IIT Tech Meet 14.0",
+      "signal_type": "neutral",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Competed at the Inter-IIT Tech Meet 14.0 in the Pathway PS finishing 5th, working on UX design",
+      "section": "Major Competitions",
+      "confidence": 0.9,
+      "scope": {
+        "scale": null,
+        "context": "Pathway PS, working on UX design",
+        "own": "Competed and finished 5th",
+        "proof": "Inter-IIT Tech Meet 14.0",
+        "edge": "5th position"
+      },
+      "impact": null,
+      "entities": [
+        "Inter-IIT Tech Meet"
+      ],
+      "candidate_source": "Aaditya_Consult_edit (39)"
+    },
+    {
+      "raw_signal_label": "CPI 7.3/10 at IIT Kanpur",
+      "signal_type": "negative_diluting",
+      "dimensions": [
+        "A"
+      ],
+      "evidence": "grade: 7.3/10 in B.S. Mathematics and Scientific Computing",
+      "section": "Academic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": null,
+        "context": "B.S. Mathematics and Scientific Computing at IIT Kanpur",
+        "own": null,
+        "proof": "7.3/10 CPI",
+        "edge": "Below the baseline floor of 8.0 CPI for top-tier shortlists"
+      },
+      "impact": null,
+      "entities": [
+        "Indian Institute of Technology, Kanpur"
+      ],
+      "candidate_source": "Consult (1)"
+    },
+    {
+      "raw_signal_label": "SURGE 2026 Research Intern at IIT Kanpur",
+      "signal_type": "very_good",
+      "dimensions": [
+        "B",
+        "E"
+      ],
+      "evidence": "SURGE 2026 | Prof. Sayak Ray Chowdhury | Dept. of CSE IIT Kanpur",
+      "section": "Work Experience",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "MATH500 and GMS8K datasets",
+        "context": "Explored Best-of-N (BoN) strategies for test-time alignment in LLMs as an alternative to traditional RLHF pipelines",
+        "own": "Engineered an ONA metric and invented Min. Bayes Risk Reward Weighted Self Consistency",
+        "proof": "Surpassed individual models by 5% on MATH500 and SOTA early stopping methods by 8%",
+        "edge": "Crushed SOTA early stopping methods like AdaBON, Beacon by 8%, making a new mathematically sound Pareto frontier"
+      },
+      "impact": {
+        "metric": "performance improvement over SOTA",
+        "direction": "up",
+        "value": 8.0,
+        "unit": "%"
+      },
+      "entities": [
+        "IIT Kanpur",
+        "SURGE 2026",
+        "Prof. Sayak Ray Chowdhury"
+      ],
+      "candidate_source": "Consult (1)"
+    },
+    {
+      "raw_signal_label": "Research Papers Submitted/Under Revision (Elsevier Neurocomputing & Springer ML)",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "B",
+        "E"
+      ],
+      "evidence": "Biological Memory Consolidation in SNNs (Under Revision for Elsevier Neurocomputing) & Dynamic Distractor Pruning in Deep RL (Preprint submitted to Springers ML)",
+      "section": "Research Experience",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "SNNs and Deep RL (EMA-Tree SAC)",
+        "context": "Continual learning and eliminating destructive noise on-the-fly in Deep RL",
+        "own": "Introduced a Potentiation-Factor to identify neural engrams and developed EMA-Tree SAC leveraging Random Forests",
+        "proof": "Submitted to Springer ML and under revision for Elsevier Neurocomputing",
+        "edge": "Surpassed traditional baseline methods like EWC by more than 30% and yielded up to a 51% return improvement over standard SAC"
+      },
+      "impact": {
+        "metric": "return improvement over standard SAC",
+        "direction": "up",
+        "value": 51.0,
+        "unit": "%"
+      },
+      "entities": [
+        "Elsevier Neurocomputing",
+        "Springer ML"
+      ],
+      "candidate_source": "Consult (1)"
+    },
+    {
+      "raw_signal_label": "Inter IIT Techmeet 14.0 Runner-up",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Contingent member of IIT Kanpur in InterIIT-Techmeet-14.0 , at IIT Patna, contributing to an overall second position .",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "Inter IIT Techmeet 14.0",
+        "context": "Causal analysis from data of 20,000 call-center transcripts on Business Events",
+        "own": "Designed a novel causal-graph-driven, agentic RAG framework",
+        "proof": "Contributed to overall second position for IIT Kanpur contingent",
+        "edge": "Significant custom metric gains over chosen baselines"
+      },
+      "impact": null,
+      "entities": [
+        "IIT Kanpur",
+        "Inter IIT Techmeet 14.0",
+        "Observe AI"
+      ],
+      "candidate_source": "Consult (1)"
+    },
+    {
+      "raw_signal_label": "National Top 1% in NSE Chemistry & Physics 2023",
+      "signal_type": "very_good",
+      "dimensions": [
+        "E"
+      ],
+      "evidence": "National Top 1% at National Standard Examination in Chemistry 2023 . One of 531 selected candidates for INChO. State Top 1% at National Standard Examination in Physics 2023 and amongst 305 selected candidates for INPhO.",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "National level examinations",
+        "context": "National Standard Examination in Chemistry and Physics 2023",
+        "own": null,
+        "proof": "Selected for INChO (one of 531 candidates) and INPhO (one of 305 candidates)",
+        "edge": "Top 1% national and state level performance"
+      },
+      "impact": null,
+      "entities": [
+        "INChO",
+        "INPhO",
+        "National Standard Examination"
+      ],
+      "candidate_source": "Consult (1)"
+    },
+    {
+      "raw_signal_label": "Coordinator, BCS Club, IITK",
+      "signal_type": "very_good",
+      "dimensions": [
+        "C",
+        "E"
+      ],
+      "evidence": "Coordinator, BCS Club, IITK",
+      "section": "Position of Responsibility",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "Team of 30 secretaries across 2 verticals, budget of INR 1,50,000",
+        "context": "Managing club resources, neuroscientific equipment, and student projects",
+        "own": "Spearheaded team, managed budget, built Reinforcement Learning Roadmap, and led EXPLORA initiative",
+        "proof": "Empowered 2000+ individuals and achieved 2x increase in club outreach",
+        "edge": "Empowered 2000+ individuals to master RL and achieved 2x increase in club outreach affecting 120+ freshers"
+      },
+      "impact": {
+        "metric": "club outreach",
+        "direction": "up",
+        "value": 2.0,
+        "unit": "x"
+      },
+      "entities": [
+        "BCS Club, IITK",
+        "IIT Kanpur"
+      ],
+      "candidate_source": "Consult (1)"
+    },
+    {
+      "raw_signal_label": "CPI 7.1/10.0",
+      "signal_type": "negative_diluting",
+      "dimensions": [
+        "A"
+      ],
+      "evidence": "grade: 7.1/10.0",
+      "section": "Academic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": null,
+        "context": "B.S. Economic Sciences at IIT Kanpur",
+        "own": null,
+        "proof": null,
+        "edge": "CPI is below the baseline floor of 8.0 for top-tier shortlists"
+      },
+      "impact": null,
+      "entities": [
+        "Indian Institute of Technology Kanpur"
+      ],
+      "candidate_source": "Meet_Consult_Resume (1)"
+    },
+    {
+      "raw_signal_label": "Gold Level in WorldQuant BRAIN Challenge",
+      "signal_type": "very_good",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Achieved Gold Level in WorldQuant BRAIN Challenge, developing 5+ high-performing quantitative alphas globally (2025)",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "globally",
+        "context": "developing 5+ high-performing quantitative alphas",
+        "own": "developing quantitative alphas",
+        "proof": "Achieved Gold Level",
+        "edge": "Gold Level recognition in a highly competitive global quantitative finance challenge"
+      },
+      "impact": null,
+      "entities": [
+        "WorldQuant BRAIN Challenge"
+      ],
+      "candidate_source": "Meet_Consult_Resume (1)"
+    },
+    {
+      "raw_signal_label": "Advisory & Sales Intern at HDFC Asset Management Company",
+      "signal_type": "very_good",
+      "dimensions": [
+        "B",
+        "E"
+      ],
+      "evidence": "Evaluated and benchmarked 12+ HDFC and competitor fund schemes through quantitative historical analysis; Analyzed critical risk-adjusted metrics (Sharpe, Vega) to identify optimal products for varied risk profiles; Boosted client engagement by 15% through optimized product recommendations across varied risk profiles",
+      "section": "Work Experience",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "12+ HDFC and competitor fund schemes",
+        "context": "quantitative historical analysis and risk-adjusted metrics (Sharpe, Vega)",
+        "own": "Evaluated and benchmarked fund schemes, analyzed risk-adjusted metrics, modeled long-term impacts of SIPs",
+        "proof": "Boosted client engagement by 15%",
+        "edge": "15% boost in client engagement through optimized product recommendations"
+      },
+      "impact": {
+        "metric": "client engagement",
+        "direction": "increase",
+        "value": 15.0,
+        "unit": "%"
+      },
+      "entities": [
+        "HDFC Asset Management Company"
+      ],
+      "candidate_source": "Meet_Consult_Resume (1)"
+    },
+    {
+      "raw_signal_label": "Product & Operations Intern at OkCredit",
+      "signal_type": "very_good",
+      "dimensions": [
+        "B",
+        "E"
+      ],
+      "evidence": "Diagnosed operational inefficiencies across 5+ merchant workflows through structured user research & analysis; Designed a full-stack AI solution, a platform supporting real-time order tracking and workflow management; Reduced manual processing effort by 75%, driving operational efficiency and enabling business scalability",
+      "section": "Work Experience",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "5+ merchant workflows",
+        "context": "structured user research & analysis",
+        "own": "Diagnosed operational inefficiencies, Designed a full-stack AI solution",
+        "proof": "Reduced manual processing effort by 75%",
+        "edge": "75% reduction in manual processing effort"
+      },
+      "impact": {
+        "metric": "manual processing effort",
+        "direction": "decrease",
+        "value": 75.0,
+        "unit": "%"
+      },
+      "entities": [
+        "OkCredit"
+      ],
+      "candidate_source": "Meet_Consult_Resume (1)"
+    },
+    {
+      "raw_signal_label": "Core Team Member - Academics at CMHW",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "C",
+        "E"
+      ],
+      "evidence": "Handled a budget of 44L+ to provide academic, emotional & financial support to 10K+ students\u2019 community; Orchestrated 1400+ interviews to onboard 400+ SGs & AMs for a 7-day orientation of 1250+ freshers; Secured sponsorship worth 10L+ for the smooth execution of the Orientation and enhancement of CMHW",
+      "section": "Position of Responsibility",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "budget of 44L+, 10K+ students' community, 1250+ freshers",
+        "context": "academic, emotional & financial support, 7-day orientation",
+        "own": "Handled budget, Orchestrated 1400+ interviews, Led digital outreach, Revamped website, Facilitated YourDOST adoption",
+        "proof": "Secured sponsorship worth 10L+",
+        "edge": "Onboarded 400+ SGs & AMs, secured 10L+ sponsorship"
+      },
+      "impact": {
+        "metric": "sponsorship secured",
+        "direction": "increase",
+        "value": 10.0,
+        "unit": "Lakhs"
+      },
+      "entities": [
+        "Center for Mental Health and Wellbeing",
+        "IIT Kanpur"
+      ],
+      "candidate_source": "Meet_Consult_Resume (1)"
+    },
+    {
+      "raw_signal_label": "High Academic Performance (CPI 9.4/10.0)",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "A",
+        "E"
+      ],
+      "evidence": "B.S. at Indian Institute of Technology Kanpur, CPI: 9.4/10.0",
+      "section": "Academic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "IIT Kanpur B.S. program",
+        "context": "Academic performance over the period 2024 - 2028",
+        "own": "Maintained a Cumulative Performance Index of 9.4/10.0",
+        "proof": "Academic transcript",
+        "edge": "Top tier academic performance at a premier national institute"
+      },
+      "impact": {
+        "metric": "CPI",
+        "direction": "up",
+        "value": 9.4,
+        "unit": "out of 10.0"
+      },
+      "entities": [
+        "Indian Institute of Technology Kanpur"
+      ],
+      "candidate_source": "Resume_Kritin_Khowala (1)"
+    },
+    {
+      "raw_signal_label": "Indian National Olympiad in Informatics (INOI) Selection",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "E"
+      ],
+      "evidence": "Selected among 10 Class XII students across India for the Indian National Olympiad in Informatics (INOI) ( 2024 )",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "National level (across India)",
+        "context": "Class XII competitive selection",
+        "own": "Selected as one of the top 10 students nationally",
+        "proof": "INOI 2024 selection list",
+        "edge": "Highly selective national-level recognition in computer science/informatics"
+      },
+      "impact": {
+        "metric": "Selected students",
+        "direction": "down",
+        "value": 10.0,
+        "unit": "students"
+      },
+      "entities": [
+        "Indian National Olympiad in Informatics",
+        "INOI"
+      ],
+      "candidate_source": "Resume_Kritin_Khowala (1)"
+    },
+    {
+      "raw_signal_label": "Academic Excellence Award at IITK",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "E"
+      ],
+      "evidence": "Received the Academic Excellence Award at IITK, awarded to the top 10% of the batch for consecutive years( 2025, 2026 )",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "Top 10% of the batch at IITK",
+        "context": "Consecutive academic years (2025, 2026)",
+        "own": "Awarded Academic Excellence Award",
+        "proof": "IITK Senate recognition",
+        "edge": "Maintained top 10% batch rank consecutively"
+      },
+      "impact": {
+        "metric": "Batch percentile",
+        "direction": "up",
+        "value": 10.0,
+        "unit": "percent"
+      },
+      "entities": [
+        "IITK"
+      ],
+      "candidate_source": "Resume_Kritin_Khowala (1)"
+    },
+    {
+      "raw_signal_label": "Inter IIT Tech Meet 14.0 Bronze Medal",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "E"
+      ],
+      "evidence": "Bronze Medal at Inter IIT Tech Meet 14.0, Ebullient Securities. Finished 3rd Place competing with 23 IITs with more than 20% Annualised Returns across both assets",
+      "section": "Major Competitions",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "Competing with 23 IITs",
+        "context": "Developing profitable intra-day quantitative trading strategies for synthetic assets across varying regimes",
+        "own": "Developed a unified machine learning architecture for directional forecasting, implemented regime-aware execution using VPIN, and adaptive sizing",
+        "proof": "Bronze Medal (3rd Place)",
+        "edge": "Achieved >20% Annualised Returns and reduced overall portfolio drawdown by 11%"
+      },
+      "impact": {
+        "metric": "Annualised Returns",
+        "direction": "up",
+        "value": 20.0,
+        "unit": "percent"
+      },
+      "entities": [
+        "Inter IIT Tech Meet",
+        "Ebullient Securities"
+      ],
+      "candidate_source": "Resume_Kritin_Khowala (1)"
+    },
+    {
+      "raw_signal_label": "Research Internship at IIM Ahmedabad",
+      "signal_type": "very_good",
+      "dimensions": [
+        "B",
+        "E"
+      ],
+      "evidence": "Research Internship with Prof. Anirban Banerjee, IIM Ahmedabad. Built an order-matching workflow and real-time trade execution system using Django and relational databases. Impacts 600+ students annually.",
+      "section": "Research Experience",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "600+ students annually",
+        "context": "Simulating market microstructure with distinct Market Makers and Traders in a web-based trading platform",
+        "own": "Implemented role-based page, built order-matching workflow and real-time trade execution system using Django and relational databases",
+        "proof": "Integrated into classes at IIM Ahmedabad",
+        "edge": "Directly impacts academic curriculum delivery at a top-tier business school"
+      },
+      "impact": {
+        "metric": "Students impacted annually",
+        "direction": "up",
+        "value": 600.0,
+        "unit": "students"
+      },
+      "entities": [
+        "IIM Ahmedabad",
+        "Prof. Anirban Banerjee"
+      ],
+      "candidate_source": "Resume_Kritin_Khowala (1)"
+    },
+    {
+      "raw_signal_label": "Coordinator, Finance and Analytics Club",
+      "signal_type": "very_good",
+      "dimensions": [
+        "C",
+        "E"
+      ],
+      "evidence": "Co-ordinator, Finance and Analytics Club, Science and Technology Council, IIT Kanpur. Leading a 3-tier team of 33 secretaries and 130+ volunteers... Coordinated a INR 27L prize pool and 8500+ participants for Convolve 4.0 sponsored by Quadeye Securities",
+      "section": "Position of Responsibility",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "INR 27L prize pool, 8500+ participants, 3-tier team of 33 secretaries and 130+ volunteers",
+        "context": "Increasing financial literacy across campus and organizing flagship events",
+        "own": "Leading the club, collaborating with corporate sponsors (IMC, WorldQuant, Motilal Oswal, Quadeye), managing budget",
+        "proof": "Science and Technology Council, IIT Kanpur",
+        "edge": "Coordinated Convolve 4.0 with 8500+ participants and INR 27L prize pool"
+      },
+      "impact": {
+        "metric": "Participants",
+        "direction": "up",
+        "value": 8500.0,
+        "unit": "participants"
+      },
+      "entities": [
+        "Finance and Analytics Club",
+        "Science and Technology Council",
+        "IIT Kanpur",
+        "Quadeye Securities",
+        "WorldQuant",
+        "IMC",
+        "Motilal Oswal"
+      ],
+      "candidate_source": "Resume_Kritin_Khowala (1)"
+    },
+    {
+      "raw_signal_label": "Quantitative Research Intern at AQUA",
+      "signal_type": "very_good",
+      "dimensions": [
+        "B",
+        "E"
+      ],
+      "evidence": "Built end-to-end research pipelines using HMM, Django, VaR, and options analytics across Indian markets. Accelerated quantitative research across 10 sectors, 25+ stocks and 5+ macro factors with 3 automated systems",
+      "section": "Work Experience",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "10 sectors, 25+ stocks, 5+ macro factors",
+        "context": "Developing quantitative solutions for portfolio allocation, derivatives analytics and market risk forecasting",
+        "own": "Built end-to-end research pipelines using HMM, Django, VaR, and options analytics, modeled sectors under bull/bear regimes",
+        "proof": "3 automated systems",
+        "edge": "Accelerated quantitative research across multiple assets and macro factors"
+      },
+      "impact": {
+        "metric": "Automated systems built",
+        "direction": "up",
+        "value": 3.0,
+        "unit": "systems"
+      },
+      "entities": [
+        "AQUA"
+      ],
+      "candidate_source": "Resume_Kritin_Khowala (1)"
+    },
+    {
+      "raw_signal_label": "Academic Excellence Award at IIT Kanpur",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "E"
+      ],
+      "evidence": "Awarded Academic Excellence at IIT Kanpur for ranking in the top 10% among 1200+ freshers 2024",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "1200+ freshers",
+        "context": "ranking in the top 10%",
+        "own": "Awarded Academic Excellence",
+        "proof": "IIT Kanpur",
+        "edge": "2024"
+      },
+      "impact": {
+        "metric": "class rank percentile",
+        "direction": "decrease",
+        "value": 10.0,
+        "unit": "%"
+      },
+      "entities": [
+        "IIT Kanpur"
+      ],
+      "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+    },
+    {
+      "raw_signal_label": "CPI 8.8/10 in Mathematics and Scientific Computing",
+      "signal_type": "very_good",
+      "dimensions": [
+        "A"
+      ],
+      "evidence": "BS, Indian Institute of Technology Kanpur, 2023-Present, grade: 8.8/10",
+      "section": "Academic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "10-point scale",
+        "context": "Mathematics and Scientific Computing BS program",
+        "own": "Maintained 8.8 CPI",
+        "proof": "Indian Institute of Technology Kanpur",
+        "edge": "2023-Present"
+      },
+      "impact": null,
+      "entities": [
+        "Indian Institute of Technology Kanpur"
+      ],
+      "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+    },
+    {
+      "raw_signal_label": "AI-driven Mental Health Chatbot Project Assistant at People+AI",
+      "signal_type": "very_good",
+      "dimensions": [
+        "B",
+        "E"
+      ],
+      "evidence": "Develop an AI-driven mental health chatbot to democratize student access via scalable open-source platform; Surveyed 576 students to identify adoption barriers and suggested solutions, boosting engagement by 34%; Built a multi-agent system using LangGraph and deployed a test web UI, reaching 5000+ website users; Co-authored Sukoon\u2019s white paper",
+      "section": "Work Experience",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "5000+ website users, 576 students surveyed",
+        "context": "AI-driven mental health chatbot (Project Sukoon)",
+        "own": "Built a multi-agent system using LangGraph, surveyed students, and co-authored white paper",
+        "proof": "Co-authored Sukoon's white paper with 6 licensed counsellors",
+        "edge": "boosting engagement by 34%"
+      },
+      "impact": {
+        "metric": "engagement",
+        "direction": "increase",
+        "value": 34.0,
+        "unit": "%"
+      },
+      "entities": [
+        "People+AI",
+        "LangGraph"
+      ],
+      "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+    },
+    {
+      "raw_signal_label": "Geospatial Solutions for Climate Action with GDPDC, Govt of India",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Designed 33 geospatial use cases across 7 sectors to address climate change and air quality degradation; Co-authored 2 research reports on geospatial data for climate action, shared by GDPDC with 25K+ reach; First report was presented at the Google Global Air Quality Summit 2024, gaining global attention",
+      "section": "Projects",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "33 use cases across 7 sectors, 25K+ reach",
+        "context": "Geospatial Solutions for Climate Action for GDPDC, Government of India",
+        "own": "Designed use cases and co-authored 2 research reports",
+        "proof": "Presented at the Google Global Air Quality Summit 2024",
+        "edge": "shared by GDPDC with 25K+ reach"
+      },
+      "impact": null,
+      "entities": [
+        "Geospatial Data Promotion and Development Committee (GDPDC)",
+        "Government of India",
+        "Google Global Air Quality Summit"
+      ],
+      "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+    },
+    {
+      "raw_signal_label": "GPU Acceleration in Option Pricing Research",
+      "signal_type": "good",
+      "dimensions": [
+        "B"
+      ],
+      "evidence": "Application of GPU in Option Pricing under Prof. B. V. Ratish Kumar, Mth Dept, IIT Kanpur; Investigating GPU acceleration for pricing models in financial markets, with a focus on option trading",
+      "section": "Research Experience",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "financial markets option trading",
+        "context": "GPU acceleration for pricing models",
+        "own": "Analyzed stochastic calculus and Monte Carlo methods, integrated real-world financial data",
+        "proof": "Prof. B. V. Ratish Kumar, Mth Dept, IIT Kanpur",
+        "edge": "Leveraged GPU-accelerated computing"
+      },
+      "impact": null,
+      "entities": [
+        "IIT Kanpur",
+        "Prof. B. V. Ratish Kumar"
+      ],
+      "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+    },
+    {
+      "raw_signal_label": "Leader of IITK Consulting Group",
+      "signal_type": "very_good",
+      "dimensions": [
+        "C",
+        "E"
+      ],
+      "evidence": "Leading a 40-member team to support organizations through pro-bono consulting and data science services; Engaged 2,000+ students through 4 summer projects, 2 competitions, a consulting casebook, and 7 seminars; Boosted social media reach by 280%",
+      "section": "Position of Responsibility",
+      "confidence": 0.85,
+      "scope": {
+        "scale": "40-member team, 2,000+ students engaged",
+        "context": "pro-bono consulting and data science services",
+        "own": "Leading the group, managing 3+ projects, conducting Think-Cell workshop",
+        "proof": "IITK Consulting Group, SnT Council, IIT Kanpur",
+        "edge": "Boosted social media reach by 280%"
+      },
+      "impact": {
+        "metric": "social media reach",
+        "direction": "increase",
+        "value": 280.0,
+        "unit": "%"
+      },
+      "entities": [
+        "IITK Consulting Group",
+        "SnT Council",
+        "IIT Kanpur"
+      ],
+      "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+    },
+    {
+      "raw_signal_label": "Bronze Medal at Inter IIT Cultural Meet 6.0",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Part of the Dramatics Team that won Bronze in Street Play at Inter IIT Cultural Meet 6.0",
+      "section": "Major Competitions",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "Inter IIT level",
+        "context": "Street Play competition",
+        "own": "Part of the Dramatics Team",
+        "proof": "Inter IIT Cultural Meet 6.0",
+        "edge": "Won Bronze"
+      },
+      "impact": null,
+      "entities": [
+        "Inter IIT"
+      ],
+      "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+    },
+    {
+      "raw_signal_label": "5th Place in Insolation Energy Challenge at Inter IIT Tech Meet 13.0",
+      "signal_type": "very_good",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Secured 5th place (among 23 IITs) in the Insolation Energy Challenge at Inter IIT Tech Meet 13.0",
+      "section": "Major Competitions",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "23 IITs",
+        "context": "Insolation Energy Challenge",
+        "own": "Secured 5th place",
+        "proof": "Inter IIT Tech Meet 13.0",
+        "edge": "5th place among 23 IITs"
+      },
+      "impact": null,
+      "entities": [
+        "Inter IIT",
+        "Insolation Energy"
+      ],
+      "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+    },
+    {
+      "raw_signal_label": "Semi-finalist in BCG Bruce Henderson Insight Ideathon 2025",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Semi-finalist in BCG Bruce Henderson Insight Ideathon 2025 \u2013 Among Top 3 teams from IITK",
+      "section": "Major Competitions",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "National level ideathon",
+        "context": "BCG Bruce Henderson Insight Ideathon 2025",
+        "own": "Semi-finalist",
+        "proof": "Among Top 3 teams from IITK",
+        "edge": "Top 3 teams from IITK"
+      },
+      "impact": null,
+      "entities": [
+        "BCG",
+        "IITK"
+      ],
+      "candidate_source": "SPO-IITK_0013_230049_abhishek_l_bs_mth_789f51a65f3a4103bea54b842a24f6fe (1)"
+    },
+    {
+      "raw_signal_label": "CPI 8.9/10 at IIT Kanpur",
+      "signal_type": "very_good",
+      "dimensions": [
+        "A"
+      ],
+      "evidence": "B.Tech grade: 8.9/10 at Indian Institute of Technology Kanpur",
+      "section": "Academic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": null,
+        "context": null,
+        "own": null,
+        "proof": null,
+        "edge": null
+      },
+      "impact": null,
+      "entities": [
+        "Indian Institute of Technology Kanpur"
+      ],
+      "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+    },
+    {
+      "raw_signal_label": "Baljit & Nirmal Dhindsa Scholarship for Highest Department CPI",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "A"
+      ],
+      "evidence": "Recipient of the prestigious Baljit & Nirmal Dhindsa Scholarship awarded based on highest department CPI 2025",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.9,
+      "scope": {
+        "scale": null,
+        "context": null,
+        "own": null,
+        "proof": null,
+        "edge": null
+      },
+      "impact": null,
+      "entities": [
+        "Baljit & Nirmal Dhindsa Scholarship",
+        "IIT Kanpur"
+      ],
+      "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+    },
+    {
+      "raw_signal_label": "Perfect 10.0 SPI in Third Semester",
+      "signal_type": "very_good",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Secured a perfect 10.0 Semester Performance Index (SPI) in the third semester, reflecting academic excellence 2024",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.9,
+      "scope": {
+        "scale": null,
+        "context": null,
+        "own": null,
+        "proof": null,
+        "edge": null
+      },
+      "impact": null,
+      "entities": [
+        "IIT Kanpur"
+      ],
+      "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+    },
+    {
+      "raw_signal_label": "NTSE Stage 1 Karnataka State Rank 12",
+      "signal_type": "very_good",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Secured Karnataka state rank 12 in National Talent Search Examination (NTSE) Stage 1 among 1.5 lakh students 2021",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": null,
+        "context": null,
+        "own": null,
+        "proof": null,
+        "edge": null
+      },
+      "impact": null,
+      "entities": [
+        "National Talent Search Examination",
+        "NCERT"
+      ],
+      "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+    },
+    {
+      "raw_signal_label": "Frontend Development Intern at TreadWill (IITK BSBE)",
+      "signal_type": "good",
+      "dimensions": [
+        "B"
+      ],
+      "evidence": "Frontend Development Intern at TreadWill | Prof. Nitin Gupta | BSBE, IIT Kanpur",
+      "section": "Work Experience",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "TreadWill platform",
+        "context": "To develop a Therapist-Client interaction module utilizing principles of Cognitive Behavioural Therapy",
+        "own": "Routed 4 Angular components, designed UI in Figma, deployed Appointment Scheduler",
+        "proof": "Deployed the Appointment Scheduler feature",
+        "edge": "Enhanced platform accessibility"
+      },
+      "impact": null,
+      "entities": [
+        "TreadWill",
+        "Prof. Nitin Gupta",
+        "IIT Kanpur"
+      ],
+      "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+    },
+    {
+      "raw_signal_label": "Kaggle ML Project on Problematic Internet Use",
+      "signal_type": "good",
+      "dimensions": [
+        "B",
+        "D",
+        "E"
+      ],
+      "evidence": "To predict internet use severity in children from clinical, behavioral and fitness data in a Kaggle competition... Achieved a strong QWK score of 0.450 on the official Kaggle leaderboard",
+      "section": "Projects",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "5000+ participants in the Healthy Brain Network study",
+        "context": "predict internet use severity in children from clinical, behavioral and fitness data in a Kaggle competition",
+        "own": "Preprocessed static and time-series datasets, developed ensemble of advanced ML models, applied 5-fold cross-validation",
+        "proof": "Achieved a strong QWK (Quadratic Weighted Kappa) score of 0.450 on the official Kaggle leaderboard",
+        "edge": "Insights used for timely interventions"
+      },
+      "impact": {
+        "metric": "QWK (Quadratic Weighted Kappa) score",
+        "direction": "up",
+        "value": 0.45,
+        "unit": "score"
+      },
+      "entities": [
+        "Brain and Cognitive Science Club",
+        "IIT Kanpur",
+        "Kaggle",
+        "Healthy Brain Network"
+      ],
+      "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+    },
+    {
+      "raw_signal_label": "EEG Visual Object Classifier Project",
+      "signal_type": "good",
+      "dimensions": [
+        "D",
+        "E"
+      ],
+      "evidence": "To build a visual object classifier based on EEG signals using machine learning to decode brain activity... Achieved a high test accuracy of 92.5% using Discrete Wavelet Transform and Support Vector Machine",
+      "section": "Projects",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "200 EEG samples, 1,000 dataframes",
+        "context": "build a visual object classifier based on EEG signals using machine learning to decode brain activity",
+        "own": "Collected EEG samples through PsychoPy game, applied data augmentation and feature extraction, employed deep neural networks",
+        "proof": "Achieved a high test accuracy of 92.5% using Discrete Wavelet Transform and Support Vector Machine",
+        "edge": "92.5% test accuracy"
+      },
+      "impact": {
+        "metric": "test accuracy",
+        "direction": "up",
+        "value": 92.5,
+        "unit": "%"
+      },
+      "entities": [
+        "Brain and Cognitive Science Club",
+        "IIT Kanpur",
+        "PsychoPy"
+      ],
+      "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+    },
+    {
+      "raw_signal_label": "Coordinator, English Literary Society",
+      "signal_type": "very_good",
+      "dimensions": [
+        "C",
+        "E"
+      ],
+      "evidence": "Coordinator, English Literary Society | Media and Cultural Council | IIT Kanpur",
+      "section": "Position of Responsibility",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "budget of 1.25L INR, team of 29 secretaries, 70+ applicants",
+        "context": "foster a campus-wide literature community",
+        "own": "Interviewed applicants, managed budget, organized summer workshops and Poetry Week, revamped website",
+        "proof": "increasing website engagement by 2x, 40K+ views on Instagram",
+        "edge": "boosting social media engagement and active student participation by 50%"
+      },
+      "impact": {
+        "metric": "website engagement",
+        "direction": "up",
+        "value": 2.0,
+        "unit": "x"
+      },
+      "entities": [
+        "English Literary Society",
+        "Media and Cultural Council",
+        "IIT Kanpur"
+      ],
+      "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+    },
+    {
+      "raw_signal_label": "2nd Place in Inter-IIT Scrabble League",
+      "signal_type": "very_good",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Secured 2nd place in Inter-IIT Scrabble League conducted by IIT Bombay, among teams from 8 IITs",
+      "section": "Extra Curricular Activities",
+      "confidence": 0.95,
+      "scope": {
+        "scale": null,
+        "context": null,
+        "own": null,
+        "proof": null,
+        "edge": null
+      },
+      "impact": null,
+      "entities": [
+        "Inter-IIT Scrabble League",
+        "IIT Bombay"
+      ],
+      "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+    },
+    {
+      "raw_signal_label": "Best Project Award for Sentiment Analysis Mentorship",
+      "signal_type": "good",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Mentored over 50 juniors in a sentiment analysis project involving ML and won Best Project Award",
+      "section": "Extra Curricular Activities",
+      "confidence": 0.9,
+      "scope": {
+        "scale": null,
+        "context": null,
+        "own": null,
+        "proof": null,
+        "edge": null
+      },
+      "impact": null,
+      "entities": [
+        "Brain and Cognitive Science Club",
+        "IIT Kanpur"
+      ],
+      "candidate_source": "SPO-IITK_0013_230137_anika_gupta_bt_bsbe_6458f330b2b9428b9e3cfcdbf9044419 (1)"
+    },
+    {
+      "raw_signal_label": "CPI 8.9/10.0 at IIT Kanpur",
+      "signal_type": "very_good",
+      "dimensions": [
+        "A"
+      ],
+      "evidence": "B.Tech, Indian Institute of Technology Kanpur, year: 2023 - 2027, grade: 8.9/10.0",
+      "section": "Academic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": null,
+        "context": null,
+        "own": null,
+        "proof": null,
+        "edge": null
+      },
+      "impact": null,
+      "entities": [
+        "Indian Institute of Technology Kanpur"
+      ],
+      "candidate_source": "SPO-IITK_0013_230175_anurag_thakur_bt_me_ec28a97f68784540bd8b954a9a5d03d9"
+    },
+    {
+      "raw_signal_label": "JEE Mains AIR 4381 (Top 0.4% Nationally)",
+      "signal_type": "very_good",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Secured an All India Rank of 4381 in JEE Mains 2023 among the 1.1 million+ candidates nationally overall ( 2023 )",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "1.1 million+ candidates nationally",
+        "context": "JEE Mains 2023",
+        "own": "Secured an All India Rank of 4381",
+        "proof": "Official JEE Mains Result",
+        "edge": "Top 0.4% national rank"
+      },
+      "impact": null,
+      "entities": [
+        "JEE Mains"
+      ],
+      "candidate_source": "SPO-IITK_0013_230175_anurag_thakur_bt_me_ec28a97f68784540bd8b954a9a5d03d9"
+    },
+    {
+      "raw_signal_label": "JEE Advanced AIR 6111 (Diluting Signal)",
+      "signal_type": "negative_diluting",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Secured an All India Rank of 6111 in JEE Advanced 2023 among the 1,80,000 shortlisted candidates nationwide( 2023 )",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "1,80,000 shortlisted candidates",
+        "context": "JEE Advanced 2023",
+        "own": "Secured an All India Rank of 6111",
+        "proof": "Official JEE Advanced Result",
+        "edge": "Weaker rank compared to JEE Mains 4381 and CPI 8.9"
+      },
+      "impact": null,
+      "entities": [
+        "JEE Advanced"
+      ],
+      "candidate_source": "SPO-IITK_0013_230175_anurag_thakur_bt_me_ec28a97f68784540bd8b954a9a5d03d9"
+    },
+    {
+      "raw_signal_label": "Quantitative Research Intern at Carlsen Capital",
+      "signal_type": "very_good",
+      "dimensions": [
+        "B",
+        "E"
+      ],
+      "evidence": "Carlsen Capital, Quantitative Research Intern, Jun\u201924 \u2013 Sep\u201924",
+      "section": "Work Experience",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "40K+ contracts with live testing on market data",
+        "context": "Predicted short-term NIFTY trends and built volatility charts using GARCH, LSTM, Merton Jump, VG, and Heston models",
+        "own": "Designed predictive and volatility-based trading models, tested forecast accuracy with Garman-Klass and Rogers-Satchell",
+        "proof": "live testing on market data",
+        "edge": "Achieved 18% higher accuracy over benchmarks"
+      },
+      "impact": {
+        "metric": "accuracy over benchmarks",
+        "direction": "increase",
+        "value": 18.0,
+        "unit": "%"
+      },
+      "entities": [
+        "Carlsen Capital",
+        "NIFTY",
+        "GARCH",
+        "LSTM",
+        "Merton Jump",
+        "Heston",
+        "Garman-Klass",
+        "Rogers-Satchell"
+      ],
+      "candidate_source": "SPO-IITK_0013_230175_anurag_thakur_bt_me_ec28a97f68784540bd8b954a9a5d03d9"
+    },
+    {
+      "raw_signal_label": "Research Project with Prof. Sony Thomas, IIM Kozhikode",
+      "signal_type": "very_good",
+      "dimensions": [
+        "B",
+        "E"
+      ],
+      "evidence": "Portfolio Management Tool, Prof. Sony Thomas, IIM Kozhikode, Jan\u201925 \u2013 Present",
+      "section": "Research Experience",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "multi-asset portfolios, NIFTY 50 and S&P 500",
+        "context": "Applied Hierarchical Risk Parity, clustering, regime-switching, Fama-French, Black-Litterman, and Bayesian inference",
+        "own": "Built a dynamic portfolio optimizer integrating academic models with real-world market data, used machine learning and genetic algorithms for stress-testing",
+        "proof": "consistent outperformance across different timeframes",
+        "edge": "Achieved consistent 15%+ outperformance over NIFTY 50 and S&P 500"
+      },
+      "impact": {
+        "metric": "outperformance over NIFTY 50 and S&P 500",
+        "direction": "increase",
+        "value": 15.0,
+        "unit": "%"
+      },
+      "entities": [
+        "IIM Kozhikode",
+        "Prof. Sony Thomas",
+        "NIFTY 50",
+        "S&P 500",
+        "Fama-French",
+        "Black-Litterman",
+        "Bayesian inference"
+      ],
+      "candidate_source": "SPO-IITK_0013_230175_anurag_thakur_bt_me_ec28a97f68784540bd8b954a9a5d03d9"
+    },
+    {
+      "raw_signal_label": "National Runner Up at National Investment Banking Competition",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "E"
+      ],
+      "evidence": "National Investment Banking Competition, National Runner Up, Invited to Vancouver, Canada for final round as one of Top 50 teams out of 400 globally",
+      "section": "Major Competitions",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "Top 50 teams out of 400 globally, M&A recommendations to Bumble",
+        "context": "Conducted detailed DCF, CCA, and PTA analysis across 15 competitors along with 10 historical deals, evaluated strategic synergies and built 3 scenario-based models",
+        "own": "Provided M&A recommendations to Bumble, identified 1 ideal acquirer and projected a 15% valuation premium",
+        "proof": "National Runner Up, Invited to Vancouver, Canada for final round",
+        "edge": "projected a 15% valuation premium through a strategic sell-side plan"
+      },
+      "impact": {
+        "metric": "projected valuation premium",
+        "direction": "increase",
+        "value": 15.0,
+        "unit": "%"
+      },
+      "entities": [
+        "National Investment Banking Competition",
+        "Bumble",
+        "Vancouver",
+        "Canada"
+      ],
+      "candidate_source": "SPO-IITK_0013_230175_anurag_thakur_bt_me_ec28a97f68784540bd8b954a9a5d03d9"
+    },
+    {
+      "raw_signal_label": "Co-ordinator, Finance and Analytics Club, IIT Kanpur",
+      "signal_type": "good",
+      "dimensions": [
+        "C",
+        "E"
+      ],
+      "evidence": "Co-ordinator, Finance and Analytics Club, Science and Technology Council, IIT Kanpur, Apr\u201925 \u2013 Present",
+      "section": "Position of Responsibility",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "3-tier team of 32 secretaries and 135 volunteers, flagship Non-Core Weekend with 4K footfall, INR 72K budget",
+        "context": "Collaborated with Zelta Labs, WorldQuant, and StockGro for sponsorships, events, and industry projects",
+        "own": "Led the team, managed flagship event, conducted Bootcamps with 550 participants, curated 5 live projects, hosted nationwide competition",
+        "proof": "900 registrations, 30K impressions, INR 50K prize pool",
+        "edge": "personally mentored over 100 students across all batches"
+      },
+      "impact": {
+        "metric": "event footfall",
+        "direction": "increase",
+        "value": 4000.0,
+        "unit": "participants"
+      },
+      "entities": [
+        "Finance and Analytics Club",
+        "Science and Technology Council",
+        "IIT Kanpur",
+        "Zelta Labs",
+        "WorldQuant",
+        "StockGro"
+      ],
+      "candidate_source": "SPO-IITK_0013_230175_anurag_thakur_bt_me_ec28a97f68784540bd8b954a9a5d03d9"
+    },
+    {
+      "raw_signal_label": "CPI 9.1/10.0 at IIT Kanpur",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "A",
+        "E"
+      ],
+      "evidence": "B.Tech Chemical Engineering, Indian Institute of Technology Kanpur, grade: 9.1/10.0",
+      "section": "Academic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": null,
+        "context": "B.Tech Chemical Engineering at IIT Kanpur",
+        "own": null,
+        "proof": "9.1/10.0 CPI",
+        "edge": "Outstanding academic performance"
+      },
+      "impact": {
+        "metric": "CPI",
+        "direction": "up",
+        "value": 9.1,
+        "unit": "points"
+      },
+      "entities": [
+        "Indian Institute of Technology Kanpur"
+      ],
+      "candidate_source": "SPO-IITK_0013_230264_ayush_omer_bt_che_d7df0faca1b545dcb0fc4a40354c0576 (2) (1)"
+    },
+    {
+      "raw_signal_label": "JEE Mains AIR 4261 (Top 0.5%)",
+      "signal_type": "very_good",
+      "dimensions": [
+        "E"
+      ],
+      "evidence": "Secured All India Rank 4261 in JEE Mains, ranking among the top 0.5% of over 1 million applicants nationwide 2023",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "1 million applicants",
+        "context": "JEE Mains 2023",
+        "own": null,
+        "proof": "AIR 4261",
+        "edge": "top 0.5%"
+      },
+      "impact": {
+        "metric": "percentile",
+        "direction": "up",
+        "value": 99.5,
+        "unit": "%"
+      },
+      "entities": [
+        "JEE Mains"
+      ],
+      "candidate_source": "SPO-IITK_0013_230264_ayush_omer_bt_che_d7df0faca1b545dcb0fc4a40354c0576 (2) (1)"
+    },
+    {
+      "raw_signal_label": "Predictive Modeling of Shear Thickening Fluids at DRDO",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "B",
+        "E"
+      ],
+      "evidence": "Predictive Modeling of Shear Thickening Fluids, DRDO, Prof. Y.M. Joshi. Created a scientific dataset of 10k+ data rows... Trained 3 multi-regression models... Achieved a 0.91 R\" score across 44+ STF setups, supporting DRDO\u2019s armour research",
+      "section": "Research Experience",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "10k+ data rows, 600+ research articles",
+        "context": "discover alternative materials for body armours for DRDO",
+        "own": "Created dataset, modelled viscosity using custom piecewise power-law model, trained 3 multi-regression models",
+        "proof": "Achieved a 0.91 R\" score across 44+ STF setups",
+        "edge": "supporting DRDO's armour research"
+      },
+      "impact": {
+        "metric": "R2 score",
+        "direction": "up",
+        "value": 0.91,
+        "unit": "coefficient"
+      },
+      "entities": [
+        "DRDO",
+        "Prof. Y.M. Joshi"
+      ],
+      "candidate_source": "SPO-IITK_0013_230264_ayush_omer_bt_che_d7df0faca1b545dcb0fc4a40354c0576 (2) (1)"
+    },
+    {
+      "raw_signal_label": "Silver Medal at Inter IIT Tech Meet 13.0",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "E"
+      ],
+      "evidence": "Inter IIT Tech Meet 13.0 - Zelta Automation (High Prep) Problem Statement, Silver Medal. Achieved 2081% return on BTC and 6923% on ETH, with Sharpe ratios of 2.55 (BTC) and 3.63 (ETH). Won a silver medal among 22 IITs",
+      "section": "Major Competitions",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "among 22 IITs",
+        "context": "Zelta Automation (High Prep) Problem Statement to develop alphas for BTC & ETH",
+        "own": "Developed VMA denoising technique, devised rolling clustering algorithm, integrated trading framework with 3 strategies and 9+ risk management techniques",
+        "proof": "Won a silver medal",
+        "edge": "Achieved 2081% return on BTC and 6923% on ETH, Sharpe ratios of 2.55 and 3.63, drawdown below 12.08%"
+      },
+      "impact": {
+        "metric": "Sharpe ratio (ETH)",
+        "direction": "up",
+        "value": 3.63,
+        "unit": "ratio"
+      },
+      "entities": [
+        "Inter IIT",
+        "Zelta Automation"
+      ],
+      "candidate_source": "SPO-IITK_0013_230264_ayush_omer_bt_che_d7df0faca1b545dcb0fc4a40354c0576 (2) (1)"
+    },
+    {
+      "raw_signal_label": "Core Team Member, Academics Team at Institute Counselling Service",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "C",
+        "E"
+      ],
+      "evidence": "Core Team Member, Academics Team, Institute Counselling Service. Coordinated a 22-member team to manage 430+ SGs and AMs during a 10-day orientation for 1200+ freshers. Handled a budget of 35L+ ",
+      "section": "Position of Responsibility",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "1200+ freshers, 10K+ student community, 35L+ budget",
+        "context": "provide academic, emotional & financial support",
+        "own": "Coordinated a 22-member team, managed 430+ SGs and AMs, liaised with 9 psychiatrists, facilitated Faculty Adoption Program, revamped ICS website",
+        "proof": "Delivered Freshers' Orientation, revamped website in active use",
+        "edge": "Managed 35L+ budget and 22-member team"
+      },
+      "impact": {
+        "metric": "budget managed",
+        "direction": "up",
+        "value": 3500000.0,
+        "unit": "INR"
+      },
+      "entities": [
+        "Institute Counselling Service",
+        "IIT Kanpur"
+      ],
+      "candidate_source": "SPO-IITK_0013_230264_ayush_omer_bt_che_d7df0faca1b545dcb0fc4a40354c0576 (2) (1)"
+    },
+    {
+      "raw_signal_label": "Limit Order Book Simulation Platform for IIM Ahmedabad",
+      "signal_type": "very_good",
+      "dimensions": [
+        "D",
+        "E"
+      ],
+      "evidence": "Limit Order Book, IIM Ahmedabad. Created a Django-based website... Engineered a Redis-powered backend achieving sub-2s latency and a throughput of 10K orders/min... Revamped learning for 600+ IIM students by developing a creative teaching platform currently in active use",
+      "section": "Projects",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "600+ IIM students, 10K orders/min throughput",
+        "context": "develop a scalable simulation platform replicating real-time financial order book",
+        "own": "Created Django-based website, engineered Redis-powered backend, implemented real-time updates using WebSockets",
+        "proof": "currently in active use, revamped learning for 600+ IIM students",
+        "edge": "sub-2s latency and 10K orders/min throughput"
+      },
+      "impact": {
+        "metric": "active users",
+        "direction": "up",
+        "value": 600.0,
+        "unit": "students"
+      },
+      "entities": [
+        "IIM Ahmedabad",
+        "Django",
+        "Redis",
+        "PostgreSQL"
+      ],
+      "candidate_source": "SPO-IITK_0013_230264_ayush_omer_bt_che_d7df0faca1b545dcb0fc4a40354c0576 (2) (1)"
+    },
+    {
+      "raw_signal_label": "CPI 8.7/10 at IIT Kanpur",
+      "signal_type": "very_good",
+      "dimensions": [
+        "A"
+      ],
+      "evidence": "B.Tech, Indian Institute of Technology Kanpur, grade: 8.7/10",
+      "section": "Academic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "10-point scale",
+        "context": "Undergraduate program at IIT Kanpur",
+        "own": null,
+        "proof": "Official transcript grade",
+        "edge": "CPI >= 8.5"
+      },
+      "impact": null,
+      "entities": [
+        "Indian Institute of Technology Kanpur"
+      ],
+      "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+    },
+    {
+      "raw_signal_label": "JEE Mains 2023 AIR 2768",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "E"
+      ],
+      "evidence": "Secured All India Rank 2768 in Joint Entrance Examination Mains 2023 among 1.1 million candidates",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "1.1 million candidates",
+        "context": "National level engineering entrance exam",
+        "own": null,
+        "proof": "All India Rank 2768",
+        "edge": "Top 0.25 percentile national ranker"
+      },
+      "impact": {
+        "metric": "percentile",
+        "direction": "increase",
+        "value": 99.75,
+        "unit": "%"
+      },
+      "entities": [
+        "Joint Entrance Examination Mains"
+      ],
+      "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+    },
+    {
+      "raw_signal_label": "JEE Advanced 2023 AIR 8264",
+      "signal_type": "negative_diluting",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Secured All India Rank 8264 in Joint Entrance Examination Advanced 2023 among 1.5 Lakh+ shortlisted students",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "150,000+ shortlisted candidates",
+        "context": "National level engineering entrance exam",
+        "own": null,
+        "proof": "All India Rank 8264",
+        "edge": "Dilutes the stronger JEE Mains rank of 2768"
+      },
+      "impact": null,
+      "entities": [
+        "Joint Entrance Examination Advanced"
+      ],
+      "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+    },
+    {
+      "raw_signal_label": "SURGE'25 Summer Research Intern at IIT Kanpur",
+      "signal_type": "very_good",
+      "dimensions": [
+        "B",
+        "E"
+      ],
+      "evidence": "SURGE\u201925, IIT Kanpur, Summer Research Intern. Segment 2D trajectories to discover reusable behavior and enhancing hierarchical reinforcement learning. Applied KMeans clustering to agent trajectories to identify subgoal structures and reuse high-level policies. Used FCM membership scores to detect ambiguous transitions and fine-tune subtask boundaries. Employed SPECTRL framework to construct finite automata for specifications, enabling policy composition. Reduced task completion time by 45% and significantly improved policy reusability across 90% of test scenarios",
+      "section": "Work Experience",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "across 90% of test scenarios",
+        "context": "Segment 2D trajectories to discover reusable behavior and enhancing hierarchical reinforcement learning",
+        "own": "Applied KMeans clustering, used FCM membership scores, and employed SPECTRL framework",
+        "proof": "Mentor: Prof. Subhajit Roy, Department of Computer Science and Engineering, IIT Kanpur",
+        "edge": "Reduced task completion time by 45%"
+      },
+      "impact": {
+        "metric": "task completion time",
+        "direction": "decrease",
+        "value": 45.0,
+        "unit": "%"
+      },
+      "entities": [
+        "SURGE\u201925",
+        "IIT Kanpur",
+        "KMeans",
+        "FCM",
+        "SPECTRL"
+      ],
+      "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+    },
+    {
+      "raw_signal_label": "Assistant Coordinator at Students' Placement Office, IIT Kanpur",
+      "signal_type": "very_good",
+      "dimensions": [
+        "C",
+        "E"
+      ],
+      "evidence": "Assistant Coordinator, Students\u2019 Placement Office, IIT Kanpur. Coordinating the internship drive processes for 1000+ students and placement drive for 1500+ students. Leading a team of 70+ members selected for coordinating the upcoming Internship and Placement drive. Developing strong corporate liaisons with over 75 companies for the internship and placement drive. Maintaining a database of 4500+ companies for the placement and internship portal of all the students. Attuned Recruitment drive, securing 1200+ placement and 550+ internship offers as Company Coordinator. Onboarded 5+ new startups successfully to register for the Internship and Placement season 2025-2026",
+      "section": "Position of Responsibility",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "1000+ internship students, 1500+ placement students, 4500+ companies database",
+        "context": "SPO internship and placement drive coordination",
+        "own": "Leading a team of 70+ members, developing corporate liaisons with over 75 companies, maintaining database of 4500+ companies",
+        "proof": "Secured 1200+ placement and 550+ internship offers as Company Coordinator",
+        "edge": "Onboarded 5+ new startups successfully"
+      },
+      "impact": {
+        "metric": "new startups onboarded",
+        "direction": "increase",
+        "value": 5.0,
+        "unit": "startups"
+      },
+      "entities": [
+        "Students\u2019 Placement Office",
+        "IIT Kanpur"
+      ],
+      "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+    },
+    {
+      "raw_signal_label": "Rank 3 in Game Connect National Game Jam",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Secured Rank 3 in Game Connect , a National Game Jam conducted by Indian Game Developer Conference",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "National level",
+        "context": "Game Jam conducted by Indian Game Developer Conference",
+        "own": null,
+        "proof": "Rank 3",
+        "edge": "National podium finish"
+      },
+      "impact": null,
+      "entities": [
+        "Indian Game Developer Conference",
+        "Game Connect"
+      ],
+      "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+    },
+    {
+      "raw_signal_label": "AIR 15 in NSTSE 2023",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Secured All India Rank 15 in National Level Science Talent Search Examination 2023 conducted by Unified Coucil",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "National level",
+        "context": "Science Talent Search Examination conducted by Unified Council",
+        "own": null,
+        "proof": "All India Rank 15",
+        "edge": "Top national rank"
+      },
+      "impact": null,
+      "entities": [
+        "National Level Science Talent Search Examination",
+        "Unified Council"
+      ],
+      "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+    },
+    {
+      "raw_signal_label": "Overlayy Browser-Based Analytics Tool Project",
+      "signal_type": "good",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Built a browser-based tool to monitor, analyze, and interpret real-time user interactions on websites. Developed a Chrome extension that tracks eight distinct user events, including hover, click, text selection. Injected JavaScript file to log detailed interaction metadata directly from webpage DOM in real time. Built a text generation module using LLMs to synthesize behavioral insights from user interaction logs",
+      "section": "Projects",
+      "confidence": 0.85,
+      "scope": {
+        "scale": "Tracks eight distinct user events",
+        "context": "Overlayy | Hack IITK",
+        "own": "Developed Chrome extension, injected JavaScript file, built LLM text generation module",
+        "proof": "Hackathon project submission",
+        "edge": "Synthesized behavioral insights from user interaction logs using LLMs"
+      },
+      "impact": null,
+      "entities": [
+        "Overlayy",
+        "Hack IITK",
+        "LLMs",
+        "Chrome"
+      ],
+      "candidate_source": "SPO-IITK_0013_230561_khushi_khandelwal_bt_che_6937a8b9d5ec47d69a88e69dabdd68df (1)"
+    },
+    {
+      "raw_signal_label": "Siddhi Award (ISC Science Rank 2)",
+      "signal_type": "outstanding",
+      "dimensions": [
+        "E"
+      ],
+      "evidence": "Received the Siddhi Award for ranking 2nd out of 47k+ students across 44+ cities in the ISC Science examinations ( 2024 )",
+      "section": "Scholastic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "47k+ students across 44+ cities",
+        "context": "ISC Science examinations",
+        "own": null,
+        "proof": "Received the Siddhi Award",
+        "edge": "ranking 2nd"
+      },
+      "impact": {
+        "metric": "rank",
+        "direction": "decrease",
+        "value": 2.0,
+        "unit": "absolute"
+      },
+      "entities": [
+        "Seth M.R. Jaipuria School",
+        "ISC"
+      ],
+      "candidate_source": "Suhani_Resume (41)"
+    },
+    {
+      "raw_signal_label": "IIT Kanpur CPI",
+      "signal_type": "very_good",
+      "dimensions": [
+        "A"
+      ],
+      "evidence": "B.Tech. (Mechanical) at Indian Institute of Technology, Kanpur with grade 8.5/10.0",
+      "section": "Academic Qualifications",
+      "confidence": 0.95,
+      "scope": {
+        "scale": "B.Tech. (Mechanical)",
+        "context": "Indian Institute of Technology, Kanpur",
+        "own": null,
+        "proof": "grade: 8.5/10.0",
+        "edge": null
+      },
+      "impact": null,
+      "entities": [
+        "Indian Institute of Technology, Kanpur"
+      ],
+      "candidate_source": "Suhani_Resume (41)"
+    },
+    {
+      "raw_signal_label": "FedEx Supply Chain SMART Center Summer Research Intern",
+      "signal_type": "very_good",
+      "dimensions": [
+        "B",
+        "E"
+      ],
+      "evidence": "Summer Research Intern at FedEx Supply Chain SMART Center, IIT Madras | Dr. Babji Srinivasan",
+      "section": "Work Experience",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "corporate workforce wellness",
+        "context": "physiological signals like EEG, ECG",
+        "own": "Developed 15 eye tracking metrics using time series data analysis",
+        "proof": "Co-authoring a paper on the system\u2019s architecture for research publication",
+        "edge": "Achieved a 40% improvement in workflow efficiency and a \u223c25% reduction in chronic-overload-driven sick leave"
+      },
+      "impact": {
+        "metric": "workflow efficiency",
+        "direction": "increase",
+        "value": 40.0,
+        "unit": "%"
+      },
+      "entities": [
+        "FedEx Supply Chain SMART Center",
+        "IIT Madras",
+        "Dr. Babji Srinivasan"
+      ],
+      "candidate_source": "Suhani_Resume (41)"
+    },
+    {
+      "raw_signal_label": "PleadPerfect Strategy & Operations Intern",
+      "signal_type": "very_good",
+      "dimensions": [
+        "B",
+        "D",
+        "E"
+      ],
+      "evidence": "Strategy & Operations Intern at PleadPerfect | Legal Tech Startup",
+      "section": "Work Experience",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "legal case filing workflows",
+        "context": "manual document assembly in legal case filing workflows",
+        "own": "Automated 10+ features across 50+ court templates on a cloud pipeline, incorporating genAI workflows",
+        "proof": "production-ready platform",
+        "edge": "Achieved \u223c75% reduction in document assembly time against the manual baseline"
+      },
+      "impact": {
+        "metric": "document assembly time",
+        "direction": "decrease",
+        "value": 75.0,
+        "unit": "%"
+      },
+      "entities": [
+        "PleadPerfect"
+      ],
+      "candidate_source": "Suhani_Resume (41)"
+    },
+    {
+      "raw_signal_label": "TradingAgents Multi-Agent LLM Trading Framework",
+      "signal_type": "good",
+      "dimensions": [
+        "D",
+        "E"
+      ],
+      "evidence": "TradingAgents: Multi-Agent LLM Trading Framework, Brain & Cognitive Science Club, IITK",
+      "section": "Projects",
+      "confidence": 0.85,
+      "scope": {
+        "scale": "multi-agent trading firm",
+        "context": "evaluate collaborative LLMs against traditional quantitative models",
+        "own": "Architected 5 specialized agents with an automated debate mechanism",
+        "proof": "Outperformed baseline strategies by 24.57% in cumulative returns",
+        "edge": "achieved a Sharpe ratio of 8.21"
+      },
+      "impact": {
+        "metric": "cumulative returns",
+        "direction": "increase",
+        "value": 24.57,
+        "unit": "%"
+      },
+      "entities": [
+        "Brain & Cognitive Science Club",
+        "IITK"
+      ],
+      "candidate_source": "Suhani_Resume (41)"
+    },
+    {
+      "raw_signal_label": "Coordinator, Brain & Cognitive Science Club",
+      "signal_type": "very_good",
+      "dimensions": [
+        "C",
+        "E"
+      ],
+      "evidence": "Coordinator, Brain & Cognitive Science Club, Science and Technology Council, IIT Kanpur",
+      "section": "Position of Responsibility",
+      "confidence": 0.9,
+      "scope": {
+        "scale": "two-tier team of 32 secretaries across the Machine Learning and Neuroscience verticals",
+        "context": "INR 1.4 Lakh to fund club events and advanced neuroscientific equipment",
+        "own": "Secured and managing a budget... Curated 4 summer projects and managed the recruitment of 100+ mentees",
+        "proof": "secured Innoplexus partnership",
+        "edge": "Boosted outreach by 250%"
+      },
+      "impact": {
+        "metric": "outreach",
+        "direction": "increase",
+        "value": 250.0,
+        "unit": "%"
+      },
+      "entities": [
+        "Science and Technology Council",
+        "IIT Kanpur",
+        "Innoplexus"
+      ],
+      "candidate_source": "Suhani_Resume (41)"
+    },
+    {
+      "raw_signal_label": "Best Research Project Award by SnT Council",
+      "signal_type": "good",
+      "dimensions": [
+        "D"
+      ],
+      "evidence": "Won \u2018Best Research Project\u2019 by Science & Technology Council among 40+ teams for Brain Spy",
+      "section": "Extra Curricular Activities",
+      "confidence": 0.85,
+      "scope": {
+        "scale": "40+ teams",
+        "context": "Brain Spy project",
+        "own": null,
+        "proof": "Won \u2018Best Research Project\u2019 by Science & Technology Council",
+        "edge": "1st place among 40+ teams"
+      },
+      "impact": null,
+      "entities": [
+        "Science & Technology Council"
+      ],
+      "candidate_source": "Suhani_Resume (41)"
+    }
+  ]
+}

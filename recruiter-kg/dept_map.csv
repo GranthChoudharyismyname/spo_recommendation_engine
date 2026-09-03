@@ -1,0 +1,49 @@
+# ============================================================================
+# SPO department id -> IITK branch.  UG ONLY.
+#
+# PG cohorts are excluded at ingest by roll-number length (UG = 6 digits,
+# PG = 9), so only UG ids ever reach the graph and only UG ids belong here.
+#
+# All 12 rows below are confirmed - each was measured by joining SPO roll
+# numbers to institute department records, not guessed. Together they cover
+# all eight B.Tech branches and the four BS programmes seen in the data.
+#
+# If `build` reports an unmapped observed id, add a row for it. Read the id
+# off the SPO site by matching the cohort size it reports.
+# ============================================================================
+#
+# DEPT CODES
+#   AE     Aerospace Engineering                       #   BSBE   Biological Sciences & Bioengineering
+#   CHE    Chemical Engineering                        #   CHM    Chemistry
+#   CE     Civil Engineering                           #   CGS    Cognitive Science
+#   CSE    Computer Science and Engineering            #   DES    Design
+#   ES     Earth Sciences                              #   ECO    Economic Sciences
+#   EE     Electrical Engineering                      #   HSS    Humanities and Social Sciences
+#   DOMS   Management Sciences                         #   MSE    Materials Science & Engineering
+#   MSP    Materials Science Programme                 #   ME     Mechanical Engineering
+#   MTH    Mathematics and Statistics                  #   PSE    Photonics Science and Engineering
+#   PHY    Physics                                     #   SEE    Sustainable Energy Engineering
+#   SPASE  Space, Planetary & Astronomical Sciences & Engineering#   IS     Intelligent Systems
+#   SDS    Statistics and Data Sciences                #   NET    Nuclear Engineering & Technology
+#   EEM    Environmental Engineering & Management      #   LT     Laser Technology
+#   MME    Materials & Metallurgical Engineering
+#
+# UG PROGRAM CODES
+#   BT        B.Tech                    #   BS        B.S.                      #   BT_MT     B.Tech-M.Tech Dual
+#   BS_MS     BS-MS Dual                #   BT_MS     B.Tech-M.S. Dual          #   BT_MDES   B.Tech-M.Des Dual
+#   BT_MBA    B.Tech-MBA Dual (BTM)     #   BS_MBA    BS-MBA Dual (BSM)         #   BS_MT     BS-M.Tech Dual
+#
+# ============================================================================
+spo_dept_id,dept_code,program_code
+1,AE,BT        # cohort=56  [confirmed]
+2,BSBE,BT        # cohort=59  [confirmed]
+3,CE,BT        # cohort=135  [confirmed]
+4,CHE,BT        # cohort=107  [confirmed]
+5,CSE,BT        # cohort=136  [confirmed]
+6,EE,BT        # cohort=198  [confirmed]
+7,MSE,BT        # cohort=82  [confirmed]
+8,ME,BT        # cohort=157  [confirmed]
+9,CHM,BS        # cohort=24  [confirmed]
+10,ECO,BS        # cohort=48  [confirmed]
+12,MTH,BS        # cohort=60  [confirmed]
+95,SDS,BS        # cohort=29  [confirmed]

@@ -1,0 +1,1302 @@
+{
+  "evaluation_status": "COMPLETE",
+  "warnings": [],
+  "track": {
+    "code": "SDE",
+    "label": "Software Development Engineering & Systems",
+    "short_label": "Software Engineering",
+    "description": "Work experience leads, with systems depth, academics and branch match close behind.",
+    "project_pillar_label": "Projects & Systems Depth",
+    "kg_role": "SDE"
+  },
+  "file": {
+    "name": "sample-resume.pdf",
+    "size_bytes": 10834,
+    "page_count": 1
+  },
+  "overall_score": 88,
+  "verdict": "Outstanding (Strong Shortlist Contender)",
+  "verdict_band": "OUTSTANDING",
+  "content_score": 87,
+  "structural_score": 93,
+  "pillars": [
+    {
+      "key": "Work Experience",
+      "label": "Work Experience",
+      "score": 18,
+      "max_score": 20,
+      "tier": "Good",
+      "reasoning": "The Sprinklr internship shows a measured production latency improvement at real event volume. The second internship is described in terms of endpoints built rather than outcomes delivered.",
+      "weight": 0.25,
+      "weighted_contribution": 22.5,
+      "headroom_points": 2.12,
+      "is_project_pillar": false
+    },
+    {
+      "key": "Academics & CPI",
+      "label": "Academics & CPI",
+      "score": 20,
+      "max_score": 20,
+      "tier": "Very Good",
+      "reasoning": null,
+      "weight": 0.2,
+      "weighted_contribution": 20.0,
+      "headroom_points": 0.0,
+      "is_project_pillar": false
+    },
+    {
+      "key": "Projects & Systems Depth",
+      "label": "Projects & Systems Depth",
+      "score": 16,
+      "max_score": 20,
+      "tier": "Very Good",
+      "reasoning": "The storage engine is a genuine systems project with a benchmark against a real baseline. The consensus visualiser stops at implementation and does not report what the evaluation showed.",
+      "weight": 0.2,
+      "weighted_contribution": 16.0,
+      "headroom_points": 3.4,
+      "is_project_pillar": true
+    },
+    {
+      "key": "Branch Match",
+      "label": "Branch Match",
+      "score": 20,
+      "max_score": 20,
+      "tier": "Very Good",
+      "reasoning": null,
+      "weight": 0.15,
+      "weighted_contribution": 15.0,
+      "headroom_points": 0.0,
+      "is_project_pillar": false
+    },
+    {
+      "key": "SCOPE Articulation",
+      "label": "SCOPE Articulation",
+      "score": 13,
+      "max_score": 20,
+      "tier": "Good",
+      "reasoning": "Strong quantification in the Sprinklr and Coalesce bullets; several other lines name the technology without an outcome.",
+      "weight": 0.1,
+      "weighted_contribution": 6.5,
+      "headroom_points": 2.98,
+      "is_project_pillar": false
+    },
+    {
+      "key": "Leadership & PoR",
+      "label": "Leadership & PoR",
+      "score": 14,
+      "max_score": 20,
+      "tier": "Very Good",
+      "reasoning": null,
+      "weight": 0.1,
+      "weighted_contribution": 7.0,
+      "headroom_points": 2.55,
+      "is_project_pillar": false
+    }
+  ],
+  "extracted_signals": {
+    "branch": "CSE",
+    "branch_source": "department_field",
+    "cpi": 8.42,
+    "cpi_status": "VERIFIED",
+    "jee_adv_air": 1284,
+    "cf_rating": 1712,
+    "has_top_scholarship": false,
+    "has_olympiad": false,
+    "has_aea": true,
+    "has_kvpy": false,
+    "has_surge": false,
+    "por_tier": 4,
+    "detected_analyst_firms": [],
+    "kg_pedigree_firms": [
+      {
+        "organization": "Sprinklr",
+        "resolved_as": "Sprinklr",
+        "tier": 1,
+        "tier_label": "Outstanding / Tier-1",
+        "rubric_band_points": "18-20",
+        "category": "TECH_PRODUCT",
+        "edge_type": "recruits_for",
+        "recruiting_mode": "BOTH"
+      }
+    ],
+    "kg_unverified_firms": [
+      "Tessellate Systems"
+    ],
+    "scholastic_signals": [
+      {
+        "kind": "entrance_rank",
+        "exam": "JEE Advanced",
+        "rank": 1284,
+        "cohort": null,
+        "percentile": null,
+        "tier": "good",
+        "evidence": "All India Rank 1284 in JEE Advanced 2022",
+        "basis": "quant.txt §2.1 — JEE Advanced AIR in the conditional band"
+      },
+      {
+        "kind": "award",
+        "award": "Academic Excellence Award",
+        "tier": "very_good",
+        "evidence": "Academic Excellence Award, IIT Kanpur, 2024",
+        "basis": "institute or national award"
+      }
+    ],
+    "scholastic_summary": {
+      "total": 2,
+      "by_tier": {
+        "good": 1,
+        "very_good": 1
+      },
+      "strongest_tier": "very_good",
+      "olympiad_stage": null,
+      "diluting_count": 0
+    },
+    "quantified_results": [
+      {
+        "metric": "latency",
+        "direction": "decrease",
+        "value": 4.1,
+        "unit": "seconds",
+        "evidence": "Rewrote the batch deduplication stage as a streaming operator over Kafka, cutting end-to-end ingestion latency from 4.1s to 900ms across 12M daily events in production",
+        "section": "Work Experience",
+        "entry": "Software Development Intern"
+      },
+      {
+        "metric": "latency",
+        "direction": "decrease",
+        "value": 900.0,
+        "unit": "milliseconds",
+        "evidence": "Rewrote the batch deduplication stage as a streaming operator over Kafka, cutting end-to-end ingestion latency from 4.1s to 900ms across 12M daily events in production",
+        "section": "Work Experience",
+        "entry": "Software Development Intern"
+      },
+      {
+        "metric": null,
+        "direction": "decrease",
+        "value": 12000000.0,
+        "unit": null,
+        "evidence": "Rewrote the batch deduplication stage as a streaming operator over Kafka, cutting end-to-end ingestion latency from 4.1s to 900ms across 12M daily events in production",
+        "section": "Work Experience",
+        "entry": "Software Development Intern"
+      },
+      {
+        "metric": null,
+        "direction": "achieved",
+        "value": 40000000.0,
+        "unit": "key",
+        "evidence": "Benchmarked against LevelDB on a 40M-key workload, reaching 1.8x write throughput at comparable p99 read latency",
+        "section": "Projects",
+        "entry": "Coalesce — a log-structured key-value store"
+      },
+      {
+        "metric": "throughput",
+        "direction": "achieved",
+        "value": 1.8,
+        "unit": "x",
+        "evidence": "Benchmarked against LevelDB on a 40M-key workload, reaching 1.8x write throughput at comparable p99 read latency",
+        "section": "Projects",
+        "entry": "Coalesce — a log-structured key-value store"
+      },
+      {
+        "metric": null,
+        "direction": null,
+        "value": 180.0,
+        "unit": "first-year",
+        "evidence": "Ran the weekly contest series and the summer mentorship track for 180 first-year students",
+        "section": "Position of Responsibility",
+        "entry": "Coordinator, Programming Club"
+      }
+    ],
+    "quantified_results_summary": {
+      "total": 6,
+      "by_section": {
+        "Work Experience": 3,
+        "Projects": 2,
+        "Position of Responsibility": 1
+      },
+      "quantified_bullets": 3,
+      "total_bullets": 12,
+      "quantified_bullet_ratio": 0.25,
+      "named_metrics": [
+        "latency",
+        "throughput"
+      ]
+    }
+  },
+  "deterministic_scores": {
+    "Academics": 20,
+    "Branch": 20,
+    "Leadership": 14
+  },
+  "semantic_benchmarks": {},
+  "spo_layout_metrics": {
+    "word_count": {
+      "ACTUAL_VALUE": 343,
+      "GUIDELINE_VALUE": "500-750",
+      "DELTA": -157,
+      "note": "157 words below min SPO guideline"
+    },
+    "margins": {
+      "ACTUAL_VALUE": "0.533 in",
+      "GUIDELINE_VALUE": "0.5 in",
+      "DELTA": 0.033,
+      "note": "Margins fulfill SPO guidelines"
+    },
+    "font_families": {
+      "ACTUAL_VALUE": 1,
+      "GUIDELINE_VALUE": 1,
+      "DELTA": 0,
+      "detected_fonts": [
+        "Times"
+      ],
+      "note": "Font family usage complies with SPO guidelines"
+    },
+    "font_size": {
+      "ACTUAL_VALUE": "8.5 pt",
+      "GUIDELINE_VALUE": "9.0 pt",
+      "DELTA": -0.5,
+      "note": "Font size is smaller than SPO threshold"
+    },
+    "name_ratio": {
+      "ACTUAL_VALUE": 2.11,
+      "GUIDELINE_VALUE": 2.0,
+      "DELTA": 0.11,
+      "name_text": "Ananya Deshmukh",
+      "note": "Name header meets or exceeds 2.0x body ratio"
+    },
+    "whitespace": {
+      "ACTUAL_VALUE": "1.20x",
+      "GUIDELINE_VALUE": "1.0-1.45x",
+      "DELTA": 0,
+      "note": "Lines are set 1.20x their font size, normal single spacing"
+    }
+  },
+  "structured_resume": {
+    "Name": "Ananya Deshmukh",
+    "Department": "Computer Science and Engineering",
+    "Contact Information": {
+      "email": "ananya.d@iitk.ac.in",
+      "phone": "+91 98765 43210",
+      "linkedin": "linkedin.com/in/ananya-deshmukh",
+      "github": "github.com/ananyad",
+      "portfolio": ""
+    },
+    "Academic Qualifications": [
+      {
+        "degree": "B.Tech, Computer Science and Engineering",
+        "institution": "Indian Institute of Technology Kanpur",
+        "year": "2026",
+        "grade": "CPI 8.42/10.0"
+      },
+      {
+        "degree": "Intermediate/+2",
+        "institution": "CBSE, Pune",
+        "year": "2022",
+        "grade": "94.20%"
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "CBSE, Pune",
+        "year": "2020",
+        "grade": "95.80%"
+      }
+    ],
+    "Scholastic Qualifications": [
+      "All India Rank 1284 in JEE Advanced 2022",
+      "Academic Excellence Award, IIT Kanpur, 2024",
+      "Max rating 1712 (Expert) on Codeforces",
+      "Finalist, Inter-IIT Tech Meet software track"
+    ],
+    "Work Experience": [
+      {
+        "organization": "Sprinklr, Gurugram",
+        "role": "Software Development Intern",
+        "duration": "May'25 - Jul'25",
+        "description": [
+          "Worked on the ingestion service for the social listening platform alongside the platform team",
+          "Rewrote the batch deduplication stage as a streaming operator over Kafka, cutting end-to-end ingestion latency from 4.1s to 900ms across 12M daily events in production",
+          "Added consumer-lag alerting and a replay path, which the on-call rotation adopted after the migration"
+        ]
+      },
+      {
+        "organization": "Tessellate Systems",
+        "role": "Backend Engineering Intern",
+        "duration": "Dec'24 - Jan'25",
+        "description": [
+          "Built REST endpoints for the merchant onboarding flow using FastAPI and PostgreSQL",
+          "Migrated the reporting job to a task queue so the nightly run stopped blocking the web workers"
+        ]
+      }
+    ],
+    "Projects": [
+      {
+        "title": "Coalesce — a log-structured key-value store",
+        "organization": "Self Project",
+        "duration": "Jan'25 - Apr'25",
+        "description": [
+          "Designed an LSM-tree storage engine in C++20 with a write-ahead log, tiered compaction and a bloom-filter read path",
+          "Benchmarked against LevelDB on a 40M-key workload, reaching 1.8x write throughput at comparable p99 read latency",
+          "Open-sourced the engine with a fuzzing harness; the repository has been forked by other course teams"
+        ]
+      },
+      {
+        "title": "Distributed Consensus Visualiser",
+        "organization": "CS425 Course Project | Prof. R. Iyer",
+        "duration": "Aug'24 - Nov'24",
+        "description": [
+          "Implemented Raft leader election and log replication over a simulated lossy network",
+          "Built a web front end that steps through the replicated log so the failure modes can be inspected"
+        ]
+      }
+    ],
+    "Research Experience": [],
+    "Major Competitions": [
+      {
+        "competition": "Inter-IIT Tech Meet",
+        "organization": "IIT Kanpur contingent",
+        "achievement": "Finalist, software track",
+        "year": "2024",
+        "description": [
+          "Shipped an offline-first field data collection tool judged on reliability under intermittent connectivity"
+        ]
+      }
+    ],
+    "Position of Responsibility": [
+      {
+        "position": "Coordinator, Programming Club",
+        "organization": "Students' Gymkhana, IIT Kanpur",
+        "duration": "Apr'24 - Mar'25",
+        "description": [
+          "Ran the weekly contest series and the summer mentorship track for 180 first-year students"
+        ]
+      }
+    ],
+    "Social Impact": [],
+    "Extra Curricular Activities": [
+      "Completed the Coursera Machine Learning specialization certificate",
+      "Volunteer, campus open-source install fest"
+    ],
+    "Technical Skills": [
+      "C++",
+      "Python",
+      "Go",
+      "PostgreSQL",
+      "Kafka",
+      "Docker",
+      "gRPC"
+    ],
+    "Relevant Courses": [
+      "Operating Systems",
+      "Computer Networks",
+      "Distributed Systems",
+      "Database Systems",
+      "Compilers"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-001-scope_bullet_incomplete",
+      "severity": "IMPORTANT",
+      "title": "Quantify the outcome in Software Development Intern",
+      "rationale": "This line in Software Development Intern is missing the measured outcome and how big were the stakes. It reads as an activity description rather than a result a reviewer can size.",
+      "action": "Rewrite the line to add the number you actually measured for the outcome; state the size the work operated at — users, records, revenue, traffic or team. Use only figures you recorded during the work — if a number was never measured, describe what shipped instead of estimating one.",
+      "section": "Work Experience",
+      "pillar": "SCOPE Articulation",
+      "evidence_text": "Worked on the ingestion service for the social listening platform alongside the platform team",
+      "evidence_refs": [
+        {
+          "page": 1,
+          "x": 0.0916,
+          "y": 0.28668,
+          "width": 0.56337,
+          "height": 0.01426,
+          "text": "Worked on the ingestion service for the social listening platform alongside the platform team",
+          "match": "exact"
+        }
+      ],
+      "source_rule": "SCOPE_BULLET_INCOMPLETE",
+      "expected_impact": "Up to +3.0 on the overall score",
+      "impact_points": 3.0,
+      "pillar_weight": 0.1,
+      "detail": {
+        "scope_present": [],
+        "scope_missing": [
+          "SCALE",
+          "CONTEXT",
+          "OWN",
+          "PROOF",
+          "EDGE"
+        ],
+        "scope_covered": 0,
+        "scope_total": 5
+      }
+    },
+    {
+      "id": "rec-002-scope_bullet_incomplete",
+      "severity": "IMPORTANT",
+      "title": "Quantify the outcome in Backend Engineering Intern",
+      "rationale": "This line in Backend Engineering Intern is missing the measured outcome and how big were the stakes. It reads as an activity description rather than a result a reviewer can size.",
+      "action": "Rewrite the line to add the number you actually measured for the outcome; state the size the work operated at — users, records, revenue, traffic or team. Use only figures you recorded during the work — if a number was never measured, describe what shipped instead of estimating one.",
+      "section": "Work Experience",
+      "pillar": "SCOPE Articulation",
+      "evidence_text": "Built REST endpoints for the merchant onboarding flow using FastAPI and PostgreSQL",
+      "evidence_refs": [
+        {
+          "page": 1,
+          "x": 0.0916,
+          "y": 0.36007,
+          "width": 0.53486,
+          "height": 0.01426,
+          "text": "Built REST endpoints for the merchant onboarding flow using FastAPI and PostgreSQL",
+          "match": "exact"
+        }
+      ],
+      "source_rule": "SCOPE_BULLET_INCOMPLETE",
+      "expected_impact": "Up to +3.0 on the overall score",
+      "impact_points": 3.0,
+      "pillar_weight": 0.1,
+      "detail": {
+        "scope_present": [
+          "OWN"
+        ],
+        "scope_missing": [
+          "SCALE",
+          "CONTEXT",
+          "PROOF",
+          "EDGE"
+        ],
+        "scope_covered": 1,
+        "scope_total": 5
+      }
+    },
+    {
+      "id": "rec-003-scope_bullet_incomplete",
+      "severity": "IMPORTANT",
+      "title": "Quantify the outcome in Coalesce — a log-structured key-value store",
+      "rationale": "This line in Coalesce — a log-structured key-value store is missing the measured outcome and how big were the stakes. It reads as an activity description rather than a result a reviewer can size.",
+      "action": "Rewrite the line to add the number you actually measured for the outcome; state the size the work operated at — users, records, revenue, traffic or team. Use only figures you recorded during the work — if a number was never measured, describe what shipped instead of estimating one.",
+      "section": "Projects",
+      "pillar": "SCOPE Articulation",
+      "evidence_text": "Designed an LSM-tree storage engine in C++20 with a write-ahead log, tiered compaction and a bloom-filter read path",
+      "evidence_refs": [
+        {
+          "page": 1,
+          "x": 0.0916,
+          "y": 0.42927,
+          "width": 0.71944,
+          "height": 0.01426,
+          "text": "Designed an LSM-tree storage engine in C++20 with a write-ahead log, tiered compaction and a bloom-filter read path",
+          "match": "exact"
+        }
+      ],
+      "source_rule": "SCOPE_BULLET_INCOMPLETE",
+      "expected_impact": "Up to +3.0 on the overall score",
+      "impact_points": 3.0,
+      "pillar_weight": 0.1,
+      "detail": {
+        "scope_present": [
+          "OWN"
+        ],
+        "scope_missing": [
+          "SCALE",
+          "CONTEXT",
+          "PROOF",
+          "EDGE"
+        ],
+        "scope_covered": 1,
+        "scope_total": 5
+      }
+    },
+    {
+      "id": "rec-004-weak_ownership_verb",
+      "severity": "IMPORTANT",
+      "title": "Bullet opens with “Worked on the…”",
+      "rationale": "Openers such as 'worked on', 'was responsible for' and 'helped with' are listed as zero-ownership verbs; they leave what you personally decided undefined.",
+      "action": "Open with the action you took — architected, designed, negotiated, optimised, automated, launched — followed by the thing you owned.",
+      "section": "Work Experience",
+      "pillar": "SCOPE Articulation",
+      "evidence_text": "Worked on the ingestion service for the social listening platform alongside the platform team",
+      "evidence_refs": [
+        {
+          "page": 1,
+          "x": 0.0916,
+          "y": 0.28668,
+          "width": 0.56337,
+          "height": 0.01426,
+          "text": "Worked on the ingestion service for the social listening platform alongside the platform team",
+          "match": "exact"
+        }
+      ],
+      "source_rule": "WEAK_OWNERSHIP_VERB",
+      "expected_impact": "Up to +3.0 on the overall score",
+      "impact_points": 3.0,
+      "pillar_weight": 0.1,
+      "detail": {}
+    },
+    {
+      "id": "rec-007-layout_font_size_small",
+      "severity": "POLISH",
+      "title": "Body font size is below the SPO baseline",
+      "rationale": "Measured 8.5 pt against the SPO guideline of 9.0 pt. Font size is smaller than SPO threshold",
+      "action": "Raise the smallest body size to the SPO baseline and cut a line elsewhere to make room.",
+      "section": "Document layout",
+      "pillar": "Structural Layout",
+      "evidence_text": null,
+      "evidence_refs": [],
+      "source_rule": "LAYOUT_FONT_SIZE_SMALL",
+      "expected_impact": "Shares up to +1.1 of layout headroom",
+      "impact_points": 1.1,
+      "pillar_weight": 0.2,
+      "detail": {}
+    },
+    {
+      "id": "rec-008-layout_word_count",
+      "severity": "POLISH",
+      "title": "Word count is outside the SPO band",
+      "rationale": "Measured 343 against the SPO guideline of 500-750. 157 words below min SPO guideline",
+      "action": "Bring the total word count inside the SPO band shown in the layout panel.",
+      "section": "Document layout",
+      "pillar": "Structural Layout",
+      "evidence_text": null,
+      "evidence_refs": [],
+      "source_rule": "LAYOUT_WORD_COUNT",
+      "expected_impact": "Shares up to +1.1 of layout headroom",
+      "impact_points": 1.1,
+      "pillar_weight": 0.2,
+      "detail": {}
+    },
+    {
+      "id": "rec-005-kb_sde_generic_certificate",
+      "severity": "POLISH",
+      "title": "Generic completion certificate is taking resume space",
+      "rationale": "Basic MOOC completion certificates are listed as dilution in the SDE knowledge base; they compete for space with verifiable engineering work.",
+      "action": "Drop the certificate and use the line for a project, contribution or rated profile.",
+      "section": "Extra Curricular Activities",
+      "pillar": "Projects & Systems Depth",
+      "evidence_text": "Completed the Coursera Machine Learning specialization certificate",
+      "evidence_refs": [
+        {
+          "page": 1,
+          "x": 0.07479,
+          "y": 0.67715,
+          "width": 0.41335,
+          "height": 0.01426,
+          "text": "Completed the Coursera Machine Learning specialization certificate",
+          "match": "exact"
+        }
+      ],
+      "source_rule": "KB_SDE_GENERIC_CERTIFICATE",
+      "expected_impact": "No direct score impact",
+      "impact_points": 0.0,
+      "pillar_weight": 0.2,
+      "detail": {
+        "knowledge_base": "knowledge-base/role-frameworks/sde.txt §3.3 — Unrelated Non-Technical Certificates"
+      }
+    },
+    {
+      "id": "rec-006-unverified_company",
+      "severity": "POLISH",
+      "title": "Employer has no campus recruiting record here",
+      "rationale": "Tessellate Systems — large established firm, a global technology and consulting company. The recruiter graph only covers firms that run a process at IIT Kanpur, so this affects how the role is matched to recruiters, not how it is scored.",
+      "action": "Nothing to change. If the organisation is better known by another name, using that name helps it match against recruiter records.",
+      "section": "Work Experience",
+      "pillar": "Work Experience",
+      "evidence_text": "Tessellate Systems",
+      "evidence_refs": [],
+      "source_rule": "UNVERIFIED_COMPANY",
+      "expected_impact": "No direct score impact",
+      "impact_points": 0.0,
+      "pillar_weight": 0.25,
+      "detail": {}
+    }
+  ],
+  "recommendation_summary": {
+    "high": 0,
+    "important": 4,
+    "polish": 4,
+    "total": 8
+  },
+  "company_fit": {
+    "available": true,
+    "entries": [
+      {
+        "company": "Databricks",
+        "company_id": "ORG:DATABRICKS",
+        "category": "Product technology",
+        "tier": 1,
+        "tier_label": "Outstanding / Tier-1",
+        "fit_score": 97,
+        "fit_band": "Strong",
+        "rationale": "Profile sits 8 points above the Tier-1 bar of 80. Actively recruited at IIT Kanpur for this role last cycle. 90% of its IIT Kanpur hiring last cycle came from CSE.",
+        "recruiting_mode": "BOTH",
+        "source": "recruits_for",
+        "iitk_presence": "observed_at_iitk",
+        "presence_strength": 0.714,
+        "branch_affinity": 0.9,
+        "factors": {
+          "tier_base": 0.7914,
+          "observed_presence": 0.0715,
+          "branch_history": 0.1101
+        }
+      },
+      {
+        "company": "Oracle",
+        "company_id": "ORG:ORACLE",
+        "category": "Product technology",
+        "tier": 1,
+        "tier_label": "Outstanding / Tier-1",
+        "fit_score": 96,
+        "fit_band": "Strong",
+        "rationale": "Profile sits 8 points above the Tier-1 bar of 80. Actively recruited at IIT Kanpur for this role last cycle. 36% of its IIT Kanpur hiring last cycle came from CSE.",
+        "recruiting_mode": "BOTH",
+        "source": "recruits_for",
+        "iitk_presence": "observed_at_iitk",
+        "presence_strength": 1.0,
+        "branch_affinity": 0.357,
+        "factors": {
+          "tier_base": 0.7914,
+          "observed_presence": 0.1145,
+          "branch_history": 0.05
+        }
+      },
+      {
+        "company": "Google",
+        "company_id": "ORG:GOOGLE",
+        "category": "Product technology",
+        "tier": 1,
+        "tier_label": "Outstanding / Tier-1",
+        "fit_score": 88,
+        "fit_band": "Strong",
+        "rationale": "Profile sits 8 points above the Tier-1 bar of 80. Actively recruited at IIT Kanpur for this role last cycle. 60% of its IIT Kanpur hiring last cycle came from CSE.",
+        "recruiting_mode": "BOTH",
+        "source": "recruits_for",
+        "iitk_presence": "observed_at_iitk",
+        "presence_strength": 0.214,
+        "branch_affinity": 0.6,
+        "factors": {
+          "tier_base": 0.7914,
+          "observed_presence": 0.0105,
+          "branch_history": 0.0734
+        }
+      },
+      {
+        "company": "Squarepoint Capital",
+        "company_id": "ORG:SQUAREPOINT",
+        "category": "Proprietary trading",
+        "tier": 1,
+        "tier_label": "Outstanding / Tier-1",
+        "fit_score": 88,
+        "fit_band": "Strong",
+        "rationale": "Profile sits 8 points above the Tier-1 bar of 80. Actively recruited at IIT Kanpur for this role last cycle. 56% of its IIT Kanpur hiring last cycle came from CSE.",
+        "recruiting_mode": "BOTH",
+        "source": "recruits_for",
+        "iitk_presence": "observed_at_iitk",
+        "presence_strength": 0.143,
+        "branch_affinity": 0.562,
+        "factors": {
+          "tier_base": 0.7914,
+          "observed_presence": 0.0051,
+          "branch_history": 0.0825
+        }
+      },
+      {
+        "company": "Salesforce",
+        "company_id": "ORG:SALESFORCE",
+        "category": "Product technology",
+        "tier": 1,
+        "tier_label": "Outstanding / Tier-1",
+        "fit_score": 86,
+        "fit_band": "Strong",
+        "rationale": "Profile sits 8 points above the Tier-1 bar of 80. Actively recruited at IIT Kanpur for this role last cycle. 75% of its IIT Kanpur hiring last cycle came from CSE.",
+        "recruiting_mode": "BOTH",
+        "source": "recruits_for",
+        "iitk_presence": "observed_at_iitk",
+        "presence_strength": 0.286,
+        "branch_affinity": 0.75,
+        "factors": {
+          "tier_base": 0.7914,
+          "observed_presence": 0.0171,
+          "branch_history": 0.0549
+        }
+      },
+      {
+        "company": "Microsoft",
+        "company_id": "ORG:MICROSOFT",
+        "category": "Product technology",
+        "tier": 1,
+        "tier_label": "Outstanding / Tier-1",
+        "fit_score": 85,
+        "fit_band": "Strong",
+        "rationale": "Profile sits 8 points above the Tier-1 bar of 80. Actively recruited at IIT Kanpur for this role last cycle. 50% of its IIT Kanpur hiring last cycle came from CSE.",
+        "recruiting_mode": "BOTH",
+        "source": "recruits_for",
+        "iitk_presence": "observed_at_iitk",
+        "presence_strength": 0.071,
+        "branch_affinity": 0.5,
+        "factors": {
+          "tier_base": 0.7914,
+          "observed_presence": 0.0014,
+          "branch_history": 0.055
+        }
+      },
+      {
+        "company": "Rubrik",
+        "company_id": "ORG:RUBRIK",
+        "category": "Product technology",
+        "tier": 1,
+        "tier_label": "Outstanding / Tier-1",
+        "fit_score": 84,
+        "fit_band": "Strong",
+        "rationale": "Profile sits 8 points above the Tier-1 bar of 80. Actively recruited at IIT Kanpur for this role last cycle. 100% of its IIT Kanpur hiring last cycle came from CSE.",
+        "recruiting_mode": "BOTH",
+        "source": "recruits_for",
+        "iitk_presence": "observed_at_iitk",
+        "presence_strength": 0.143,
+        "branch_affinity": 1.0,
+        "factors": {
+          "tier_base": 0.7914,
+          "observed_presence": 0.0051,
+          "branch_history": 0.044
+        }
+      },
+      {
+        "company": "Sprinklr",
+        "company_id": "ORG:SPRINKLR",
+        "category": "Product technology",
+        "tier": 1,
+        "tier_label": "Outstanding / Tier-1",
+        "fit_score": 83,
+        "fit_band": "Strong",
+        "rationale": "Profile sits 8 points above the Tier-1 bar of 80. Actively recruited at IIT Kanpur for this role last cycle. 33% of its IIT Kanpur hiring last cycle came from CSE.",
+        "recruiting_mode": "BOTH",
+        "source": "recruits_for",
+        "iitk_presence": "observed_at_iitk",
+        "presence_strength": 0.143,
+        "branch_affinity": 0.333,
+        "factors": {
+          "tier_base": 0.7914,
+          "observed_presence": 0.0051,
+          "branch_history": 0.0314
+        }
+      },
+      {
+        "company": "Goldman Sachs",
+        "company_id": "ORG:GOLDMAN_SACHS",
+        "category": "Investment banking and markets",
+        "tier": 1,
+        "tier_label": "Outstanding / Tier-1",
+        "fit_score": 82,
+        "fit_band": "Strong",
+        "rationale": "Profile sits 8 points above the Tier-1 bar of 80. Actively recruited at IIT Kanpur for this role last cycle.",
+        "recruiting_mode": "BOTH",
+        "source": "recruits_for",
+        "iitk_presence": "observed_at_iitk",
+        "presence_strength": 0.357,
+        "branch_affinity": null,
+        "factors": {
+          "tier_base": 0.7914,
+          "observed_presence": 0.0247
+        }
+      },
+      {
+        "company": "D. E. Shaw",
+        "company_id": "ORG:DE_SHAW",
+        "category": "Proprietary trading",
+        "tier": 1,
+        "tier_label": "Outstanding / Tier-1",
+        "fit_score": 82,
+        "fit_band": "Strong",
+        "rationale": "Profile sits 8 points above the Tier-1 bar of 80. Actively recruited at IIT Kanpur for this role last cycle. 100% of its IIT Kanpur hiring last cycle came from CSE.",
+        "recruiting_mode": "BOTH",
+        "source": "recruits_for",
+        "iitk_presence": "observed_at_iitk",
+        "presence_strength": 0.071,
+        "branch_affinity": 1.0,
+        "factors": {
+          "tier_base": 0.7914,
+          "observed_presence": 0.0014,
+          "branch_history": 0.0244
+        }
+      },
+      {
+        "company": "Adobe",
+        "company_id": "ORG:ADOBE",
+        "category": "Product technology",
+        "tier": 1,
+        "tier_label": "Outstanding / Tier-1",
+        "fit_score": 82,
+        "fit_band": "Strong",
+        "rationale": "Profile sits 8 points above the Tier-1 bar of 80. 33% of its IIT Kanpur hiring last cycle came from CSE.",
+        "recruiting_mode": "BOTH",
+        "source": "recruits_for",
+        "iitk_presence": "observed_at_iitk",
+        "presence_strength": null,
+        "branch_affinity": 0.333,
+        "factors": {
+          "tier_base": 0.7914,
+          "branch_history": 0.0314
+        }
+      },
+      {
+        "company": "Uber",
+        "company_id": "ORG:UBER",
+        "category": "Product technology",
+        "tier": 1,
+        "tier_label": "Outstanding / Tier-1",
+        "fit_score": 82,
+        "fit_band": "Strong",
+        "rationale": "Profile sits 8 points above the Tier-1 bar of 80. 100% of its IIT Kanpur hiring last cycle came from CSE.",
+        "recruiting_mode": "BOTH",
+        "source": "recruits_for",
+        "iitk_presence": "observed_at_iitk",
+        "presence_strength": null,
+        "branch_affinity": 1.0,
+        "factors": {
+          "tier_base": 0.7914,
+          "branch_history": 0.0244
+        }
+      }
+    ],
+    "track": "SDE",
+    "model_version": "kg-tier-heuristic-v0",
+    "disclosure": "Directional estimate based on resume signals and the selected role; not an employer prediction. Derived from curated recruiter tiers and this engine's own verdict thresholds.",
+    "driving_pillar": "Projects & Systems Depth at 16/20 carries 20% of this track's content weight.",
+    "kg_schema_version": "1.0",
+    "kg_is_export": true,
+    "kg_exported_at": "2026-09-02T10:15:22+00:00",
+    "ppo_dominant_excluded": 2,
+    "campus_recruiter_pool": 77,
+    "shown": 12,
+    "branch_used": "CSE"
+  },
+  "compliance": {
+    "status": "NON_COMPLIANT",
+    "findings": [
+      {
+        "check": "SPO_NO_MOBILE_NUMBER",
+        "severity": "BLOCKING",
+        "message": "A mobile number appears on the resume. SPO does not permit phone numbers on master or single-page resumes submitted through the portal.",
+        "guideline": "Guidelines p.1 — 'No JEE/GATE rank or mobile numbers are allowed in the submitted Master and Single page resumes.'",
+        "evidence": "+91 98765 43210",
+        "section": "Contact Information"
+      },
+      {
+        "check": "SPO_NO_JEE_GATE_RANK",
+        "severity": "BLOCKING",
+        "message": "A JEE/GATE rank appears on the resume. SPO does not permit it on submitted resumes. Note that the scoring engine separately credited AIR 1284 toward the academics pillar, so removing it for submission will lower the modelled academic score even though it is required for compliance.",
+        "guideline": "Guidelines p.1 — 'No JEE/GATE rank or mobile numbers are allowed in the submitted Master and Single page resumes.'",
+        "evidence": "All India Rank 1284 in JEE",
+        "section": "Scholastic Qualifications"
+      },
+      {
+        "check": "SPO_ACHIEVEMENT_YEAR",
+        "severity": "WARNING",
+        "message": "2 achievement line(s) do not state a year.",
+        "guideline": "Guidelines p.6 — \"Any 'Achievements' or 'Activities': Definitely mention the year of Activity or Achievement.\"",
+        "evidence": "Max rating 1712 (Expert) on Codeforces",
+        "section": "Scholastic Qualifications"
+      }
+    ],
+    "counts": {
+      "blocking": 2,
+      "warning": 1,
+      "info": 0
+    },
+    "source": "SPO IIT Kanpur — Resume Making Guidelines",
+    "cycle": "2026",
+    "rules_disabled": [
+      "SPO_PREFERRED_FONT"
+    ]
+  },
+  "validation": {
+    "status": "PASS",
+    "findings": [],
+    "grounding_coverage": 1.0,
+    "claims_audited": 11,
+    "counts": {
+      "blocking": 0,
+      "warning": 0,
+      "info": 0
+    },
+    "checks_run": [
+      "check_role_weights_sum",
+      "check_pillar_bounds",
+      "check_cpi_fail_closed",
+      "check_branch_agreement",
+      "check_por_detection_gap",
+      "check_unverified_companies",
+      "check_semantic_vs_corpus_divergence",
+      "check_semantic_contract",
+      "check_extraction_grounding",
+      "check_reasoning_grounding"
+    ],
+    "checks_failed": [],
+    "llm_used": false,
+    "agent_version": "validation-agent-v1"
+  },
+  "agent_recommendations": {
+    "agent_version": "recommendation-agent-v1",
+    "attribution": {
+      "overall_score": 88.0,
+      "next_band": {
+        "threshold": 90,
+        "label": "Top 1% Day-1 Prime",
+        "points_needed": 2.0
+      },
+      "ranked_pillars": [
+        {
+          "pillar": "Projects & Systems Depth",
+          "score": 16,
+          "weight": 0.2,
+          "headroom_points": 3.4,
+          "tier": "Very Good",
+          "reasoning": "The storage engine is a genuine systems project with a benchmark against a real baseline. The consensus visualiser stops at implementation and does not report what the evaluation showed."
+        },
+        {
+          "pillar": "SCOPE Articulation",
+          "score": 13,
+          "weight": 0.1,
+          "headroom_points": 2.98,
+          "tier": "Good",
+          "reasoning": "Strong quantification in the Sprinklr and Coalesce bullets; several other lines name the technology without an outcome."
+        },
+        {
+          "pillar": "Leadership & PoR",
+          "score": 14,
+          "weight": 0.1,
+          "headroom_points": 2.55,
+          "tier": "Very Good",
+          "reasoning": null
+        },
+        {
+          "pillar": "Work Experience",
+          "score": 18,
+          "weight": 0.25,
+          "headroom_points": 2.12,
+          "tier": "Good",
+          "reasoning": "The Sprinklr internship shows a measured production latency improvement at real event volume. The second internship is described in terms of endpoints built rather than outcomes delivered."
+        },
+        {
+          "pillar": "Academics & CPI",
+          "score": 20,
+          "weight": 0.2,
+          "headroom_points": 0.0,
+          "tier": "Very Good",
+          "reasoning": null
+        },
+        {
+          "pillar": "Branch Match",
+          "score": 20,
+          "weight": 0.15,
+          "headroom_points": 0.0,
+          "tier": "Very Good",
+          "reasoning": null
+        }
+      ],
+      "layout_headroom_points": 1.05,
+      "total_available": 12.1
+    },
+    "recommendations": [
+      {
+        "id": "agent-workex-outcome",
+        "severity": "HIGH",
+        "pillar": "Work Experience",
+        "section": "Work Experience",
+        "issue": "The Tessellate internship names the stack but states no outcome.",
+        "evidence_ref": "Built REST endpoints for the merchant onboarding flow using FastAPI and PostgreSQL",
+        "suggested_action": "Say what the onboarding flow did once it shipped — the number of merchants onboarded, or the step it removed. Use the figure you already have from the handover; if none was recorded, state what went live instead.",
+        "expected_impact": "Work Experience, the pillar with the most headroom on SDE",
+        "source_rule": "SCOPE_BULLET_INCOMPLETE",
+        "critique": "not_run"
+      },
+      {
+        "id": "agent-consensus-eval",
+        "severity": "IMPORTANT",
+        "pillar": "Projects & Systems Depth",
+        "section": "Projects",
+        "issue": "The Raft project stops at implementation and never reports what the evaluation showed.",
+        "evidence_ref": "Implemented Raft leader election and log replication over a simulated lossy network",
+        "suggested_action": "State the failure conditions you actually exercised — the loss rate the cluster held quorum under, or the election latency you measured in the simulator.",
+        "expected_impact": "Projects & Systems Depth, up to +3.4",
+        "source_rule": "PROJECT_DEPTH_BELOW_BAND",
+        "critique": "not_run"
+      },
+      {
+        "id": "agent-certificate",
+        "severity": "POLISH",
+        "pillar": "Extra Curricular Activities",
+        "section": "Extra Curricular Activities",
+        "issue": "A MOOC completion certificate is competing for space with verifiable work.",
+        "evidence_ref": "Completed the Coursera Machine Learning specialization certificate",
+        "suggested_action": "Drop the certificate and give the line to the Coalesce benchmark numbers, which are verifiable.",
+        "expected_impact": "No direct score impact; frees a line",
+        "source_rule": "KB_SDE_GENERIC_CERTIFICATE",
+        "critique": "not_run"
+      }
+    ],
+    "rejected": [
+      {
+        "id": "agent-fabricate",
+        "severity": "IMPORTANT",
+        "pillar": "SCOPE Articulation",
+        "section": "Projects",
+        "issue": "The consensus visualiser has no metric.",
+        "evidence_ref": "Built a web front end that steps through the replicated log",
+        "suggested_action": "Just add a 30% improvement metric so the bullet lands harder.",
+        "expected_impact": "SCOPE Articulation",
+        "source_rule": "AGENT_DERIVED",
+        "rejected_by": "code",
+        "rejection_reason": "Asks the candidate to fabricate or estimate a figure, which is a hard rule violation."
+      },
+      {
+        "id": "agent-ppo",
+        "severity": "POLISH",
+        "pillar": "Work Experience",
+        "section": "Work Experience",
+        "issue": "Pedigree could be stronger for Tier-1 desks.",
+        "evidence_ref": "Software Development Intern, Sprinklr, Gurugram",
+        "suggested_action": "Apply to Jane Street through the campus cycle to lift your work-experience tier.",
+        "expected_impact": "Work Experience",
+        "source_rule": "AGENT_DERIVED",
+        "rejected_by": "code",
+        "rejection_reason": "Names 'jane street', which hires almost entirely through intern-to-PPO; no campus channel exists."
+      }
+    ],
+    "counts": {
+      "drafted": 5,
+      "kept": 3,
+      "rejected": 2,
+      "rejected_by_code": 2,
+      "rejected_by_critique": 0
+    },
+    "blocked_companies_considered": [
+      "Jane Street",
+      "Citadel",
+      "Optiver"
+    ],
+    "markdown": "# Resume review — Software Development Engineering & Systems\n\n**Score 88/100** · Outstanding (Strong Shortlist Contender)\n\nYou are **2.0 points** below *Top 1% Day-1 Prime* (threshold 90).\n\n## Where the points are\n\n| Pillar | Score | Weight | Points still available |\n| --- | ---: | ---: | ---: |\n| Projects & Systems Depth | 16/20 | 20% | 3.4 |\n| SCOPE Articulation | 13/20 | 10% | 3.0 |\n| Leadership & PoR | 14/20 | 10% | 2.5 |\n| Work Experience | 18/20 | 25% | 2.1 |\n| Academics & CPI | 20/20 | 20% | 0.0 |\n| Branch Match | 20/20 | 15% | 0.0 |\n| Document layout | 93/100 | 15% | 1.1 |\n\n## High priority\n\n**The Tessellate internship names the stack but states no outcome.**\n\n> Built REST endpoints for the merchant onboarding flow using FastAPI and PostgreSQL\n\nSay what the onboarding flow did once it shipped — the number of merchants onboarded, or the step it removed. Use the figure you already have from the handover; if none was recorded, state what went live instead.\n\n<sub>Work Experience · Work Experience · Work Experience, the pillar with the most headroom on SDE</sub>\n\n## Important\n\n**The Raft project stops at implementation and never reports what the evaluation showed.**\n\n> Implemented Raft leader election and log replication over a simulated lossy network\n\nState the failure conditions you actually exercised — the loss rate the cluster held quorum under, or the election latency you measured in the simulator.\n\n<sub>Projects · Projects & Systems Depth · Projects & Systems Depth, up to +3.4</sub>\n\n## Polish\n\n**A MOOC completion certificate is competing for space with verifiable work.**\n\n> Completed the Coursera Machine Learning specialization certificate\n\nDrop the certificate and give the line to the Coalesce benchmark numbers, which are verifiable.\n\n<sub>Extra Curricular Activities · Extra Curricular Activities · No direct score impact; frees a line</sub>\n\n---\n\n*Recommendations are grounded in your extracted resume and this engine's scoring breakdown. None of them asks you to add a figure you did not measure.*"
+  },
+  "evidence_adjustments": [
+    {
+      "pillar": "Work Experience",
+      "floor": 18,
+      "reason": "Sprinklr is Tier-1 for this role in the recruiter knowledge graph, and the rubric bands Tier-1 at 18-20 points.",
+      "evidence": {
+        "organization": "Sprinklr",
+        "resolved_as": "Sprinklr",
+        "tier": 1,
+        "edge_type": "recruits_for",
+        "edge_is_fallback": true
+      },
+      "from": 13,
+      "to": 18,
+      "field": "work_experience"
+    }
+  ],
+  "unverified_companies": [
+    "Tessellate Systems"
+  ],
+  "derived": {
+    "recommendations": "deterministic-rules-v1",
+    "company_fit": "kg-tier-heuristic-v0",
+    "compliance": "spo-guidelines-v1",
+    "evidence_refs": "pymupdf-text-search-v1",
+    "validation": "validation-agent-v1",
+    "agent_recommendations": "recommendation-agent-v1"
+  },
+  "meta": {
+    "engine_version": "spo-resume-intelligence/1.0",
+    "model": "mock (no model call)",
+    "generated_at": "2026-09-02T10:19:16.658264+00:00",
+    "duration_ms": 0,
+    "evidence_resolved": 5,
+    "evidence_requested": 6,
+    "is_mock": true,
+    "mock_note": "Fictional resume. Layout metrics, hard signals, recommendations, compliance findings, shortlist fit and PDF evidence coordinates are all produced by the real modules against the bundled sample PDF. Only the three Gemini-scored pillars are stand-in values."
+  },
+  "structural_breakdown": {
+    "total": 93,
+    "components": [
+      {
+        "key": "word_count",
+        "label": "Word count",
+        "sub_score": 69,
+        "weight": 0.18181818181818182,
+        "points_earned": 12.5,
+        "points_available": 18.2,
+        "points_lost": 5.6,
+        "metric": {
+          "ACTUAL_VALUE": 343,
+          "GUIDELINE_VALUE": "500-750",
+          "DELTA": -157,
+          "note": "157 words below min SPO guideline"
+        }
+      },
+      {
+        "key": "font_size",
+        "label": "Body font size",
+        "sub_score": 90,
+        "weight": 0.09090909090909091,
+        "points_earned": 8.2,
+        "points_available": 9.1,
+        "points_lost": 0.9,
+        "metric": {
+          "ACTUAL_VALUE": "8.5 pt",
+          "GUIDELINE_VALUE": "9.0 pt",
+          "DELTA": -0.5,
+          "note": "Font size is smaller than SPO threshold"
+        }
+      },
+      {
+        "key": "page_count",
+        "label": "Page count",
+        "sub_score": 100,
+        "weight": 0.2727272727272727,
+        "points_earned": 27.3,
+        "points_available": 27.3,
+        "points_lost": 0.0,
+        "metric": {
+          "ACTUAL_VALUE": 1,
+          "GUIDELINE_VALUE": 1,
+          "DELTA": 0,
+          "note": "Single page"
+        }
+      },
+      {
+        "key": "margins",
+        "label": "Margins",
+        "sub_score": 100,
+        "weight": 0.13636363636363635,
+        "points_earned": 13.6,
+        "points_available": 13.6,
+        "points_lost": 0.0,
+        "metric": {
+          "ACTUAL_VALUE": "0.533 in",
+          "GUIDELINE_VALUE": "0.5 in",
+          "DELTA": 0.033,
+          "note": "Margins fulfill SPO guidelines"
+        }
+      },
+      {
+        "key": "font_families",
+        "label": "Font families",
+        "sub_score": 100,
+        "weight": 0.13636363636363635,
+        "points_earned": 13.6,
+        "points_available": 13.6,
+        "points_lost": 0.0,
+        "metric": {
+          "ACTUAL_VALUE": 1,
+          "GUIDELINE_VALUE": 1,
+          "DELTA": 0,
+          "detected_fonts": [
+            "Times"
+          ],
+          "note": "Font family usage complies with SPO guidelines"
+        }
+      },
+      {
+        "key": "name_ratio",
+        "label": "Name header size",
+        "sub_score": 100,
+        "weight": 0.09090909090909091,
+        "points_earned": 9.1,
+        "points_available": 9.1,
+        "points_lost": 0.0,
+        "metric": {
+          "ACTUAL_VALUE": 2.11,
+          "GUIDELINE_VALUE": 2.0,
+          "DELTA": 0.11,
+          "name_text": "Ananya Deshmukh",
+          "note": "Name header meets or exceeds 2.0x body ratio"
+        }
+      },
+      {
+        "key": "whitespace",
+        "label": "Whitespace density",
+        "sub_score": 100,
+        "weight": 0.09090909090909091,
+        "points_earned": 9.1,
+        "points_available": 9.1,
+        "points_lost": 0.0,
+        "metric": {
+          "ACTUAL_VALUE": "1.20x",
+          "GUIDELINE_VALUE": "1.0-1.45x",
+          "DELTA": 0,
+          "note": "Lines are set 1.20x their font size, normal single spacing"
+        }
+      }
+    ],
+    "blank_document": false
+  },
+  "structural_visual": null,
+  "company_profiles": {
+    "Tessellate Systems": {
+      "name": "Tessellate Systems",
+      "band": "large",
+      "label": "Large established firm",
+      "note": "a global technology and consulting company",
+      "source": "model"
+    }
+  },
+  "report": {
+    "top_strengths": [
+      {
+        "title": "Work experience carries recruiter pedigree",
+        "detail": "These employers are in the campus recruiter graph, so the experience is recognised rather than merely described.",
+        "evidence": "{'organization': 'Sprinklr', 'resolved_as': 'Sprinklr', 'tier': 1, 'tier_label': 'Outstanding / Tier-1', 'rubric_band_points': '18-20', 'category': 'TECH_PRODUCT', 'edge_type': 'recruits_for', 'recruiting_mode': 'BOTH'}",
+        "pillar": "Work Experience"
+      },
+      {
+        "title": "Work is described with measured outcomes",
+        "detail": "Bullets that state a measured result are what separate a described project from a demonstrated one.",
+        "evidence": "3 of 12 bullets carry a figure (25%), 6 metrics in total",
+        "pillar": "SCOPE Articulation"
+      },
+      {
+        "title": "Scholastic record carries weight",
+        "detail": "Recruiters read entrance and olympiad results as an independent check on academic ability, and this resume states one plainly.",
+        "evidence": "Academic Excellence Award, IIT Kanpur, 2024",
+        "pillar": "Academics & CPI"
+      }
+    ],
+    "critical_missing": [
+      {
+        "title": "A mobile number appears on the resume",
+        "detail": "A mobile number appears on the resume. SPO does not permit phone numbers on master or single-page resumes submitted through the portal.",
+        "why": "Blocks submission under the SPO guidelines.",
+        "section": "Contact Information",
+        "impact_points": null,
+        "source": "SPO_NO_MOBILE_NUMBER",
+        "blocking": true
+      },
+      {
+        "title": "A JEE/GATE rank appears on the resume",
+        "detail": "A JEE/GATE rank appears on the resume. SPO does not permit it on submitted resumes. Note that the scoring engine separately credited AIR 1284 toward the academics pillar, so removing it for submission will lower the modelled academic score even though it is required for compliance.",
+        "why": "Blocks submission under the SPO guidelines.",
+        "section": "Scholastic Qualifications",
+        "impact_points": null,
+        "source": "SPO_NO_JEE_GATE_RANK",
+        "blocking": true
+      }
+    ],
+    "formatting_fixes": [
+      {
+        "title": "Body font size is below the SPO baseline",
+        "detail": "Measured 8.5 pt against the SPO guideline of 9.0 pt. Font size is smaller than SPO threshold",
+        "fix": "Raise the smallest body size to the SPO baseline and cut a line elsewhere to make room.",
+        "impact_points": 1.1,
+        "source": "LAYOUT_FONT_SIZE_SMALL",
+        "evidence_refs": []
+      },
+      {
+        "title": "Word count is outside the SPO band",
+        "detail": "Measured 343 against the SPO guideline of 500-750. 157 words below min SPO guideline",
+        "fix": "Bring the total word count inside the SPO band shown in the layout panel.",
+        "impact_points": 1.1,
+        "source": "LAYOUT_WORD_COUNT",
+        "evidence_refs": []
+      }
+    ]
+  }
+}
