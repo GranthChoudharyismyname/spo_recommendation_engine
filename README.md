@@ -69,7 +69,7 @@ Seven layers. The first five are the original scoring pipeline, unmodified.
 ```
 
 ```
-resumetr/
+spo_recommendation_engine/
 ├── backend/
 │   ├── app/                    API adapter, agents, derived layers
 │   │   ├── llm.py              the single LLM entry point for the whole project
