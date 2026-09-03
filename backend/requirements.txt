@@ -1,15 +1,40 @@
-# ---- Scoring pipeline (backend/scoring)
+# ResuMetr — backend dependencies
+#
+# This is the only requirements file. Build production from it:
+#
+#     pip install -r requirements.txt
+#
+# It installs in ~2 minutes and runs comfortably inside Render's 512 MB free tier.
+
+# ---- PDF reading -------------------------------------------------------------
+# pymupdf does layout, geometry and evidence regions; pdfplumber is the text
+# framework behind the parser's table handling.
 pymupdf>=1.23.0
 pdfplumber>=0.10.0
 Pillow>=9.0.0
+
+# ---- Model access ------------------------------------------------------------
 google-genai>=0.1.0
 requests>=2.28.0
 certifi>=2023.0.0
 
-# ---- API adapter and agents (backend/app)
+# ---- API layer ---------------------------------------------------------------
 fastapi>=0.110.0
 uvicorn[standard]>=0.27.0
-python-multipart>=0.0.9
+python-multipart>=0.0.9          # required for multipart PDF uploads
 
-# ---- Tests
+# ---- Tests -------------------------------------------------------------------
+# Small, and worth keeping installed so the suite can be run on the server to
+# confirm a deploy is healthy: python -m pytest -q
 pytest>=8.0.0
+
+
+# =============================================================================
+# Deliberately NOT installed
+# =============================================================================
+#
+# torch / transformers
+#   Only for the optional SigLIP visual-layout scorer in scoring/predict.py, which is
+#   guarded by a try/except and inactive regardless: it needs reference resume *images*
+#   per track, and the corpora are text-only. The Gemini vision backend covers that path
+#   instead. Installing torch would add 1.1 GB and break a free-tier build.

@@ -1,9 +1,0 @@
-# Optional. `resume_parser.extract_pdf_markdown` prefers Lexoid and silently falls back to
-# PyMuPDF block extraction when it is absent, so the pipeline runs either way — but the two
-# produce materially different text and therefore different scores.
-#
-# On the reference resume: Lexoid 8606 chars / 1227 words, PyMuPDF 5860 / 858. Lexoid
-# preserves table structure and link targets that the block sorter drops.
-#
-# Install with:  pip install -r requirements-optional.txt
-lexoid>=0.1.0

@@ -139,7 +139,7 @@ def _fuzzy_contains(needle: str, haystack: str, cutoff: float = 0.7) -> bool:
     def numeric_present(token: str) -> bool:
         if present(token):
             return True
-        # Parsers disagree on spacing around units and multipliers: Lexoid emits
+        # The readers disagree on spacing around units and multipliers: one emits
         # "13.9 \u00d7 compression", the PyMuPDF block sorter "13.9\u00d7 compression".
         # That splits one token in two and is not evidence of fabrication. The NUMBER is
         # the signal, so fall back to requiring the numeric core with no other digit

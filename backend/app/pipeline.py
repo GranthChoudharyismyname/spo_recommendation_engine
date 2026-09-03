@@ -324,8 +324,9 @@ def evaluate(
             validation = run_validation_agent(
                 result,
                 track=track,
-                # The content parse the extractor read (Lexoid), NOT a fresh PyMuPDF
-                # get_text. Auditing against a different reader makes Lexoid-only content
+                # The content parse the extractor actually read, NOT a fresh PyMuPDF
+                # get_text. Auditing against a different reader makes content that only
+                # the extractor's reader recovered
                 # — table cells, link targets — look fabricated.
                 raw_markdown=result.get("raw_markdown") or _raw_text(pdf_path),
                 role_weights=ROLE_WEIGHTS,

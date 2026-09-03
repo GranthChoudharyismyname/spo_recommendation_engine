@@ -2,7 +2,8 @@
 Module A: Resume Parsing Agent
 ==============================
 Extracts structured JSON conforming strictly to RESUME_SCHEMA from resume text.
-Supports Lexoid, with high-fidelity pdfplumber + PyMuPDF layout reconstruction.
+Content is read with high-fidelity PyMuPDF block reconstruction, which preserves word
+spacing and the multi-column labels of the SPO template.
 """
 
 import os
@@ -12,14 +13,6 @@ import json
 from typing import Dict, Any, Optional
 
 import fitz  # PyMuPDF
-
-# Graceful Lexoid import
-try:
-    from lexoid.api import parse as lexoid_parse
-    from lexoid.api import ParserType
-    HAS_LEXOID = True
-except ImportError:
-    HAS_LEXOID = False
 
 try:
     from google import genai
@@ -258,24 +251,12 @@ RESUME_SCHEMA = {
 
 def extract_pdf_markdown(pdf_path: str) -> str:
     """
-    Extracts high-fidelity text and structure from PDF using Lexoid if available,
-    or PyMuPDF sorted block extraction which preserves word spaces and multi-column labels.
-    """
-    if HAS_LEXOID:
-        try:
-            res = lexoid_parse(
-                pdf_path,
-                parser_type=ParserType.STATIC_PARSE,
-                framework="pdfplumber",
-                return_bboxes=True
-            )
-            raw = res.get("raw", "") or ""
-            if raw.strip():
-                return clean_resume_text(raw)
-        except Exception:
-            pass
+    Extracts high-fidelity text and structure from the PDF.
 
-    # High-fidelity PyMuPDF block extraction: preserves word spacing and block structure
+    Blocks are read and sorted rather than taking a flat text dump, which preserves word
+    spacing and keeps the multi-column labels of the SPO template attached to their rows.
+    """
+    # Block extraction: preserves word spacing and block structure
     doc = fitz.open(pdf_path)
     all_text = []
     for page in doc:

@@ -311,15 +311,16 @@ def test_typographic_variants_do_not_read_as_fabrication(claim, source):
 
 
 @pytest.mark.parametrize("claim,source,why", [
-    ("achieving 13.9x compression", "achieving 13.9 \u00d7 compression", "Lexoid puts a space before the unit"),
-    ("achieving 13.9x compression", "achieving 13.9\u00d7 compression", "PyMuPDF does not"),
+    ("achieving 13.9x compression", "achieving 13.9 \u00d7 compression", "one reader spaces before the unit"),
+    ("achieving 13.9x compression", "achieving 13.9\u00d7 compression", "the other does not"),
     ("pruned 90% of weights", "pruned 90 % of weights", "space before percent"),
     ("a 268.6K-parameter CNN", "on a 268.6K-parameter CNN", "magnitude suffix attached"),
 ])
 def test_unit_spacing_between_parsers_is_not_fabrication(claim, source, why):
     """
-    Content parsing is Lexoid; layout is PyMuPDF. The two space units differently, which
-    splits one numeric token in two. That is a parser artefact, not an invented metric.
+    The content parse and the layout pass read the document separately and space units
+    differently, which splits one numeric token in two. That is a reader artefact, not an
+    invented metric.
     """
     assert va._fuzzy_contains(claim, source), why
 

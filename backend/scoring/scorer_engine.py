@@ -941,7 +941,7 @@ def score_resume(
         "structural_visual": struct_eval.get("visual"),
         "structural_visual_weight": struct_eval.get("visual_weight", 0.0),
         "structured_resume": resume_json,
-        # The exact content parse the extraction was performed from (Lexoid when
+        # The exact content parse the extraction was performed from (the block
         # available, PyMuPDF blocks otherwise). Returned so the validation layer audits
         # grounding against the text the extractor actually read, rather than re-deriving
         # it with a different reader and reporting the difference as fabrication.

@@ -38,7 +38,7 @@ criteria before implementing.
 | File | Role | Status |
 |---|---|---|
 | `resume_structure.py` | `RelaxedResumeParser` — PyMuPDF layout metrics (margins, font, word count, name ratio) → 0–100 structural score | Self-contained, working |
-| `resume_parser.py` | PDF → markdown (PyMuPDF block sort, optional Lexoid) → Gemini structured extraction into `RESUME_SCHEMA` | Self-contained, working. `HAS_LEXOID` and `HAS_NEW_GENAI` are soft-optional — verify both code paths actually work, not just the happy path |
+| `resume_parser.py` | PDF → text (PyMuPDF block sort) → Gemini structured extraction into `RESUME_SCHEMA` | Self-contained, working. `HAS_NEW_GENAI` is soft-optional — verify both code paths actually work, not just the happy path |
 | `semantic_signal_matcher.py` | Loads one of 5 role signal dictionaries, does **substring/keyword matching** (not semantic similarity despite the module name) against `evidence` text to score work-ex/projects/SCOPE 0–20 | Working but crude — see §3.2 |
 | `scorer_engine.py` | Orchestrates: structure eval → PDF→JSON → deterministic signals (CPI, branch, JEE rank, Codeforces, scholarships, PoR tier) → semantic benchmark match → Gemini qualitative safety net → role-weighted composite score | Working, but **company/tier data is hardcoded in three separate places** that all disagree with the KG (see §3.1) |
 | `run_evaluation.py` | CLI entry point calling `score_resume()` | Working, thin |
@@ -172,7 +172,7 @@ in a mechanical engineering context). Improve it:
   all default to `"gemini-3.6-flash"` in different places. Centralize this into one
   config constant/env var (`GEMINI_MODEL_NAME`), don't leave four copies to fall out of
   sync.
-- **Optional-import handling**: `resume_parser.py` (`HAS_LEXOID`), `resume_structure.py`
+- **Optional-import handling**: `resume_parser.py`, `resume_structure.py`
   (`HAS_AESTHETIC_SCORER`, and the `predict.AestheticScorer` import that appears
   imported but never actually used anywhere in the file — confirm this and either wire
   it into `eval_all()`/`calculate_structural_score()` or remove the dead import), and

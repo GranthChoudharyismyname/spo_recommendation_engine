@@ -33,49 +33,25 @@ def signals(department: str, raw_text: str, track: str = "SDE"):
     return extract_deterministic_signals(resume, raw_text, track)[0]
 
 
-# ---------------------------------------------------------------- optional imports
+# ---------------------------------------------------------------- content parsing
 
-def test_pymupdf_fallback_branch_produces_text():
-    """
-    The fallback must work standalone, not only as a never-exercised except-clause.
-    Forced on regardless of whether Lexoid is installed in this environment.
-    """
-    original = rp.HAS_LEXOID
-    rp.HAS_LEXOID = False
-    try:
-        text = rp.extract_pdf_markdown(str(SAMPLE))
-    finally:
-        rp.HAS_LEXOID = original
-
+def test_block_extraction_produces_usable_text():
+    text = rp.extract_pdf_markdown(str(SAMPLE))
     assert len(text) > 500
-    # The block sorter exists to preserve word spaces in LaTeX-justified text.
+    # The block sorter exists to preserve word spaces in LaTeX-justified text; a flat
+    # text dump runs them together.
     assert "Indian Institute of Technology Kanpur" in text
 
 
-@pytest.mark.skipif(not rp.HAS_LEXOID, reason="lexoid is not installed")
-def test_lexoid_primary_branch_produces_text():
+def test_branch_detection_does_not_depend_on_the_text_reader():
+    """
+    Branch is read from the Department field first and the raw text only as a fallback,
+    so it must survive whichever reader produced that text — that was the defect this
+    suite exists to prevent.
+    """
     text = rp.extract_pdf_markdown(str(SAMPLE))
-    assert len(text) > 500
-    assert "Kanpur" in text
-
-
-def test_both_extractors_agree_on_branch_detection():
-    """
-    The two extractors emit different text. Branch detection must not depend on which
-    one ran — that was the defect this suite exists to prevent.
-    """
-    original = rp.HAS_LEXOID
-    rp.HAS_LEXOID = False
-    try:
-        pymupdf_text = rp.extract_pdf_markdown(str(SAMPLE))
-    finally:
-        rp.HAS_LEXOID = original
-    lexoid_text = rp.extract_pdf_markdown(str(SAMPLE))
-
     for track in ("SDE", "CORE_TECHNOM", "QUANT", "ANALYST_AIML", "CONSULT_PM"):
-        a = signals("Computer Science and Engineering", pymupdf_text, track)["branch"]
-        b = signals("Computer Science and Engineering", lexoid_text, track)["branch"]
-        assert a == b == "CSE", f"{track}: pymupdf={a} lexoid={b}"
+        assert signals("Computer Science and Engineering", text, track)["branch"] == "CSE", track
 
 
 # ---------------------------------------------------------------- branch detection
@@ -176,24 +152,22 @@ def test_kg_absence_does_not_break_the_scorer():
 
 def test_content_and_structure_use_different_parsers_by_design():
     """
-    Content parsing is Lexoid (falling back to PyMuPDF blocks); structural scoring is
-    PyMuPDF only. Layout scoring needs glyph positions and font metrics, which a markdown
-    content parse does not carry, so the two must not be collapsed.
+    Content parsing produces text for the extractor; structural scoring needs glyph
+    positions and font metrics, which a text parse does not carry. The two read the
+    document for different purposes and must not be collapsed into one pass.
     """
     import resume_structure
     source = Path(resume_structure.__file__).read_text()
-    assert "lexoid" not in source.lower(), "structure evaluation must not depend on Lexoid"
     assert "import fitz" in source
-
-    parser_source = Path(rp.__file__).read_text()
-    assert "lexoid" in parser_source.lower(), "content parsing should prefer Lexoid"
+    # Structure works from spans and geometry, never from the flattened content text.
+    assert "get_text(\"dict\")" in source or 'get_text("dict")' in source
 
 
 def test_score_resume_returns_the_content_parse_it_used():
     """
-    Grounding must be audited against the text the extractor actually read. Auditing a
-    Lexoid extraction against a fresh PyMuPDF get_text makes Lexoid-only content — table
-    cells, link targets — look fabricated.
+    Grounding must be audited against the text the extractor actually read. Auditing it
+    against a separately-produced text dump makes content that only one of them recovers
+    — table cells, wrapped rows — look fabricated.
     """
     import inspect
     import scorer_engine as se

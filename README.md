@@ -19,7 +19,7 @@ evidence-grounded review — with every claim traced back to the page it came fr
 ![PyMuPDF](https://img.shields.io/badge/PyMuPDF-layout%20%2B%20evidence-C41E3A?style=flat-square)
 ![PDF.js](https://img.shields.io/badge/PDF.js-viewer-E34F26?style=flat-square&logo=mozilla&logoColor=white)
 ![Radix UI](https://img.shields.io/badge/Radix_UI-accessible-161618?style=flat-square&logo=radixui&logoColor=white)
-![Pytest](https://img.shields.io/badge/pytest-312%20passing-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Pytest](https://img.shields.io/badge/pytest-322%20passing-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-design%20system-F24E1E?style=flat-square&logo=figma&logoColor=white)
 
 </div>
@@ -64,7 +64,7 @@ Seven layers. The first five are the original scoring pipeline, unmodified.
   │  3  Deterministic hard signals ────── scorer_engine.py       CPI, branch, JEE AIR, CP rating, PoR tier
   │  4  Qualitative safety net ────────── scorer_engine.py       Gemini, bounded 0-20, fails loudly
   │  5  Role weighting matrix ─────────── scorer_engine.py       85% content + 15% layout
-  ├─ 6  Validation agent ──────────────── validation_agent.py    grounding, consistency, PASS/BLOCKED
+  ├─ 6  Validation agent ──────────────── validation_agent.py    grounding, consistency, never withholds
   └─ 7  Recommendation agent ──────────── recommendation_agent.py attribute → ground → self-critique
 ```
 
@@ -83,6 +83,9 @@ resumetr/
 │   │   ├── tracks.py           canonical track registry
 │   │   ├── kg_adapter.py       the only place company tiers are defined
 │   │   ├── recommendations.py  deterministic rule engine
+│   │   ├── report_sections.py  strengths, critical gaps, formatting fixes
+│   │   ├── por_substance.py    reads a PoR on span, resources and turnout
+│   │   ├── company_profile.py  sizes employers outside the graph
 │   │   ├── compliance.py       SPO submission rules
 │   │   ├── company_fit.py      shortlist-fit estimate
 │   │   ├── evidence.py         resume text → PDF bounding boxes
@@ -90,7 +93,7 @@ resumetr/
 │   ├── scoring/                layers 1-5, the CLI, and predict.py
 │   ├── config/                 SPO guidelines, revised per cycle
 │   ├── tools/                  fixture generator
-│   └── tests/                  155 acceptance tests
+│   └── tests/                  322 acceptance tests
 ├── frontend/                   React dashboard
 ├── knowledge-base/             role frameworks, SPO guidelines, signal corpora
 ├── recruiter-kg/               curated recruiter knowledge graph
@@ -117,8 +120,6 @@ cd backend
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 
-# Optional but recommended — see "PDF extraction" below.
-.venv/bin/pip install -r requirements-optional.txt
 
 cp .env.example .env         # then set GEMINI_API_KEY
 export GEMINI_API_KEY="..."
@@ -126,44 +127,35 @@ export GEMINI_API_KEY="..."
 .venv/bin/python run_api.py  # http://127.0.0.1:8000
 ```
 
-### Two parsers, two jobs
+### Two readers, two jobs
 
-| Job | Parser | Why |
+The PDF is read twice, for different purposes, and the two are not interchangeable.
+
+| Job | Reader | Why |
 | --- | --- | --- |
-| **Content** — text for the LLM extraction | **Lexoid** (`resume_parser.extract_pdf_markdown`), falling back to PyMuPDF block sort | The signal corpora were built from Lexoid output, so live extractions must see the same kind of text to stay comparable. |
-| **Structure** — margins, fonts, word count | **PyMuPDF** (`resume_structure.RelaxedResumeParser`) | Layout scoring needs glyph positions and font metrics, which a markdown content parse does not carry. |
+| **Content** — text for the LLM extraction | `resume_parser.extract_pdf_markdown` — PyMuPDF block extraction, sorted top-to-bottom then left-to-right | The SPO template is multi-column. A flat text dump interleaves the columns; sorting blocks keeps each row's label attached to its value. |
+| **Structure** — margins, fonts, spacing, word count | `resume_structure.RelaxedResumeParser` — PyMuPDF spans | Layout scoring needs glyph positions and font metrics, which a flattened content parse does not carry. |
 
-They are not interchangeable, and `tests/test_extraction.py` asserts the split holds.
+`tests/test_extraction.py` asserts the split holds, so a future change cannot quietly
+collapse them into one pass.
 
-On the reference resume the two differ substantially:
-
-| Parser | Output | Fused-word defects |
-| --- | --- | ---: |
-| Lexoid (pdfplumber) | 8,606 chars · 1,227 words | 11 |
-| PyMuPDF (block sort) | 5,860 chars · 858 words | 0 |
-
-Lexoid captures table structure and link targets the block sorter drops, but loses some
-word boundaries in LaTeX-justified text (`ComplexVariableAnalysis`, `DesignedaJEPA`).
-**This is expected and is not corrected**: 89 of the 133 corpus raw files carry the same
-artefact, so "fixing" it would move live extractions away from the corpora the rubrics
-were calibrated against. The extraction prompt already handles the duplicated table via
-its rule 7 ("keep only ONE copy" of a repeated entry).
-
-Install Lexoid with `pip install -r requirements-optional.txt`. Without it the pipeline
-still runs on the PyMuPDF fallback, but scores will differ.
+Block extraction preserves word spacing in LaTeX-justified text, where a naive read fuses
+words together (`ComplexVariableAnalysis`, `DesignedaJEPA`). The extraction prompt handles
+the SPO template's duplicated header table through its rule 7 ("keep only ONE copy" of a
+repeated entry).
 
 ### Grounding audits the text the extractor read
 
 `score_resume` returns `raw_markdown` — the exact content parse the extraction was
 performed from — and the validation agent audits against **that**, not a fresh
-`page.get_text()`. Auditing a Lexoid extraction against a different reader makes
-Lexoid-only content look fabricated; on the reference resume that alone was the
+`page.get_text()`. Auditing against a separately-produced dump makes content that only the
+extractor's reader recovered look fabricated; on the reference resume that alone was the
 difference between 93% and 100% grounding coverage.
 
 The matcher also folds typographic variants (`×`/`x`, `→`, curly quotes) and tolerates
-unit-spacing differences between the parsers — Lexoid writes `13.9 × compression`,
-PyMuPDF writes `13.9×` — while still requiring the numeric core to be present, so an
-invented figure is caught.
+unit-spacing differences between the two reads — one writes `13.9 × compression`, the
+other `13.9×` — while still requiring the numeric core to be present, so an invented
+figure is caught.
 
 ### Frontend
 
@@ -212,8 +204,8 @@ python run_evaluation.py resume.pdf --track CONSULT_PM --validate --quiet
 | Flag | Effect |
 | --- | --- |
 | `--track` | `ANALYST_AIML` · `CONSULT_PM` · `CORE_TECHNOM` · `QUANT` · `SDE`. Choices are generated from the canonical registry, never a second hardcoded list. |
-| `--validate` | Runs layer 6. **Exits 2** on `BLOCKED` without printing the score as normal output. |
-| `--recommend` | Runs layer 7. Refuses to run if validation blocked. |
+| `--validate` | Runs layer 6 and reports its findings. Add `--strict` to exit 2 on a `NEEDS_REVIEW` verdict; by default the score is always printed. |
+| `--recommend` | Runs layer 7. Runs regardless of the validation verdict — findings qualify the advice, they do not withhold it. |
 | `--json_out` | Full result, including both agent reports. |
 | `--md_out` | Candidate-facing Markdown review. |
 | `--model` | Overrides the model for this run. |
@@ -283,10 +275,12 @@ actually moves a score. Prose is allowed to be a paraphrase.
 | --- | --- |
 | `PASS` | Every check clean. |
 | `PASS_WITH_WARNINGS` | Nothing fabricated, but something needs a human's attention. |
-| `BLOCKED` | Do not show this score. Propagates as CLI exit 2, and the UI withholds the number entirely. |
+| `NEEDS_REVIEW` | Something needs checking against the PDF before the score is relied on. The score is still shown, with the findings raised beside it. |
 
-A claim flagged by the matcher but not confirmed by the auditor is a **warning**, not a
-block, and the UI marks it `Unconfirmed`. Fail closed, not fail silent.
+**Nothing is ever withheld.** An earlier version blocked the result outright, which turned
+out to fire on the evaluator's own loose prose rather than on any fabricated fact — the
+score was correct and the student saw nothing. Validation now qualifies a result instead of
+replacing it, and `--strict` is available for pipelines that want a non-zero exit.
 
 ## Layer 7 — recommendation agent
 
@@ -432,8 +426,8 @@ that hook. The geometric metrics are unchanged; the visual reading sits beside t
 stronger signal than a general judgement, and falls back to the VLM.
 
 **SigLIP is not active.** It needs a directory of accepted resume images per track, which
-the repository does not ship — the signal corpora are text only (`resume.json`,
-`lexoid_raw.txt`), with no page images to embed. Point `REFERENCE_RESUMES_DIR` at
+the repository does not ship — the signal corpora are text only, with no page images to
+embed. Point `REFERENCE_RESUMES_DIR` at
 `<dir>/<TRACK>/*.png` and it turns on with no code change. `GET /api/health` reports
 which backend is live.
 
