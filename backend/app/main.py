@@ -46,6 +46,17 @@ def _error(status: int, code: str, message: str, **extra: Any) -> JSONResponse:
     return JSONResponse(status_code=status, content={"error": {"code": code, "message": message, **extra}})
 
 
+@app.get("/")
+def root():
+    return {"message": "IITK Resume Intelligence API is running", "docs_url": "/docs"}
+
+
+@app.get("/favicon.ico", include_in_schema=False)
+def favicon():
+    from fastapi.responses import Response
+    return Response(content=b"", media_type="image/x-icon")
+
+
 @app.get("/api/health")
 def health() -> Dict[str, Any]:
     from kg_adapter import load_kg
